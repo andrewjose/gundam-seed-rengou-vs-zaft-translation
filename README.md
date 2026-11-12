@@ -13,6 +13,20 @@ from your own legally obtained copy and stays in the git-ignored `work/` folder.
 | Translated | 300 mission files (names, objectives, briefings), 257 unit descriptions, ~1000 EBOOT strings (menus, memory-stick messages, network text, battle dialogue, tutorial captions, unit/pilot names), ~113 menu/HUD pictures, select-screen label models |
 | Engine work | proportional font for the system text renderer, variable-width text for name tags, pilot-select names, message boxes, battle dialogue and tutorial captions |
 
+> **Help wanted: playtesting.** This needs more people playing it. If you find a bug, crash or anything that looks wrong, please [open an issue on GitHub](https://github.com/andrewjose/gundam-seed-rengou-vs-zaft-translation/issues) and include the patch version, your PPSSPP version and device, where it happened (mode and mission), and a screenshot of any untranslated, cut-off or garbled text.
+
+## How to install and play
+
+There is no ready-made patch to download yet: you build the English game yourself from your own copy, with one command. In short:
+
+1. Get your own ISO of the Japanese game (**ULJM05238**, MD5 `0d4dd06ba223f7ff60e05d9f61483905`).
+2. Install [Python](https://www.python.org/) 3.10 or newer, then run `pip install -r requirements.txt` and `scripts/fetch_fonts.sh` in this folder.
+3. In [PPSSPP](https://www.ppsspp.org/), turn on *Settings → Tools → Developer tools → "Dump decrypted EBOOT.BIN on game boot"* and start the unmodified game once.
+4. Run `python3 build/build.py --iso your.iso --eboot-dump PSP/SYSTEM/DUMP/ULJM05238.BIN --workdir work --chd`.
+5. Load the ISO or CHD from `work/out/` in PPSSPP (1.17 or newer) on PC, Android or a handheld. It won't run on a real PSP yet.
+
+[What you need](#what-you-need) and [Building](#building) below have the details.
+
 Documentation comes in three levels:
 
 - [docs/overview.md](docs/overview.md) — what the patch does, in plain language
