@@ -225,7 +225,7 @@ shelves; names drawn with Poppins Bold outlined (4×) / Inter Bold; quads' x1 an
 |---|---|
 | EBOOT | identical (MD5 checked) |
 | AFS 172, 174–473 | identical |
-| AFS 173 | pointer table kept (see §3) |
+| AFS 173 | identical (v0.4.2 restored the pointer table, see §3) |
 | AFS 2, 11, 12, 124, 129, 130, 134, 135, 137, 138, 140 | identical (Inter 4.0, Poppins, DejaVu 2.37 as packaged by Debian) |
 | 55 of 70 picture entries | identical |
 | AFS 11, 124, 125, 129, 130, 132, 133, 138, 1323–1325, 1609, 2 (pictures on top of glyph bases) | ≤ 1.8 % of pixels differ by more than 24/255 in a channel: the release was built incrementally (a full pass, then several fix passes on the previous output); the repo does one pass with the final specs |
