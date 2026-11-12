@@ -1,0 +1,215 @@
+{
+ "file": "1325_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11,
+    "color": [
+     245,
+     245,
+     245
+    ],
+    "outline": [
+     0,
+     0,
+     0
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      64,
+      71,
+      80
+     ],
+     "en": "Armor Low!",
+     "color": [
+      10,
+      10,
+      10
+     ],
+     "outline": null,
+     "size": 12
+    },
+    {
+     "box": [
+      4,
+      129,
+      47,
+      143
+     ],
+     "en": "No Ammo",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      53,
+      129,
+      103,
+      143
+     ],
+     "en": "Charging",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      10,
+      151,
+      92,
+      172
+     ],
+     "en": "ALLY INCOMING",
+     "erase_box": [
+      8,
+      149,
+      95,
+      174
+     ],
+     "erase": "inpaint_dark",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "outline": null,
+     "size": 13,
+     "align": "center",
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      10,
+      183,
+      92,
+      205
+     ],
+     "en": "ENEMY INCOMING",
+     "erase_box": [
+      8,
+      182,
+      95,
+      206
+     ],
+     "erase": "inpaint_dark",
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "outline": null,
+     "size": 13,
+     "align": "center",
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      207,
+      145,
+      222,
+      160
+     ],
+     "en": "EN",
+     "size": 9,
+     "erase": "transparent",
+     "color": [
+      250,
+      250,
+      250
+     ],
+     "outline": [
+      0,
+      0,
+      0
+     ],
+     "align": "center"
+    },
+    {
+     "box": [
+      200,
+      162,
+      228,
+      177
+     ],
+     "en": "ALLY",
+     "erase": "transparent",
+     "color": [
+      250,
+      250,
+      250
+     ],
+     "outline": [
+      0,
+      0,
+      0
+     ],
+     "size": 9,
+     "align": "center"
+    },
+    {
+     "box": [
+      202,
+      181,
+      226,
+      191
+     ],
+     "en": "REPEL",
+     "erase": "fill",
+     "erase_fill": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "erase_pad": 0,
+     "color": [
+      50,
+      50,
+      50
+     ],
+     "outline": null,
+     "size": 9,
+     "align": "center",
+     "min_squeeze": 0.5
+    },
+    {
+     "box": [
+      202,
+      197,
+      226,
+      207
+     ],
+     "en": "EXIT",
+     "erase": "fill",
+     "erase_fill": [
+      255,
+      255,
+      255,
+      255
+     ],
+     "erase_pad": 0,
+     "color": [
+      50,
+      50,
+      50
+     ],
+     "outline": null,
+     "size": 9,
+     "align": "center"
+    }
+   ]
+  }
+ }
+}

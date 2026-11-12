@@ -1,0 +1,32 @@
+{
+ "file": "1608_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 13
+   },
+   "regions": [
+    {
+     "box": [
+      2,
+      85,
+      110,
+      103
+     ],
+     "en": "New enemy unit"
+    },
+    {
+     "box": [
+      1,
+      105,
+      57,
+      123
+     ],
+     "en": "inbound"
+    }
+   ]
+  }
+ }
+}

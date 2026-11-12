@@ -1,0 +1,38 @@
+{
+ "file": "570_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 13,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null,
+    "align": "left"
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      1,
+      135,
+      18
+     ],
+     "en": "Colony Mendel",
+     "erase_box": [
+      0,
+      0,
+      136,
+      18
+     ],
+     "erase_pad": 0,
+     "size": 13
+    }
+   ]
+  }
+ }
+}

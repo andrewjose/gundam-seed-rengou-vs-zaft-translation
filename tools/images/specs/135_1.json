@@ -1,0 +1,116 @@
+{
+ "file": "135_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11,
+    "align": "center"
+   },
+   "regions": [
+    {
+     "box": [
+      2,
+      55,
+      41,
+      68
+     ],
+     "en": "Clear"
+    },
+    {
+     "box": [
+      47,
+      55,
+      98,
+      68
+     ],
+     "en": "Sorties"
+    },
+    {
+     "box": [
+      101,
+      55,
+      165,
+      68
+     ],
+     "en": "Successes"
+    },
+    {
+     "box": [
+      167,
+      55,
+      247,
+      68
+     ],
+     "en": "Total Missions"
+    },
+    {
+     "box": [
+      1,
+      69,
+      59,
+      82
+     ],
+     "en": "Success %"
+    },
+    {
+     "box": [
+      60,
+      69,
+      136,
+      82
+     ],
+     "en": "Play Time"
+    },
+    {
+     "box": [
+      137,
+      69,
+      211,
+      82
+     ],
+     "en": "Total Points"
+    },
+    {
+     "box": [
+      213,
+      69,
+      243,
+      82
+     ],
+     "en": "h",
+     "align": "center"
+    },
+    {
+     "box": [
+      0,
+      83,
+      115,
+      98
+     ],
+     "en": "Final Pilot Rank"
+    },
+    {
+     "box": [
+      117,
+      83,
+      191,
+      98
+     ],
+     "en": "Final MS"
+    },
+    {
+     "box": [
+      216,
+      83,
+      236,
+      98
+     ],
+     "en": "m",
+     "align": "center"
+    }
+   ]
+  }
+ }
+}

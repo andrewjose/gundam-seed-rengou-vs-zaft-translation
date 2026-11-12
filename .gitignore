@@ -1,0 +1,37 @@
+# ---- game data: never commit (copyrighted; build it from your own copy) ----
+work/
+out/
+iso/
+x_data/
+xd_out/
+afs_new/
+gim_new/
+glyph/afs/
+*.iso
+*.ISO
+*.chd
+*.cso
+*.bin
+*.BIN
+*.elf
+*.ELF
+*.prx
+*.PRX
+*.gim
+*.pmf
+*.npy
+*.pkl
+*.adx
+# previews / renders of game pictures
+preview/
+previews/
+*.png
+# local config / fonts fetched by scripts/fetch_fonts.sh
+config.local.toml
+config.local.*
+scripts/scrub_private.txt
+fonts/fetched/
+# python
+__pycache__/
+*.pyc
+.venv/

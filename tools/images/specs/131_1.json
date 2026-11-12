@@ -1,0 +1,73 @@
+{
+ "file": "131_1",
+ "pics": {
+  "1": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11
+   },
+   "regions": [
+    {
+     "box": [
+      2,
+      1,
+      30,
+      15
+     ],
+     "en": "EA",
+     "size": 11
+    },
+    {
+     "box": [
+      57,
+      1,
+      91,
+      14
+     ],
+     "en": "ZAFT",
+     "size": 11
+    },
+    {
+     "box": [
+      8,
+      18,
+      87,
+      31
+     ],
+     "en": "Free Mission"
+    },
+    {
+     "box": [
+      30,
+      34,
+      66,
+      46
+     ],
+     "en": "Load",
+     "align": "center"
+    },
+    {
+     "box": [
+      11,
+      49,
+      84,
+      62
+     ],
+     "en": "New Game",
+     "align": "center"
+    },
+    {
+     "box": [
+      17,
+      66,
+      79,
+      78
+     ],
+     "en": "Endless",
+     "align": "center"
+    }
+   ]
+  }
+ }
+}

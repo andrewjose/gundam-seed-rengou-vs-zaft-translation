@@ -1,0 +1,139 @@
+{
+ "file": "142_raw",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "semi",
+    "align": "center",
+    "color": [
+     255,
+     255,
+     255
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      56,
+      1,
+      456,
+      16
+     ],
+     "erase_box": [
+      0,
+      0,
+      512,
+      16
+     ],
+     "en": "Cosmic Era 70..."
+    },
+    {
+     "box": [
+      56,
+      17,
+      456,
+      32
+     ],
+     "erase_box": [
+      0,
+      16,
+      512,
+      32
+     ],
+     "en": "The tragedy of the \"Bloody Valentine\""
+    },
+    {
+     "box": [
+      56,
+      33,
+      456,
+      48
+     ],
+     "erase_box": [
+      0,
+      32,
+      512,
+      48
+     ],
+     "en": "turned the tension between Earth and the PLANTs"
+    },
+    {
+     "box": [
+      56,
+      49,
+      456,
+      64
+     ],
+     "erase_box": [
+      0,
+      48,
+      512,
+      64
+     ],
+     "en": "into full-scale armed conflict."
+    },
+    {
+     "box": [
+      56,
+      65,
+      456,
+      80
+     ],
+     "erase_box": [
+      0,
+      64,
+      512,
+      80
+     ],
+     "en": "None doubted the larger Earth Forces would win..."
+    },
+    {
+     "box": [
+      56,
+      81,
+      456,
+      96
+     ],
+     "erase_box": [
+      0,
+      80,
+      512,
+      96
+     ],
+     "en": "But those predictions were utterly betrayed."
+    },
+    {
+     "box": [
+      56,
+      97,
+      456,
+      112
+     ],
+     "erase_box": [
+      0,
+      96,
+      512,
+      112
+     ],
+     "en": "With the war bogged down and both sides exhausted,"
+    },
+    {
+     "box": [
+      56,
+      113,
+      456,
+      128
+     ],
+     "erase_box": [
+      0,
+      112,
+      512,
+      128
+     ],
+     "en": "nearly eleven months have now passed."
+    }
+   ]
+  }
+ }
+}

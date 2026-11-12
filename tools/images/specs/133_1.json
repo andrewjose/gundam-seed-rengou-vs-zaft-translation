@@ -1,0 +1,338 @@
+{
+ "file": "133_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "semi",
+    "align": "left"
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      2,
+      408,
+      19
+     ],
+     "en": "As a pilot of the Mobile Suit Test Team,",
+     "erase_box": [
+      1,
+      2,
+      303,
+      19
+     ]
+    },
+    {
+     "box": [
+      1,
+      20,
+      408,
+      38
+     ],
+     "en": "deploy mobile suits on every front and gather data.",
+     "erase_box": [
+      1,
+      20,
+      410,
+      38
+     ]
+    },
+    {
+     "box": [
+      2,
+      40,
+      408,
+      58
+     ],
+     "en": "For now, captured ZAFT MS will form your core,",
+     "erase_box": [
+      2,
+      40,
+      376,
+      58
+     ]
+    },
+    {
+     "box": [
+      1,
+      61,
+      408,
+      78
+     ],
+     "en": "but Alliance MS prototypes will be deployed in turn.",
+     "erase_box": [
+      1,
+      61,
+      376,
+      78
+     ]
+    },
+    {
+     "box": [
+      1,
+      81,
+      408,
+      98
+     ],
+     "en": "Good luck.",
+     "erase_box": [
+      1,
+      81,
+      91,
+      98
+     ]
+    },
+    {
+     "box": [
+      1,
+      101,
+      408,
+      118
+     ],
+     "en": "As a FAITH pilot, fight your way across the globe,",
+     "erase_box": [
+      1,
+      101,
+      287,
+      118
+     ]
+    },
+    {
+     "box": [
+      1,
+      120,
+      408,
+      138
+     ],
+     "en": "engage the mobile suits the Alliance sends into battle,",
+     "erase_box": [
+      1,
+      120,
+      405,
+      138
+     ]
+    },
+    {
+     "box": [
+      1,
+      140,
+      408,
+      158
+     ],
+     "en": "and gather combat data.",
+     "erase_box": [
+      1,
+      140,
+      136,
+      158
+     ]
+    },
+    {
+     "box": [
+      1,
+      161,
+      408,
+      178
+     ],
+     "en": "Prove yourself, and new models and prototypes are yours.",
+     "erase_box": [
+      1,
+      161,
+      404,
+      178
+     ]
+    },
+    {
+     "box": [
+      2,
+      181,
+      408,
+      198
+     ],
+     "en": "We expect great things of you.",
+     "erase_box": [
+      2,
+      181,
+      171,
+      198
+     ]
+    }
+   ]
+  },
+  "1": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans"
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      0,
+      87,
+      19
+     ],
+     "en": "ALLIANCE",
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    }
+   ]
+  },
+  "6": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans"
+   },
+   "regions": [
+    {
+     "box": [
+      165,
+      25,
+      195,
+      41
+     ],
+     "en": "Select",
+     "size": 11
+    },
+    {
+     "box": [
+      196,
+      25,
+      226,
+      41
+     ],
+     "en": "OK",
+     "size": 11
+    },
+    {
+     "box": [
+      227,
+      25,
+      255,
+      41
+     ],
+     "en": "Back",
+     "size": 11
+    },
+    {
+     "box": [
+      1,
+      64,
+      169,
+      82
+     ],
+     "en": "Choose your affiliation"
+    },
+    {
+     "box": [
+      223,
+      64,
+      253,
+      82
+     ],
+     "en": "Next"
+    },
+    {
+     "box": [
+      88,
+      47,
+      167,
+      64
+     ],
+     "en": "E. A. F.",
+     "custom": "eaf",
+     "erase_pad": 0,
+     "fix2": 1
+    },
+    {
+     "box": [
+      1,
+      82,
+      255,
+      99
+     ],
+     "en": "Enter your pilot name"
+    }
+   ]
+  },
+  "8": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans"
+   },
+   "regions": [
+    {
+     "box": [
+      0,
+      0,
+      118,
+      36
+     ],
+     "en": ""
+    },
+    {
+     "box": [
+      1,
+      0,
+      118,
+      17
+     ],
+     "en": "Choose the",
+     "erase_box": null
+    },
+    {
+     "box": [
+      1,
+      18,
+      118,
+      36
+     ],
+     "en": "game level",
+     "erase_box": null
+    },
+    {
+     "box": [
+      1,
+      85,
+      30,
+      101
+     ],
+     "en": "Move",
+     "size": 11
+    },
+    {
+     "box": [
+      33,
+      85,
+      62,
+      101
+     ],
+     "en": "Enter",
+     "size": 11
+    },
+    {
+     "box": [
+      66,
+      85,
+      94,
+      101
+     ],
+     "en": "Back",
+     "size": 11
+    },
+    {
+     "box": [
+      97,
+      85,
+      127,
+      101
+     ],
+     "en": "OK",
+     "size": 11
+    }
+   ]
+  }
+ }
+}

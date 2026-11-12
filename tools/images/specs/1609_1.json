@@ -1,0 +1,176 @@
+{
+ "file": "1609_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11
+   },
+   "regions": [
+    {
+     "box": [
+      2,
+      0,
+      128,
+      15
+     ],
+     "en": "Return to main menu.",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      2,
+      18,
+      107,
+      31
+     ],
+     "en": "Are you sure?",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      1,
+      33,
+      127,
+      47
+     ],
+     "en": "Please wait...",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      36,
+      49,
+      127,
+      63
+     ],
+     "en": "End the link.",
+     "erase_box": [
+      35,
+      49,
+      128,
+      63
+     ],
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      1,
+      65,
+      35,
+      79
+     ],
+     "en": "Rematch",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      37,
+      65,
+      83,
+      79
+     ],
+     "en": "VS Select",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      85,
+      66,
+      126,
+      79
+     ],
+     "en": "",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      2,
+      81,
+      83,
+      95
+     ],
+     "en": "Lobby Menu",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      1,
+      97,
+      62,
+      111
+     ],
+     "en": "End Link",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      64,
+      97,
+      84,
+      111
+     ],
+     "en": "Yes",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      2,
+      113,
+      40,
+      126
+     ],
+     "en": "No",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      44,
+      113,
+      92,
+      127
+     ],
+     "en": "Retry",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix8": 1
+    }
+   ]
+  }
+ }
+}

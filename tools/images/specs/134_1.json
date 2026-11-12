@@ -1,0 +1,107 @@
+{
+ "file": "134_1",
+ "pics": {
+  "4": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11
+   },
+   "regions": [
+    {
+     "box": [
+      132,
+      2,
+      171,
+      15
+     ],
+     "en": "Clear",
+     "size": 11
+    },
+    {
+     "box": [
+      132,
+      18,
+      222,
+      31
+     ],
+     "en": "Total Missions"
+    },
+    {
+     "box": [
+      132,
+      34,
+      208,
+      47
+     ],
+     "en": "Total Points"
+    },
+    {
+     "box": [
+      2,
+      51,
+      66,
+      64
+     ],
+     "en": "Successes"
+    },
+    {
+     "box": [
+      73,
+      51,
+      124,
+      64
+     ],
+     "en": "Sorties"
+    },
+    {
+     "box": [
+      132,
+      50,
+      209,
+      63
+     ],
+     "en": "Play Time"
+    },
+    {
+     "box": [
+      3,
+      69,
+      105,
+      82
+     ],
+     "en": "Pilot Rank"
+    },
+    {
+     "box": [
+      141,
+      69,
+      166,
+      82
+     ],
+     "en": "h",
+     "align": "center"
+    },
+    {
+     "box": [
+      173,
+      68,
+      187,
+      82
+     ],
+     "en": "m",
+     "align": "center"
+    },
+    {
+     "box": [
+      191,
+      68,
+      242,
+      81
+     ],
+     "en": "MS Owned"
+    }
+   ]
+  }
+ }
+}

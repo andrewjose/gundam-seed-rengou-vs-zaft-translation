@@ -1,0 +1,101 @@
+{
+ "file": "130_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      185,
+      111,
+      211,
+      123
+     ],
+     "en": "Back"
+    },
+    {
+     "box": [
+      219,
+      110,
+      250,
+      125
+     ],
+     "en": "OK"
+    },
+    {
+     "box": [
+      2,
+      152,
+      156,
+      168
+     ],
+     "en": "Please wait..."
+    },
+    {
+     "box": [
+      2,
+      172,
+      174,
+      188
+     ],
+     "en": "Waiting for entries..."
+    },
+    {
+     "box": [
+      195,
+      172,
+      228,
+      188
+     ],
+     "en": "Launch",
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      3,
+      192,
+      246,
+      208
+     ],
+     "en": "Preparing stage select..."
+    },
+    {
+     "box": [
+      1,
+      239,
+      27,
+      253
+     ],
+     "en": "Select",
+     "size": 10
+    },
+    {
+     "box": [
+      49,
+      239,
+      75,
+      253
+     ],
+     "en": "OK",
+     "size": 10
+    },
+    {
+     "box": [
+      97,
+      240,
+      198,
+      253
+     ],
+     "en": "Back to menu",
+     "size": 11
+    }
+   ]
+  }
+ }
+}

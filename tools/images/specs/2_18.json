@@ -1,0 +1,85 @@
+{
+ "file": "2_18",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 11
+   },
+   "regions": [
+    {
+     "box": [
+      19,
+      2,
+      77,
+      14
+     ],
+     "en": "Arcade",
+     "align": "center"
+    },
+    {
+     "box": [
+      21,
+      18,
+      77,
+      31
+     ],
+     "en": "Mission",
+     "align": "center"
+    },
+    {
+     "box": [
+      15,
+      34,
+      82,
+      46
+     ],
+     "en": "Free Battle",
+     "align": "center"
+    },
+    {
+     "box": [
+      17,
+      49,
+      81,
+      63
+     ],
+     "en": "Ad Hoc Play",
+     "align": "center"
+    },
+    {
+     "box": [
+      20,
+      65,
+      76,
+      79
+     ],
+     "en": "Options",
+     "align": "center"
+    },
+    {
+     "box": [
+      14,
+      81,
+      85,
+      95
+     ],
+     "en": "2-4P Battle",
+     "align": "center"
+    },
+    {
+     "box": [
+      114,
+      13,
+      127,
+      85
+     ],
+     "en": "Co-op Arcade",
+     "rotate": 90,
+     "align": "center"
+    }
+   ]
+  }
+ }
+}

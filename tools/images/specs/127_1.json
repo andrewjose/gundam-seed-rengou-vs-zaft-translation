@@ -1,0 +1,64 @@
+{
+ "file": "127_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12,
+    "color": [
+     230,
+     120,
+     20
+    ],
+    "outline": [
+     255,
+     255,
+     255
+    ],
+    "align": "center"
+   },
+   "regions": [
+    {
+     "box": [
+      227,
+      314,
+      286,
+      343
+     ],
+     "en": "Pilot / Random",
+     "custom": "label_rgba",
+     "erase_box": null,
+     "inpaint_box": [
+      227,
+      314,
+      286,
+      343
+     ],
+     "lines": [
+      [
+       [
+        228,
+        316,
+        284,
+        329
+       ],
+       "Pilot"
+      ],
+      [
+       [
+        228,
+        329,
+        284,
+        342
+       ],
+       "Random"
+      ]
+     ],
+     "fix2": 1,
+     "fix3": 1
+    }
+   ]
+  }
+ }
+}

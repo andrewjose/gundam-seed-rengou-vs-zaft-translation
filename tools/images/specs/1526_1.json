@@ -1,0 +1,42 @@
+{
+ "file": "1526_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": [
+     0,
+     0,
+     0
+    ],
+    "align": "center"
+   },
+   "regions": [
+    {
+     "box": [
+      18,
+      75,
+      96,
+      93
+     ],
+     "en": "Orb Soldier",
+     "erase_box": [
+      27,
+      75,
+      84,
+      93
+     ],
+     "erase": "inpaint_bw",
+     "erase_pad": 1
+    }
+   ]
+  }
+ }
+}

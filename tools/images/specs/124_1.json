@@ -1,0 +1,287 @@
+{
+ "file": "124_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      108,
+      214,
+      124
+     ],
+     "en": "There is only one team."
+    },
+    {
+     "box": [
+      1,
+      129,
+      91,
+      144
+     ],
+     "en": "Main Menu",
+     "align": "right",
+     "erase_box": [
+      1,
+      129,
+      94,
+      144
+     ],
+     "fix2": 1,
+     "fix4": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      2,
+      148,
+      211,
+      164
+     ],
+     "en": "\u2014 return there? Are you sure?",
+     "fix2": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      216,
+      148,
+      241,
+      163
+     ],
+     "en": "Lobby",
+     "align": "right",
+     "fname": "rc",
+     "erase_box": [
+      216,
+      148,
+      243,
+      163
+     ],
+     "fix2": 1,
+     "fix4": 1,
+     "size": 13,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      108,
+      129,
+      140,
+      143
+     ],
+     "en": "Yes"
+    },
+    {
+     "box": [
+      155,
+      128,
+      201,
+      144
+     ],
+     "en": "No"
+    },
+    {
+     "box": [
+      7,
+      168,
+      100,
+      181
+     ],
+     "en": "Auto (MS only)"
+    },
+    {
+     "box": [
+      7,
+      184,
+      100,
+      197
+     ],
+     "en": "Auto (MS/MA)"
+    },
+    {
+     "box": [
+      5,
+      200,
+      100,
+      213
+     ],
+     "en": "Auto Pilot"
+    },
+    {
+     "box": [
+      111,
+      168,
+      188,
+      184
+     ],
+     "en": "Can't launch"
+    },
+    {
+     "box": [
+      111,
+      188,
+      188,
+      204
+     ],
+     "en": "Ending the"
+    },
+    {
+     "box": [
+      111,
+      208,
+      187,
+      224
+     ],
+     "en": "link battle."
+    },
+    {
+     "box": [
+      134,
+      227,
+      190,
+      243
+     ],
+     "en": "Name",
+     "erase_box": [
+      133,
+      227,
+      191,
+      243
+     ]
+    }
+   ]
+  },
+  "1": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 10
+   },
+   "regions": [
+    {
+     "box": [
+      2,
+      1,
+      70,
+      20
+     ],
+     "en": "SIT OUT",
+     "size": 14
+    },
+    {
+     "box": [
+      165,
+      16,
+      244,
+      32
+     ],
+     "en": "Auto Team",
+     "size": 13,
+     "color": [
+      90,
+      90,
+      250
+     ],
+     "outline": [
+      255,
+      255,
+      255
+     ]
+    },
+    {
+     "box": [
+      86,
+      92,
+      241,
+      107
+     ],
+     "en": "Please wait...",
+     "size": 13
+    },
+    {
+     "box": [
+      70,
+      110,
+      112,
+      125
+     ],
+     "en": "Setting",
+     "align": "center",
+     "draw_box": [
+      71,
+      110,
+      111,
+      125
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      113,
+      110,
+      169,
+      125
+     ],
+     "en": "Ready",
+     "align": "center",
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      170,
+      110,
+      211,
+      125
+     ],
+     "en": "Preparing",
+     "align": "center",
+     "draw_box": [
+      172,
+      110,
+      210,
+      125
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      212,
+      110,
+      254,
+      125
+     ],
+     "en": "Selecting",
+     "align": "center",
+     "draw_box": [
+      214,
+      110,
+      254,
+      125
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    }
+   ]
+  }
+ }
+}

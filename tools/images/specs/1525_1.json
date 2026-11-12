@@ -1,0 +1,42 @@
+{
+ "file": "1525_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": [
+     0,
+     0,
+     0
+    ],
+    "align": "center"
+   },
+   "regions": [
+    {
+     "box": [
+      18,
+      75,
+      96,
+      93
+     ],
+     "en": "EA Soldier",
+     "erase_box": [
+      30,
+      75,
+      80,
+      93
+     ],
+     "erase": "rows",
+     "erase_pad": 1
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,564 @@
+{
+ "file": "125_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 13
+   },
+   "regions": [
+    {
+     "box": [
+      318,
+      38,
+      503,
+      55
+     ],
+     "en": "",
+     "fix5": 1
+    },
+    {
+     "box": [
+      251,
+      58,
+      495,
+      75
+     ],
+     "en": "",
+     "fix5": 1
+    },
+    {
+     "box": [
+      251,
+      78,
+      510,
+      95
+     ],
+     "en": "",
+     "fix2": 1,
+     "fix5": 1
+    },
+    {
+     "box": [
+      251,
+      98,
+      473,
+      115
+     ],
+     "en": "",
+     "fix5": 1
+    },
+    {
+     "box": [
+      251,
+      118,
+      509,
+      135
+     ],
+     "en": "",
+     "fix5": 1
+    },
+    {
+     "box": [
+      251,
+      138,
+      433,
+      155
+     ],
+     "en": "",
+     "fix5": 1
+    },
+    {
+     "box": [
+      251,
+      158,
+      425,
+      175
+     ],
+     "en": "",
+     "fix2": 1,
+     "fix5": 1
+    },
+    {
+     "box": [
+      237,
+      1,
+      296,
+      16
+     ],
+     "en": "Player/"
+    },
+    {
+     "box": [
+      313,
+      2,
+      399,
+      17
+     ],
+     "en": "Mobile Suit"
+    },
+    {
+     "box": [
+      405,
+      2,
+      468,
+      17
+     ],
+     "en": "Pilot"
+    },
+    {
+     "box": [
+      476,
+      2,
+      499,
+      14
+     ],
+     "en": "Play",
+     "size": 10
+    },
+    {
+     "box": [
+      237,
+      20,
+      281,
+      35
+     ],
+     "en": "Team"
+    },
+    {
+     "box": [
+      286,
+      21,
+      329,
+      35
+     ],
+     "en": "Level"
+    },
+    {
+     "box": [
+      320,
+      38,
+      389,
+      55
+     ],
+     "en": "Battle Stance",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      394,
+      38,
+      462,
+      55
+     ],
+     "en": "Aerial Stance",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      467,
+      38,
+      502,
+      55
+     ],
+     "en": "Lurk",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      251,
+      58,
+      322,
+      75
+     ],
+     "en": "Attack Stance",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      327,
+      58,
+      395,
+      75
+     ],
+     "en": "Enemy Raid",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      400,
+      58,
+      471,
+      75
+     ],
+     "en": "Battle Unit",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      251,
+      78,
+      320,
+      95
+     ],
+     "en": "Open Fire",
+     "fix2": 1,
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      325,
+      78,
+      393,
+      95
+     ],
+     "en": "Rear Support",
+     "fix2": 1,
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      401,
+      78,
+      470,
+      95
+     ],
+     "en": "Turn Tactics",
+     "fix2": 1,
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      476,
+      78,
+      508,
+      95
+     ],
+     "en": "Pulse",
+     "fix2": 1,
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      251,
+      98,
+      359,
+      115
+     ],
+     "en": "Strike, Launch",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      363,
+      98,
+      472,
+      115
+     ],
+     "en": "Dominion Sunk",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      251,
+      118,
+      330,
+      135
+     ],
+     "en": "3 Evil Weapons",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      334,
+      118,
+      469,
+      135
+     ],
+     "en": "Rise Up, Rage!",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      473,
+      118,
+      508,
+      135
+     ],
+     "en": "Select",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      251,
+      138,
+      432,
+      155
+     ],
+     "en": "Anna ni Issho Datta no ni",
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      251,
+      158,
+      279,
+      175
+     ],
+     "en": "Haste",
+     "fix2": 1,
+     "fname": "rc",
+     "erase_box": null,
+     "fix5": 1,
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      285,
+      158,
+      386,
+      175
+     ],
+     "en": "Eerie Aura & Smile",
+     "fix2": 1,
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      392,
+      158,
+      424,
+      175
+     ],
+     "en": "Auto",
+     "fix2": 1,
+     "erase_box": null,
+     "fix5": 1,
+     "fname": "rc",
+     "size": 13,
+     "ss": 4
+    },
+    {
+     "box": [
+      138,
+      63,
+      244,
+      89
+     ],
+     "en": "READY",
+     "size": 22
+    },
+    {
+     "box": [
+      185,
+      91,
+      244,
+      111
+     ],
+     "en": "Selecting",
+     "erase_box": [
+      184,
+      91,
+      244,
+      111
+     ],
+     "size": 14
+    },
+    {
+     "box": [
+      38,
+      113,
+      171,
+      132
+     ],
+     "en": "Team Force Gauge",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      178,
+      114,
+      243,
+      132
+     ],
+     "en": "Timer",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      3,
+      135,
+      121,
+      154
+     ],
+     "en": "Damage Level",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      129,
+      135,
+      204,
+      154
+     ],
+     "en": "Awaken Time",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      2,
+      157,
+      135,
+      176
+     ],
+     "en": "Boost Gauge",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      143,
+      158,
+      213,
+      176
+     ],
+     "en": "Stage",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      3,
+      179,
+      151,
+      198
+     ],
+     "en": "Awaken Gauge Rate",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      206,
+      180,
+      245,
+      198
+     ],
+     "en": "Select",
+     "fname": "rc",
+     "size": 14,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      339,
+      215,
+      388,
+      229
+     ],
+     "en": "Hide",
+     "size": 11
+    },
+    {
+     "box": [
+      396,
+      200,
+      508,
+      229
+     ],
+     "en": "SIT OUT",
+     "size": 20
+    }
+   ]
+  }
+ }
+}

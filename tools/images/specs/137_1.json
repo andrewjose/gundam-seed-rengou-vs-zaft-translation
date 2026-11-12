@@ -1,0 +1,32 @@
+{
+ "file": "137_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      92,
+      2,
+      172,
+      16
+     ],
+     "en": "Change MS"
+    },
+    {
+     "box": [
+      92,
+      19,
+      163,
+      33
+     ],
+     "en": "New MS!"
+    }
+   ]
+  }
+ }
+}

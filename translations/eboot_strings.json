@@ -1,0 +1,8048 @@
+{
+ "_format": "decrypted EBOOT file offset (vaddr = off - 0x54 + 0x08804000); en is written in place, zero-padded to budget bytes (the original slot length without its terminator). orig_sha1 = sha1 of the original budget bytes.",
+ "skipped_ids": [
+  958
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "file_off": 1946760,
+   "budget": 11,
+   "region": "system_menu",
+   "orig_sha1": "0ed1084563a1cc2ceee68ea83f399827a0661c2c",
+   "en": "Menu"
+  },
+  {
+   "id": 1,
+   "file_off": 1946772,
+   "budget": 7,
+   "region": "system_menu",
+   "orig_sha1": "2fd29e201230cc48f2ebdedd3e3b0420ce62a7ab",
+   "en": "Lobby"
+  },
+  {
+   "id": 2,
+   "file_off": 1946780,
+   "budget": 31,
+   "region": "system_menu",
+   "orig_sha1": "aeabbd2f7df5883361c7a505e529d166d08e627e",
+   "en": ": Return to this screen?"
+  },
+  {
+   "id": 3,
+   "file_off": 1946812,
+   "budget": 55,
+   "region": "system_menu",
+   "orig_sha1": "2a87f375d4427a6e05359d925e55490329f99b63",
+   "en": "1P is selecting from the menu. Please wait."
+  },
+  {
+   "id": 4,
+   "file_off": 1959188,
+   "budget": 43,
+   "region": "system_menu",
+   "orig_sha1": "024e8a4c707740be3780ed5bc7a159ec18e61eda",
+   "en": "1P is in control. Please wait."
+  },
+  {
+   "id": 5,
+   "file_off": 2199708,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "255b27b026e34e823e4691259c2b319b58246339",
+   "en": "Aile Strike"
+  },
+  {
+   "id": 6,
+   "file_off": 2199724,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "a6793d2c70bf361f4a285ebb649a3d7f2133f99c",
+   "en": "Launcher Strike"
+  },
+  {
+   "id": 7,
+   "file_off": 2199740,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "577251b017753bccdc475d7b705b35aae8f8ce2e",
+   "en": "Sword Strike"
+  },
+  {
+   "id": 8,
+   "file_off": 2199756,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2e66096d55d1e15034f5662c8914544a5208d959",
+   "en": "Strike"
+  },
+  {
+   "id": 9,
+   "file_off": 2199768,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "6cf6cbbee27132f98758629e1fbc51d4edf0f7f7",
+   "en": "S.Rouge"
+  },
+  {
+   "id": 10,
+   "file_off": 2199780,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c11edc87809286d744ca701db2c8c9c214ad731b",
+   "en": "Aegis"
+  },
+  {
+   "id": 11,
+   "file_off": 2199792,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "531268ce4efc0d3cc179f546d66ab82fdfccbfab",
+   "en": "Blitz"
+  },
+  {
+   "id": 12,
+   "file_off": 2199804,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2249c363dc30c6697764b23ad0ba6017c7c6bbd4",
+   "en": "Buster"
+  },
+  {
+   "id": 13,
+   "file_off": 2199816,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "183b9a45b934a3e8db3da60889769487a1e148b2",
+   "en": "Duel"
+  },
+  {
+   "id": 14,
+   "file_off": 2199828,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "009c7b9a0648f6206c279ed56acdbf2d418d79ac",
+   "en": "Duel AS"
+  },
+  {
+   "id": 15,
+   "file_off": 2199844,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "29afe2491b97b17786a7828028de3df8534a456e",
+   "en": "Raider"
+  },
+  {
+   "id": 16,
+   "file_off": 2199856,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d1543f7344a54320c828e42a728ec776125cfec5",
+   "en": "Calamity"
+  },
+  {
+   "id": 17,
+   "file_off": 2199868,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c545ccd2457673d43b4cf292a2e6afc7349dbb9a",
+   "en": "Forbidden"
+  },
+  {
+   "id": 18,
+   "file_off": 2199884,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ffa6115d7ad0c8eb18e383edcd8a91e20298661c",
+   "en": "Strike Dagger"
+  },
+  {
+   "id": 19,
+   "file_off": 2199904,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "f24e96f309c9d7eb8f345a7e879a25d0e048b54f",
+   "en": "M1 Astray"
+  },
+  {
+   "id": 20,
+   "file_off": 2199920,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "bd312b024c096d9272e49d5d70d2966ba41afedc",
+   "en": "Freedom"
+  },
+  {
+   "id": 21,
+   "file_off": 2199932,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ffc994089f1798409774c1795e49e5b5fdf0e7f9",
+   "en": "Justice"
+  },
+  {
+   "id": 22,
+   "file_off": 2199948,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "fe5423df1c2e3eeef7a32acd736ae97ac0fdf5c6",
+   "en": "Providence"
+  },
+  {
+   "id": 23,
+   "file_off": 2199964,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2c7d26db8bd40506a114287704c4fd9b0cf4b6ab",
+   "en": "GuAIZ"
+  },
+  {
+   "id": 24,
+   "file_off": 2199972,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ce9579429c60093735968dc918288e9823c84c39",
+   "en": "Cmdr GuAIZ"
+  },
+  {
+   "id": 25,
+   "file_off": 2199988,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d61a165660aa57f2c7076883825b81f57945708b",
+   "en": "DINN"
+  },
+  {
+   "id": 26,
+   "file_off": 2199996,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "293cecef6e8bb4490b7dcb015c88a75344243848",
+   "en": "Cmdr DINN"
+  },
+  {
+   "id": 27,
+   "file_off": 2200012,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "f86f3a72b93acf281e8dd993c46d42ef61d21ce4",
+   "en": "CGUE"
+  },
+  {
+   "id": 28,
+   "file_off": 2200020,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3d120587cd8f6cf75a7ac04d51696d5e0f905cf9",
+   "en": "ZAUT"
+  },
+  {
+   "id": 29,
+   "file_off": 2200032,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "74d28deb0473ccf133e8a3990144c3eee7f6b7d0",
+   "en": "ZnO"
+  },
+  {
+   "id": 30,
+   "file_off": 2200040,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "76022b45954ad45498af3a220b2f02f3b44f4882",
+   "en": "GOOhN"
+  },
+  {
+   "id": 31,
+   "file_off": 2200048,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "e89d73680d902dc3e578fda0ec0f3965af187b77",
+   "en": "LaGOWE"
+  },
+  {
+   "id": 32,
+   "file_off": 2200056,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "889408906b18d6083ef13a52bd59d6527b5227e1",
+   "en": "BuCUE"
+  },
+  {
+   "id": 33,
+   "file_off": 2200064,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ef900ff80877e1e26ea217e228cdad072bd33837",
+   "en": "GINN"
+  },
+  {
+   "id": 34,
+   "file_off": 2200072,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c27f713b6a087fe773a2cde99ee0beae23e565a7",
+   "en": "Recon GINN"
+  },
+  {
+   "id": 35,
+   "file_off": 2200084,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "e13d4a8ea17443922fe5716c05377f78b769ef39",
+   "en": "GINN Ocher"
+  },
+  {
+   "id": 36,
+   "file_off": 2200100,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3a05f3b3eb01314c51723516b959dd1040768f0c",
+   "en": "GINN Wasp"
+  },
+  {
+   "id": 37,
+   "file_off": 2200116,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "71a05020046cc3e630b8e3fd8c05689569459fb5",
+   "en": "Prototype GINN"
+  },
+  {
+   "id": 38,
+   "file_off": 2200136,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "5085c7457a32d15392ed556d498ac38cd0effb81",
+   "en": "Freedom METEOR"
+  },
+  {
+   "id": 39,
+   "file_off": 2200152,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "9f874085ec7ad35aa196dd425a519e75fa5268c6",
+   "en": "Justice METEOR"
+  },
+  {
+   "id": 40,
+   "file_off": 2200172,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "dc0af45e1398d2857cf47a3b053b1f1aaf766626",
+   "en": "Moebius Zero"
+  },
+  {
+   "id": 41,
+   "file_off": 2200188,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "08caf54b0a0d68b14a8f4050f7ce4d9e30cd53df",
+   "en": "Moebius"
+  },
+  {
+   "id": 42,
+   "file_off": 2200200,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "7b4349e63d0a1911411b83a0b010da08673b4610",
+   "en": "Skygrasper"
+  },
+  {
+   "id": 43,
+   "file_off": 2200220,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "84feeb79f28384e01d541b6cb56eb3ee535a91e4",
+   "en": "Archangel"
+  },
+  {
+   "id": 44,
+   "file_off": 2200240,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "0ff7cece7891c55ce8d2681a06680a05b561244d",
+   "en": "Dominion"
+  },
+  {
+   "id": 45,
+   "file_off": 2200252,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "482317dd5998a56fdf245c2d0866dfd590f04c88",
+   "en": "Kusanagi"
+  },
+  {
+   "id": 46,
+   "file_off": 2200264,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "82960ccaf92be7080c54258cb98d0fd2daf6cd9e",
+   "en": "Eternal"
+  },
+  {
+   "id": 47,
+   "file_off": 2200276,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "f2506c6bf3765381771c4108e3d5978009229ecc",
+   "en": "Vesalius"
+  },
+  {
+   "id": 48,
+   "file_off": 2200292,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "7d9d573a92418fb806246d9abbd790deae2f21fd",
+   "en": "Gamow"
+  },
+  {
+   "id": 49,
+   "file_off": 2200300,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "50e5254ab00593ff9d106884d390941129b240a7",
+   "en": "Menelaos"
+  },
+  {
+   "id": 50,
+   "file_off": 2200312,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "34abe258eaffa75f573ea7509d58eb685fdaeae9",
+   "en": "Bernard"
+  },
+  {
+   "id": 51,
+   "file_off": 2200324,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c0d1db43393d971613ac43a5832e1f8b7c9498cb",
+   "en": "Aegis Ship"
+  },
+  {
+   "id": 52,
+   "file_off": 2200336,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "e875c77acf1212acb96d4d87a5c81037fa761b57",
+   "en": "Lesseps"
+  },
+  {
+   "id": 53,
+   "file_off": 2200348,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "b9d3a5095067d3144f98ea9e151bcceaa453a064",
+   "en": "Force Impulse"
+  },
+  {
+   "id": 54,
+   "file_off": 2200364,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "8f8be5f67ba2b1413d2c71d54a1ef5e5f4fb4a0f",
+   "en": "Sword Impulse"
+  },
+  {
+   "id": 55,
+   "file_off": 2200380,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c394eead0826f39d79e064505710f7ec9319cf90",
+   "en": "Blast Impulse"
+  },
+  {
+   "id": 56,
+   "file_off": 2200396,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "bf416026de92205c644fbd6c44592d9a8b0e8781",
+   "en": "Saviour"
+  },
+  {
+   "id": 57,
+   "file_off": 2200408,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3567aa5cbdc33e8e6f2b7a9761f6ec96c1859c09",
+   "en": "Chaos"
+  },
+  {
+   "id": 58,
+   "file_off": 2200416,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "017e04b63c1f4ae67876772164349c40716544ed",
+   "en": "Gaia"
+  },
+  {
+   "id": 59,
+   "file_off": 2200424,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "0558add30d85b9c5b2d96e71a788772b796e371f",
+   "en": "Abyss"
+  },
+  {
+   "id": 60,
+   "file_off": 2200432,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "327a96c8a42d144acf6df1ed535efe325be78ac9",
+   "en": "ZAKU Warrior"
+  },
+  {
+   "id": 61,
+   "file_off": 2200448,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "74cb3246df17ed1fbe034141d22a6b0a059978a8",
+   "en": "Blaze ZAKU Phantom"
+  },
+  {
+   "id": 62,
+   "file_off": 2200468,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "35b4f8940bed4435b83c649b2b1d33c1f68565e2",
+   "en": "Gunner ZAKU Warrior"
+  },
+  {
+   "id": 63,
+   "file_off": 2200488,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "037f0987869739c0703a84b66f590191064e68cd",
+   "en": "Slash ZAKU Phantom"
+  },
+  {
+   "id": 64,
+   "file_off": 2200780,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "b6fb809a817420a3e5d768132378829d2b95790e",
+   "en": "Aile Strike Gundam"
+  },
+  {
+   "id": 65,
+   "file_off": 2200808,
+   "budget": 31,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3a56c704b691d35447d2e73231266d75eb7d27c7",
+   "en": "Launcher Strike Gundam"
+  },
+  {
+   "id": 66,
+   "file_off": 2200840,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "5770a1d52ab1ff7e2ada95c4913af60e76711dac",
+   "en": "Sword Strike Gundam"
+  },
+  {
+   "id": 67,
+   "file_off": 2200868,
+   "budget": 43,
+   "region": "unit_pilot_names",
+   "orig_sha1": "cc60e634191378adbac1448bf9ab6f9f3d3911ff",
+   "en": "Strike Gundam (Beam Rifle)"
+  },
+  {
+   "id": 68,
+   "file_off": 2200912,
+   "budget": 35,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3e723185e8bc5583534925617e0c4cbf346b3f68",
+   "en": "Strike Gundam (Bazooka)"
+  },
+  {
+   "id": 69,
+   "file_off": 2200948,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1f68ac03e4e7158f83aa4656e56efc79a934affb",
+   "en": "Strike Rouge"
+  },
+  {
+   "id": 70,
+   "file_off": 2200968,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "004cfba2aa0fbecfba6cc6feedb40cb26982dd03",
+   "en": "Aegis Gundam"
+  },
+  {
+   "id": 71,
+   "file_off": 2200988,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c8cb8084f34299b39a8ddc70e7aae4001cb2d703",
+   "en": "Blitz Gundam"
+  },
+  {
+   "id": 72,
+   "file_off": 2201008,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "b2e4898592992c51f34065d16aa568970d4034df",
+   "en": "Buster Gundam"
+  },
+  {
+   "id": 73,
+   "file_off": 2201028,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "f8d73d5c6e016089c49b96f660ddc17d5841e8f7",
+   "en": "Duel Gundam"
+  },
+  {
+   "id": 74,
+   "file_off": 2201048,
+   "budget": 35,
+   "region": "unit_pilot_names",
+   "orig_sha1": "8389e502b33266af3a7533166dba8a369e95f12b",
+   "en": "Duel Gundam Assault Shroud"
+  },
+  {
+   "id": 75,
+   "file_off": 2201084,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "6f55218e44187b8d868b878cb31e14ba14b24513",
+   "en": "Raider Gundam"
+  },
+  {
+   "id": 76,
+   "file_off": 2201104,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "04e50f4859a0b29d09423dcf2dedfcbff2433f86",
+   "en": "Calamity Gundam"
+  },
+  {
+   "id": 77,
+   "file_off": 2201124,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2fcff1c0361ad2001ede5dbdf8727163f19e99d8",
+   "en": "Forbidden Gundam"
+  },
+  {
+   "id": 78,
+   "file_off": 2201148,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "6e247b4d70c9d51f516cfb555b845673d58fb29f",
+   "en": "Freedom Gundam"
+  },
+  {
+   "id": 79,
+   "file_off": 2201168,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "087cd943d258fa20cb7c721c3803ebd09ca36165",
+   "en": "Justice Gundam"
+  },
+  {
+   "id": 80,
+   "file_off": 2201192,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "4c2abc40d4edb6cd2e4838bdfe3a9f29c0f815a4",
+   "en": "Providence Gundam"
+  },
+  {
+   "id": 81,
+   "file_off": 2201216,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "44edded24a481f78908b8030020dcfb20cf279b4",
+   "en": "GuAIZ (Commander)"
+  },
+  {
+   "id": 82,
+   "file_off": 2201236,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ac8c743cb0c37a1091d79d6f0381f60cccffdb18",
+   "en": "DINN (Commander)"
+  },
+  {
+   "id": 83,
+   "file_off": 2201256,
+   "budget": 31,
+   "region": "unit_pilot_names",
+   "orig_sha1": "de1eb1941938a2b544705b974f1cccf500dbbd64",
+   "en": "BuCUE (Rail Cannon)"
+  },
+  {
+   "id": 84,
+   "file_off": 2201288,
+   "budget": 31,
+   "region": "unit_pilot_names",
+   "orig_sha1": "6133e77075a0c0018fabdd94090303b44a60ea5d",
+   "en": "BuCUE (Missile Pod)"
+  },
+  {
+   "id": 85,
+   "file_off": 2201320,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "e20ea90b9fcc3edbfec6e8287eef13d69ac4ca80",
+   "en": "GINN (Machine Gun)"
+  },
+  {
+   "id": 86,
+   "file_off": 2201344,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "db2648180317258f36a9de4548764419ad740786",
+   "en": "GINN (Bazooka)"
+  },
+  {
+   "id": 87,
+   "file_off": 2201368,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "70e16f9647121ba60579ddd56d210c4ed5d3bcad",
+   "en": "GINN (Particle Cannon)"
+  },
+  {
+   "id": 88,
+   "file_off": 2201396,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "81011fcec2df5d0430051186ed38c0c0d9fbe7b9",
+   "en": "GINN (Large Missiles)"
+  },
+  {
+   "id": 89,
+   "file_off": 2201424,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "dd06dba9d79fce79ad0b15bacac9911a1f757efe",
+   "en": "Long-Range Recon GINN"
+  },
+  {
+   "id": 90,
+   "file_off": 2201452,
+   "budget": 31,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ac84884530c00d91d5cd8287eec0c68bbcf07afb",
+   "en": "GINN Ocher (Desert Type)"
+  },
+  {
+   "id": 91,
+   "file_off": 2201484,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "4aa389e6440b3bf21c425ec0e8f5b536ca59efd1",
+   "en": "GINN Wasp (Underwater)"
+  },
+  {
+   "id": 92,
+   "file_off": 2201512,
+   "budget": 39,
+   "region": "unit_pilot_names",
+   "orig_sha1": "9f45077047524e5b3f89fd841419e2897c8292aa",
+   "en": "Freedom Gundam (METEOR)"
+  },
+  {
+   "id": 93,
+   "file_off": 2201552,
+   "budget": 43,
+   "region": "unit_pilot_names",
+   "orig_sha1": "7eae952623ddf38b91dfd240598526b819fb038c",
+   "en": "Justice Gundam (METEOR)"
+  },
+  {
+   "id": 94,
+   "file_off": 2201596,
+   "budget": 31,
+   "region": "unit_pilot_names",
+   "orig_sha1": "47cc0fd4d5892bc356ec74fffd9469aaf9f58c46",
+   "en": "Skygrasper Aile Pack"
+  },
+  {
+   "id": 95,
+   "file_off": 2201628,
+   "budget": 35,
+   "region": "unit_pilot_names",
+   "orig_sha1": "bb8d7e717d9a207ecd98498f9fa0688ff6f5b4eb",
+   "en": "Skygrasper Launcher Pack"
+  },
+  {
+   "id": 96,
+   "file_off": 2201664,
+   "budget": 31,
+   "region": "unit_pilot_names",
+   "orig_sha1": "cee75e4d1d8fd87b860179d45f1db97e2a2dcc76",
+   "en": "Skygrasper Sword Pack"
+  },
+  {
+   "id": 97,
+   "file_off": 2201696,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "85e917791a36fa903a51d34f2df907445a0bd487",
+   "en": "Force Impulse Gundam"
+  },
+  {
+   "id": 98,
+   "file_off": 2201724,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "89c70d8ed962098e43440ee49086b118e3a28cdf",
+   "en": "Sword Impulse Gundam"
+  },
+  {
+   "id": 99,
+   "file_off": 2201752,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "901334792654bf1a194cd8f6310063d189ceb447",
+   "en": "Blast Impulse Gundam"
+  },
+  {
+   "id": 100,
+   "file_off": 2201780,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "4b25e96f951e541e2cf4d0d794167057642693c5",
+   "en": "Saviour Gundam"
+  },
+  {
+   "id": 101,
+   "file_off": 2201800,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "a1c4e0e53a6c00a59b0ac17a85ae0dce21dd4503",
+   "en": "Chaos Gundam"
+  },
+  {
+   "id": 102,
+   "file_off": 2201816,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "60dcbf1a39188b36974725d5cb3afea9be23aee4",
+   "en": "Gaia Gundam"
+  },
+  {
+   "id": 103,
+   "file_off": 2201832,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "b4d96c59eb41324c88695b44e6ed447284890998",
+   "en": "Abyss Gundam"
+  },
+  {
+   "id": 104,
+   "file_off": 2201848,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c189facb7fd9f93a6efc47c86e349b445d0206d3",
+   "en": "Blaze ZAKU Phantom"
+  },
+  {
+   "id": 105,
+   "file_off": 2201872,
+   "budget": 23,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ce61d341caf8b2e6ef4a3563c84ec89ab2c9780f",
+   "en": "Gunner ZAKU Warrior"
+  },
+  {
+   "id": 106,
+   "file_off": 2201896,
+   "budget": 39,
+   "region": "unit_pilot_names",
+   "orig_sha1": "96c38f4fef90b4b389d2d9f809badbaaca6c1f7c",
+   "en": "Gunner ZAKU Warrior (Lunamaria)"
+  },
+  {
+   "id": 107,
+   "file_off": 2201936,
+   "budget": 27,
+   "region": "unit_pilot_names",
+   "orig_sha1": "bb5f0692ad05b371aad04fdfed2912ef01ceb536",
+   "en": "Slash ZAKU Phantom"
+  },
+  {
+   "id": 108,
+   "file_off": 2202236,
+   "budget": 19,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d80525aaa06a2e7a4cd17441bd7e74cc77d25043",
+   "en": "Archangel-class"
+  },
+  {
+   "id": 109,
+   "file_off": 2202256,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3f1fc161e09d057e87e62df3ea6e720f3cb3b3d8",
+   "en": "Izumo-class"
+  },
+  {
+   "id": 110,
+   "file_off": 2202268,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "0ead8f006efb27d711866fcea1cedb569769cf3d",
+   "en": "Nazca-class"
+  },
+  {
+   "id": 111,
+   "file_off": 2202280,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1f20b990ccb649734d0eb6970d30544d7e3e419a",
+   "en": "Laurasia-class"
+  },
+  {
+   "id": 112,
+   "file_off": 2202296,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "a199966f2a91799678eeb2a2f8ff9731224a7e43",
+   "en": "Agamemnon-class"
+  },
+  {
+   "id": 113,
+   "file_off": 2202312,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "9bdd7f145328a30cc53ca3c20885c9a705268070",
+   "en": "Drake-class"
+  },
+  {
+   "id": 114,
+   "file_off": 2202348,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "42f3de1925cb916e3f50fbdf2740439b2c0ed9df",
+   "en": "Mistral"
+  },
+  {
+   "id": 115,
+   "file_off": 2202360,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "bdb1a4ebf7edc2217a9abfb271868f9fd50e165c",
+   "en": "Guul"
+  },
+  {
+   "id": 116,
+   "file_off": 2202368,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "877889a44cd714b4e51351b0a173055de05acbbd",
+   "en": "Half-track"
+  },
+  {
+   "id": 117,
+   "file_off": 2202384,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "04a6b13a32498268c575b160e6ac2f35c04ba7a8",
+   "en": "Nuclear Msl"
+  },
+  {
+   "id": 118,
+   "file_off": 2202396,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1bbbb156a98f9acae10e99dc100f0d5364ead467",
+   "en": "Shuttle"
+  },
+  {
+   "id": 119,
+   "file_off": 2202408,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "a155fa92ea36392388ef0a9f656d8b382de4ddc2",
+   "en": "Pod"
+  },
+  {
+   "id": 120,
+   "file_off": 2202416,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "5502f69a03198054ab18e0e9de9f3646f0328c75",
+   "en": "Kira"
+  },
+  {
+   "id": 121,
+   "file_off": 2202424,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1f310cc24ec83e23045e50f84bb1ee160ef9173d",
+   "en": "Athrun"
+  },
+  {
+   "id": 122,
+   "file_off": 2202436,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "6a13d4d7bd2fcb0d06bb2c0ea231aa81c48a208e",
+   "en": "Nicol"
+  },
+  {
+   "id": 123,
+   "file_off": 2202444,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d4906f108a4dc3f13ab820eec0eb6b9916530c9c",
+   "en": "Dearka"
+  },
+  {
+   "id": 124,
+   "file_off": 2202456,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "111cfec8b959f308d325aa4daa5905928fded9c8",
+   "en": "Yzak"
+  },
+  {
+   "id": 125,
+   "file_off": 2202468,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "96fc49c425bd0168eadc5f82ba3e6fe4d11ba56c",
+   "en": "Clotho"
+  },
+  {
+   "id": 126,
+   "file_off": 2202476,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3ef227557f3c5a6687c42aa1413e12c0784517f3",
+   "en": "Orga"
+  },
+  {
+   "id": 127,
+   "file_off": 2202484,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "4f1d22127e357429dc25138d881b9c222a83ce1f",
+   "en": "Shani"
+  },
+  {
+   "id": 128,
+   "file_off": 2202716,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "4a79aae81f9735f3ff062ac86093f6e4bd8c7334",
+   "en": "Mu"
+  },
+  {
+   "id": 129,
+   "file_off": 2202724,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "b265784b9e82d0ace325fce8fff33125cdf53221",
+   "en": "Tolle"
+  },
+  {
+   "id": 130,
+   "file_off": 2202732,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "0c1489d6a9388e5a74d7ce5c272839cc195c64af",
+   "en": "Sai"
+  },
+  {
+   "id": 131,
+   "file_off": 2202740,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ad62339e0d3a7ab249efa44b9a4f4261b9826409",
+   "en": "Cagalli"
+  },
+  {
+   "id": 132,
+   "file_off": 2202748,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1eaa3cce17e9c85b1b1af75329f53437824f2edb",
+   "en": "Mayura"
+  },
+  {
+   "id": 133,
+   "file_off": 2202756,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "316dc5536e691c571c556b9e23bf31a4e48a63db",
+   "en": "Asagi"
+  },
+  {
+   "id": 134,
+   "file_off": 2202764,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "f1fa5a1e60330372464361116f72a07b87ce2edc",
+   "en": "Juri"
+  },
+  {
+   "id": 135,
+   "file_off": 2202772,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "af27acc9de095aa0a175fa0360cda0308531abaf",
+   "en": "Badgiruel"
+  },
+  {
+   "id": 136,
+   "file_off": 2202784,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "e5e39e1f9cdcbfc92f2de3deada5736e3ac91703",
+   "en": "Ramius"
+  },
+  {
+   "id": 137,
+   "file_off": 2202796,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "03bbae246b5e64523b91a86394bae57d6bcd4e3b",
+   "en": "Rau"
+  },
+  {
+   "id": 138,
+   "file_off": 2202804,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d55ed54b96a99e10cae51e96033d34ef55b612f9",
+   "en": "Miguel"
+  },
+  {
+   "id": 139,
+   "file_off": 2202812,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "454d8d333a2aa05e8aac3825e0b9e553033f31eb",
+   "en": "Waltfeld"
+  },
+  {
+   "id": 140,
+   "file_off": 2202828,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "55bc73355d980adcf5a05a48ad815496bc16928f",
+   "en": "Morasim"
+  },
+  {
+   "id": 141,
+   "file_off": 2202840,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1d56afc549cad6f18e609ea0f3426a938879e5ce",
+   "en": "Ades"
+  },
+  {
+   "id": 142,
+   "file_off": 2202848,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d65871123255dd2edddd3ee515e084353932fa02",
+   "en": "Lacus"
+  },
+  {
+   "id": 143,
+   "file_off": 2202856,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3eb3e77bbd4f8f99699448dbe4fe7d38a20834a2",
+   "en": "Kisaka"
+  },
+  {
+   "id": 144,
+   "file_off": 2202896,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "c03b1c399f49b5446e781ce2580f67b6276d7eb4",
+   "en": "ZAFT Redcoat"
+  },
+  {
+   "id": 145,
+   "file_off": 2202912,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "5b9e0c4cc42f6b70edf8dcb5cb08b7bae8302ed7",
+   "en": "Shinn"
+  },
+  {
+   "id": 146,
+   "file_off": 2202920,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "fad88274c160cea51ceb7baa2913fc2ec40595f7",
+   "en": "Sting"
+  },
+  {
+   "id": 147,
+   "file_off": 2202932,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2d909f6dbff0e93b517e22564ac104f719803a2e",
+   "en": "Stella"
+  },
+  {
+   "id": 148,
+   "file_off": 2202940,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "f5cf6a2982a08d612633530a94aec57a4782274c",
+   "en": "Auel"
+  },
+  {
+   "id": 149,
+   "file_off": 2202948,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "86d944f80e72a43ae997ba576129c802a584de9e",
+   "en": "Rey"
+  },
+  {
+   "id": 150,
+   "file_off": 2202956,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "8bb6eedfc6fb2c53178221012c619e43d5c10801",
+   "en": "Lunamaria"
+  },
+  {
+   "id": 151,
+   "file_off": 2203140,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "d168288f70be2e1ab3a9cad9b230e6df56fba8fe",
+   "en": "Miriallia"
+  },
+  {
+   "id": 152,
+   "file_off": 2203152,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "01a7134e7e2b5e8349d2f8ee7f297a715d8fbf49",
+   "en": "Dacosta"
+  },
+  {
+   "id": 153,
+   "file_off": 2203164,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "8b15d2e11466b92ee73acaf38d60845010f40add",
+   "en": "Azrael"
+  },
+  {
+   "id": 154,
+   "file_off": 2203176,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "1805868178e4b6412aa0b5433f6b3a8c341d5c6f",
+   "en": "Athha"
+  },
+  {
+   "id": 155,
+   "file_off": 2203184,
+   "budget": 7,
+   "region": "unit_pilot_names",
+   "orig_sha1": "4b073518890008303072fa7dc7f462ee5d006303",
+   "en": "Neo"
+  },
+  {
+   "id": 156,
+   "file_off": 2203192,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "7c34c6ed98668f98c25d12afc725329c3deadb61",
+   "en": "Meyrin"
+  },
+  {
+   "id": 157,
+   "file_off": 2203260,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "0914448404f93ee42e3a1873679f3cb1aabd8d7f",
+   "en": "Alliance A"
+  },
+  {
+   "id": 158,
+   "file_off": 2203272,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "8ccf7899aee47264d86f8f26053ec7531ab492c9",
+   "en": "Alliance B"
+  },
+  {
+   "id": 159,
+   "file_off": 2203284,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "ad0725b5632bc6a4181f3e5e8ab4b98c42efa01a",
+   "en": "Alliance C"
+  },
+  {
+   "id": 160,
+   "file_off": 2203296,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "0b454adfd5f8bd91de54a70064eff3c62450bc98",
+   "en": "Alliance D"
+  },
+  {
+   "id": 161,
+   "file_off": 2203308,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2dc08917cbb2a1a93c8830b451bd533081cf6791",
+   "en": "Orb Soldier A"
+  },
+  {
+   "id": 162,
+   "file_off": 2203324,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "484e9b9f04f08ebb4a4b6e49f3b9dd014a3d00d4",
+   "en": "Orb Soldier B"
+  },
+  {
+   "id": 163,
+   "file_off": 2203340,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "65c9982b21eee0f4e41ce6bb207b3e7fe46ee14c",
+   "en": "Orb Soldier C"
+  },
+  {
+   "id": 164,
+   "file_off": 2203356,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "36ab28f29018a5c6388a776cc500f316c7bfde51",
+   "en": "Orb Soldier D"
+  },
+  {
+   "id": 165,
+   "file_off": 2203372,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "fed066ba6f17a77b3dc9b32448b3ead49543fdb8",
+   "en": "ZAFT Soldier A"
+  },
+  {
+   "id": 166,
+   "file_off": 2203388,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "cbef6422e520401eb77742f6f62b4e746dc33567",
+   "en": "ZAFT Soldier B"
+  },
+  {
+   "id": 167,
+   "file_off": 2203404,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "8c07f5a1143ef4f58a7a5297c4bdf0abd1b40ec9",
+   "en": "ZAFT Soldier C"
+  },
+  {
+   "id": 168,
+   "file_off": 2203420,
+   "budget": 15,
+   "region": "unit_pilot_names",
+   "orig_sha1": "a0147e52257efcf1de9dc51aa88751dabe45949c",
+   "en": "ZAFT Soldier D"
+  },
+  {
+   "id": 169,
+   "file_off": 2203500,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "3df07b0f9e5fc91394d62027ede6ba2396610f21",
+   "en": "EA Soldier"
+  },
+  {
+   "id": 170,
+   "file_off": 2203512,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "2c3251700dc2cba563845c108cbb8212085f91c5",
+   "en": "Orb Soldier"
+  },
+  {
+   "id": 171,
+   "file_off": 2203524,
+   "budget": 11,
+   "region": "unit_pilot_names",
+   "orig_sha1": "654d5e7de20d42a6ae15a148833f39fc457361d8",
+   "en": "ZAFT Troop"
+  },
+  {
+   "id": 172,
+   "file_off": 2209608,
+   "budget": 7,
+   "region": "system_memstick",
+   "orig_sha1": "728f4a9c2eae6cd5393bca996bce2ac2d68f6de1",
+   "en": "No"
+  },
+  {
+   "id": 173,
+   "file_off": 2209628,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "4ee51c4cc2bb3b32cd7bf31434b0f6024265306c",
+   "en": "Checking Memory Stick%t"
+  },
+  {
+   "id": 174,
+   "file_off": 2209652,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "573724d4240a0ef9bd6d25b2426bde95b6702c32",
+   "en": "Please wait..."
+  },
+  {
+   "id": 175,
+   "file_off": 2209676,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "361c23f426a6653b474cd76e352eb6dc33782eb1",
+   "en": "Do not remove the Memory Stick%t"
+  },
+  {
+   "id": 176,
+   "file_off": 2209712,
+   "budget": 39,
+   "region": "system_memstick",
+   "orig_sha1": "9b6a750fdba356aeb9019d7aed8d282fdfbbbf5a",
+   "en": "or turn off the power."
+  },
+  {
+   "id": 177,
+   "file_off": 2209776,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "b1517a8f95b6efdc69ac531c9e290b68da701a15",
+   "en": "The Memory Stick%t is"
+  },
+  {
+   "id": 178,
+   "file_off": 2209800,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "6713a9450a191a0ed0f55ac6562f419dcc931030",
+   "en": "not inserted.%r"
+  },
+  {
+   "id": 179,
+   "file_off": 2209832,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "4cf747e6b62a98f5136c907ed4b3d71f21d43d0e",
+   "en": "System data found."
+  },
+  {
+   "id": 180,
+   "file_off": 2209864,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "54c527b336a6ab48795ffc60cec77b30aabb2741",
+   "en": "Load it?"
+  },
+  {
+   "id": 181,
+   "file_off": 2209908,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "88df4d29fcc533d7ea478861b49d62f4a0a364f6",
+   "en": "From the Memory Stick%t,"
+  },
+  {
+   "id": 182,
+   "file_off": 2209936,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "cd322aea2866cb3d48a6fab6814c6ec098dfdb62",
+   "en": "loading system data..."
+  },
+  {
+   "id": 183,
+   "file_off": 2209992,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "fd61206c795345c4e58383d485472186a37bb1bb",
+   "en": "System data"
+  },
+  {
+   "id": 184,
+   "file_off": 2210012,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "68ee691c5c378950ca93b4fd8ef8eb7ed18f943a",
+   "en": "loaded successfully.%r"
+  },
+  {
+   "id": 185,
+   "file_off": 2210052,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "379db134060d3e946cca2a60dc85c1b9337ec553",
+   "en": "Failed to load."
+  },
+  {
+   "id": 186,
+   "file_off": 2210076,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "7c542f205a681f61401ea2613baa66ae0a6622c5",
+   "en": "No system data found.%r"
+  },
+  {
+   "id": 187,
+   "file_off": 2210120,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "6aee1d571d083b4685a96c3e369f23a2001b8491",
+   "en": "System data is corrupted.%r"
+  },
+  {
+   "id": 188,
+   "file_off": 2210168,
+   "budget": 39,
+   "region": "system_memstick",
+   "orig_sha1": "b8eb00d8eaec5ab2f59187e5b25a88f31e9ab3ae",
+   "en": "The Memory Stick%t was removed.%r"
+  },
+  {
+   "id": 189,
+   "file_off": 2210220,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "bdec04d244993ccd9d62e34cae329c2ba26df25c",
+   "en": "Because sleep mode started,"
+  },
+  {
+   "id": 190,
+   "file_off": 2210256,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "0b342f7a520e15a50409b23e724dedbe3f64a528",
+   "en": "loading was canceled.%r"
+  },
+  {
+   "id": 191,
+   "file_off": 2210300,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "5c4514fbd7f1f7c314537c11f8c87e921bcf9ac2",
+   "en": "Cannot access the Memory Stick%t.%r"
+  },
+  {
+   "id": 192,
+   "file_off": 2210360,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "cf6f8d41f7d017323d758f2663aa6135a016cad6",
+   "en": "Cancel loading?"
+  },
+  {
+   "id": 193,
+   "file_off": 2210400,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "1db978cc70e0863633e5b04d3d889aa8971557e5",
+   "en": "No system data found."
+  },
+  {
+   "id": 194,
+   "file_off": 2210432,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "7ceac9027195a54712cff03be4943dca3c5fc048",
+   "en": "Create new data?"
+  },
+  {
+   "id": 195,
+   "file_off": 2210476,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "bc8202ecd497ae9c4175d3bb1930bbed58ce4e13",
+   "en": "Overwrite?"
+  },
+  {
+   "id": 196,
+   "file_off": 2210516,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "64b4b102b4c19b53ddc95ffde56084371998add0",
+   "en": "System data is corrupted."
+  },
+  {
+   "id": 197,
+   "file_off": 2210568,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "7ac03f8e6bad5486900f1513cd7c539b1594f922",
+   "en": "To the Memory Stick%t,"
+  },
+  {
+   "id": 198,
+   "file_off": 2210592,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "f80ab6c5ce2ebf20c09fcf75016698ad44b98ff5",
+   "en": "saving system data..."
+  },
+  {
+   "id": 199,
+   "file_off": 2210648,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "edccd33fd64f1fc46709f55281f900a64ff5d8cb",
+   "en": "Save completed.%r"
+  },
+  {
+   "id": 200,
+   "file_off": 2210688,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "12e323cc2be28f6e80052eac2f91387d563030ec",
+   "en": "Failed to save."
+  },
+  {
+   "id": 201,
+   "file_off": 2210712,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "cec6892db76d253c80937e3fff97d44459da8bb0",
+   "en": "The Memory Stick%t"
+  },
+  {
+   "id": 202,
+   "file_off": 2210736,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "9b10f5fec12e5c12e32aeb317b6a7ce678c647a4",
+   "en": "does not have enough space."
+  },
+  {
+   "id": 203,
+   "file_off": 2210764,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "6e9138073b2a39f6f666337c3ddabfecc4460f8c",
+   "en": "To save, you need"
+  },
+  {
+   "id": 204,
+   "file_off": 2210856,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "bce1230cdd300cfe83fc0f27f0ff1b62156c1d46",
+   "en": "Saving was canceled.%r"
+  },
+  {
+   "id": 205,
+   "file_off": 2210900,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "df0ce9a831ab494e4bb2df820d0c4601d83a51da",
+   "en": "The Memory Stick%t is locked.%r"
+  },
+  {
+   "id": 206,
+   "file_off": 2210972,
+   "budget": 23,
+   "region": "system_memstick",
+   "orig_sha1": "b39417139050f4e5be9901096985bbf04cd9f606",
+   "en": "Cancel saving?"
+  },
+  {
+   "id": 207,
+   "file_off": 2211012,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "08d7ef870b1335132ee5d156154a1dbd5ff51711",
+   "en": "Deletion was canceled.%r"
+  },
+  {
+   "id": 208,
+   "file_off": 2211056,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "cef648133664404c8fbc8e5fc3a260314d734ae8",
+   "en": "Autoloading save data..."
+  },
+  {
+   "id": 209,
+   "file_off": 2211116,
+   "budget": 15,
+   "region": "system_memstick",
+   "orig_sha1": "15bf102baf0d22c904d236e96f2ddf1a3ce686d4",
+   "en": "Save data"
+  },
+  {
+   "id": 210,
+   "file_off": 2211132,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "4871892475f1f9643c99525484bac97ef8e8f82a",
+   "en": "autoload completed.%r"
+  },
+  {
+   "id": 211,
+   "file_off": 2211176,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "19ae323ab735675ecd9d5aa1d6f9cd484b866b96",
+   "en": "not inserted."
+  },
+  {
+   "id": 212,
+   "file_off": 2211196,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "8aff3b44676e98b0d9933e75fdcaee1b8ea686dd",
+   "en": "To save data for this game,"
+  },
+  {
+   "id": 213,
+   "file_off": 2211232,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "c82ba20a1e4138826fe3ec704f7f68fba239abdd",
+   "en": "at least %nKB free is needed."
+  },
+  {
+   "id": 214,
+   "file_off": 2211264,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "759e9839307e60cd5de97ff85201238718ab41e3",
+   "en": "Start the game anyway?"
+  },
+  {
+   "id": 215,
+   "file_off": 2211336,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "948f64767382f13417fa48f7413a134ad8120e78",
+   "en": "Autoload failed."
+  },
+  {
+   "id": 216,
+   "file_off": 2211368,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "579baa46a64cbdd8834b4936fa53c6869c8d868f",
+   "en": "Save data is corrupted."
+  },
+  {
+   "id": 217,
+   "file_off": 2211428,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "bc4afb1d74efa1b782449e71375afd9da8e80a9e",
+   "en": "At least %nKB more space needed."
+  },
+  {
+   "id": 218,
+   "file_off": 2211504,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "cffc7f855626f4114b9122eab316c518cff48856",
+   "en": "Cannot access the Memory Stick%t."
+  },
+  {
+   "id": 219,
+   "file_off": 2211576,
+   "budget": 39,
+   "region": "system_memstick",
+   "orig_sha1": "955616cacb923a935a2847301d59324baa60b584",
+   "en": "The Memory Stick%t was removed."
+  },
+  {
+   "id": 220,
+   "file_off": 2211644,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "7363137be56fa12efcb42feb6f0e1530a5d6c519",
+   "en": "Autoload was canceled."
+  },
+  {
+   "id": 221,
+   "file_off": 2211708,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "ec9f5a53e70b058c810225bb1203ff72422e94f4",
+   "en": "Autosave enabled."
+  },
+  {
+   "id": 222,
+   "file_off": 2211744,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "34ef8da95ed42cffa1c29b7ec113e16d3bc0d176",
+   "en": "When settings or Arcade Mode rankings"
+  },
+  {
+   "id": 223,
+   "file_off": 2211792,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "21aa38af4e17e3e8dd3a1ba93ddb007630432bbd",
+   "en": "change, data is saved automatically."
+  },
+  {
+   "id": 224,
+   "file_off": 2211836,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "5df052149a7ff7c5c1022b8cec83f96a6172af2c",
+   "en": "While autosaving,"
+  },
+  {
+   "id": 225,
+   "file_off": 2211856,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "bc7f0bc29d428fb69bcfbaeec12e17da5e505074",
+   "en": "the Memory Stick Duo%t access lamp"
+  },
+  {
+   "id": 226,
+   "file_off": 2211900,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "c1debf823f41867026a255023ce400824321f0e4",
+   "en": "will flash. Do not remove the Memory Stick%t"
+  },
+  {
+   "id": 227,
+   "file_off": 2211948,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "bed54bd1624c468eaa61774d02db90764f7ea155",
+   "en": "or turn off the power during this time."
+  },
+  {
+   "id": 228,
+   "file_off": 2212036,
+   "budget": 39,
+   "region": "system_memstick",
+   "orig_sha1": "b86e415baf811bf64a8c4c14af93efb831e70263",
+   "en": "Autosaving system data..."
+  },
+  {
+   "id": 229,
+   "file_off": 2212100,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "18bad4400a80315a61a696dab82914773a24df13",
+   "en": "Autosave completed.%r"
+  },
+  {
+   "id": 230,
+   "file_off": 2212144,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "30886b1f6df4caf246010fe6ce1e1ff646ffeb99",
+   "en": "Cancel autosave?"
+  },
+  {
+   "id": 231,
+   "file_off": 2212228,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "62d8572ec48bba56626374f7f44a870fadf0fd50",
+   "en": "Autosave failed."
+  },
+  {
+   "id": 232,
+   "file_off": 2212260,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "9eae07544b2fc5135c873eaef4d7ad93f47bae45",
+   "en": "at least %nKB more space."
+  },
+  {
+   "id": 233,
+   "file_off": 2212388,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "d31f8ab89e19abbb650c19716ac388f7f196371a",
+   "en": "Autosave was canceled."
+  },
+  {
+   "id": 234,
+   "file_off": 2212452,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "73c1b49d16f8ef46da6f67bef79b4477d92ca117",
+   "en": "The Memory Stick%t is locked."
+  },
+  {
+   "id": 235,
+   "file_off": 2212540,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "9071a689d4e30166f74b48d8d33feeadc43fd094",
+   "en": "Select the mission data to load."
+  },
+  {
+   "id": 236,
+   "file_off": 2212612,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "f11e425637469bb422431b27a0b062bc6b6c987d",
+   "en": "Loading mission data..."
+  },
+  {
+   "id": 237,
+   "file_off": 2212672,
+   "budget": 19,
+   "region": "system_memstick",
+   "orig_sha1": "b265ef6ed181607ac1b17b0c16e52d339356dc27",
+   "en": "Mission data"
+  },
+  {
+   "id": 238,
+   "file_off": 2212704,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "92a1b533e54d33a1439ba08bb46f78ec18609d47",
+   "en": "No mission data found.%r"
+  },
+  {
+   "id": 239,
+   "file_off": 2212752,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "e1949de6cc10ebbb6890cbd39996bed3aecdc1ce",
+   "en": "Mission data is corrupted.%r"
+  },
+  {
+   "id": 240,
+   "file_off": 2212800,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "3c36312f29f1ae9e236ba021e29be4f6eb562b22",
+   "en": "Save mission data?"
+  },
+  {
+   "id": 241,
+   "file_off": 2212852,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "cf5aae79f8e728e709ec67ac09ac64452458784b",
+   "en": "Save clear data?"
+  },
+  {
+   "id": 242,
+   "file_off": 2212900,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "a3c173192698beafebd80264166fe3866295aab7",
+   "en": "Mission data is corrupted."
+  },
+  {
+   "id": 243,
+   "file_off": 2212956,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "c6fc80b04bd704cb559c6587b60d4b0c4865e919",
+   "en": "Select a save location."
+  },
+  {
+   "id": 244,
+   "file_off": 2213016,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "b18c90a644105d2a5058b8d4bbf484a9da4ef366",
+   "en": "Saving mission data..."
+  },
+  {
+   "id": 245,
+   "file_off": 2213088,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "718bc922d187bf528bfe56563ca7fed9a0a241a4",
+   "en": "Mission data won't be saved."
+  },
+  {
+   "id": 246,
+   "file_off": 2213124,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "ed89bd03f12b2aa6437f402cde11a182a02ff918",
+   "en": "Quit Mission Mode?"
+  },
+  {
+   "id": 247,
+   "file_off": 2213180,
+   "budget": 27,
+   "region": "system_memstick",
+   "orig_sha1": "506b59dc9215a8d2ea77b01d6eafc7bd6262029d",
+   "en": "Clear data won't be saved."
+  },
+  {
+   "id": 248,
+   "file_off": 2213228,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "ee71f727a2dffccc176c1ef162a7c2a5bdd311b1",
+   "en": " [Free Mission] is now unlocked."
+  },
+  {
+   "id": 249,
+   "file_off": 2213272,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "150871f30a6806d620988b7527e67a930484dfb5",
+   "en": "- Play any mission that has appeared"
+  },
+  {
+   "id": 250,
+   "file_off": 2213316,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "7a1b507c7b91c7fc5a842ab8f98e6375767de1ab",
+   "en": "  with any unit you have obtained."
+  },
+  {
+   "id": 251,
+   "file_off": 2213360,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "9f4d95f08109d7b1a7dbbd5296e37485b2b47d1d",
+   "en": "- All missions and units you have unlocked"
+  },
+  {
+   "id": 252,
+   "file_off": 2213404,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "8b87ef34206bde00ad271a78497b57b3d74f3f00",
+   "en": "  are registered here for free selection."
+  },
+  {
+   "id": 253,
+   "file_off": 2213452,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "962d5e2c16538b5b9a39dc9b913bc72eb9bb32d1",
+   "en": "- No saving or loading."
+  },
+  {
+   "id": 254,
+   "file_off": 2213524,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "883c50f9000ce4e3dc6e00714c24b83aa35c3ada",
+   "en": " [Endless] is now unlocked."
+  },
+  {
+   "id": 255,
+   "file_off": 2213560,
+   "budget": 39,
+   "region": "system_memstick",
+   "orig_sha1": "0daaffbf05d71b3eb48d68a188f51e925d66a917",
+   "en": "- Use every unit you have obtained"
+  },
+  {
+   "id": 256,
+   "file_off": 2213600,
+   "budget": 39,
+   "region": "system_memstick",
+   "orig_sha1": "3feee7e77e7cd0524a732ec4719b7944b5fdb8e5",
+   "en": "  to keep fighting missions."
+  },
+  {
+   "id": 257,
+   "file_off": 2213640,
+   "budget": 31,
+   "region": "system_memstick",
+   "orig_sha1": "16386c70914ed02ea3234b037a0d3f54f7e70d5a",
+   "en": "- Durability does not recover."
+  },
+  {
+   "id": 258,
+   "file_off": 2213672,
+   "budget": 35,
+   "region": "system_memstick",
+   "orig_sha1": "c25ee06d1a896e60b53621fe28b094d4c26512dc",
+   "en": "  (Sorties alone cause no wear)"
+  },
+  {
+   "id": 259,
+   "file_off": 2213708,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "a7246adc6f4a688e31c2b8fcb308372db139086f",
+   "en": "  Units at 0 durability can't sortie."
+  },
+  {
+   "id": 260,
+   "file_off": 2213756,
+   "budget": 47,
+   "region": "system_memstick",
+   "orig_sha1": "e69cf23bba915adf82f27950a2893e027588d0ac",
+   "en": "- After the ending, units stay as they are"
+  },
+  {
+   "id": 261,
+   "file_off": 2213804,
+   "budget": 43,
+   "region": "system_memstick",
+   "orig_sha1": "f026968c947f94f93c857e74426a857471f63efb",
+   "en": "  and the next game level begins."
+  },
+  {
+   "id": 262,
+   "file_off": 2217328,
+   "budget": 15,
+   "region": "misc_menu",
+   "orig_sha1": "cd63b7803a8689be2b0dc536cabdaeb5c93b3c43",
+   "en": "Game Level/"
+  },
+  {
+   "id": 263,
+   "file_off": 2217380,
+   "budget": 15,
+   "region": "misc_menu",
+   "orig_sha1": "ccda193dc5ec0dd96ae3f23bc573439d004f3453",
+   "en": "[Alliance]"
+  },
+  {
+   "id": 264,
+   "file_off": 2217412,
+   "budget": 11,
+   "region": "misc_menu",
+   "orig_sha1": "9fcb9281acdf92cb2ccb13ed352ccb609765986c",
+   "en": " Not played"
+  },
+  {
+   "id": 265,
+   "file_off": 2409048,
+   "budget": 15,
+   "region": "misc_menu",
+   "orig_sha1": "da913ce18273516ba558d37135af3f07dab81068",
+   "en": "Save Data"
+  },
+  {
+   "id": 266,
+   "file_off": 2749360,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "eb5dafb353f1b2f69910c3be75992f594aae906d",
+   "en": "Feelings alone won't do it."
+  },
+  {
+   "id": 267,
+   "file_off": 2749388,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e95d7744c26e4eaabab24ceda748626c65499f5b",
+   "en": "You know that."
+  },
+  {
+   "id": 268,
+   "file_off": 2749420,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f2058f206c6c9122b04674c9d53cbab0cabee9f9",
+   "en": "Call me if it gets bad."
+  },
+  {
+   "id": 269,
+   "file_off": 2749444,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "1c9fe20d4ae835f84db84221c58d3132c1f7aeb3",
+   "en": "I'll guard you."
+  },
+  {
+   "id": 270,
+   "file_off": 2749476,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "4e60ab2f8414e0301ebc48ad27a4b8b971c22577",
+   "en": "Good work. Thanks."
+  },
+  {
+   "id": 271,
+   "file_off": 2749516,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "8290bd290c7e9bae74ac338f477a016a46f4ecaf",
+   "en": "You saved me. Thanks."
+  },
+  {
+   "id": 272,
+   "file_off": 2749540,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "2faf1ddbd3dee6bc234f81cd18f6ed0ede8816ff",
+   "en": "Thank you."
+  },
+  {
+   "id": 273,
+   "file_off": 2749568,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "60a5c3c50b4b758b725e77e600c1d41e7c633c53",
+   "en": "Great work!"
+  },
+  {
+   "id": 274,
+   "file_off": 2749580,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5f404305d7c6680e775b62d99b56c39db773ffd0",
+   "en": "I should learn from you"
+  },
+  {
+   "id": 275,
+   "file_off": 2749620,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "16f0fe5e42fd27714f1c8e2b2587545d23853674",
+   "en": "Nice effort."
+  },
+  {
+   "id": 276,
+   "file_off": 2749636,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "247d366165dc6f9020b96693e152efb8dc48e22d",
+   "en": "Keep it up!"
+  },
+  {
+   "id": 277,
+   "file_off": 2749672,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "5b04071db937f03eff9e02b3f64b69e9d5852563",
+   "en": "Amazing! But be careful."
+  },
+  {
+   "id": 278,
+   "file_off": 2749704,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "3f23e02b75875d3d178dbfa476c133ba83601543",
+   "en": "We can't die yet."
+  },
+  {
+   "id": 279,
+   "file_off": 2749744,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "35f911f2dbc57b344746863fd0fb7dea6b435348",
+   "en": "Maybe you, too..."
+  },
+  {
+   "id": 280,
+   "file_off": 2749768,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d95b02e8910cac6d7adf15e07619a3aeea7f765c",
+   "en": "have a SEED inside you,"
+  },
+  {
+   "id": 281,
+   "file_off": 2749792,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "f625f332c742bc50bf31f320d2aa8b58e1346455",
+   "en": "I think."
+  },
+  {
+   "id": 282,
+   "file_off": 2749820,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "71b39fd4be61c0a5374396b497580f4cf6cc7d1b",
+   "en": "Try harder, or"
+  },
+  {
+   "id": 283,
+   "file_off": 2749844,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d122d797146ebe0d3b72c0242b7eb480034faaa",
+   "en": "next time you might get hit."
+  },
+  {
+   "id": 284,
+   "file_off": 2749892,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a5a0c39ccb35c2c4c6d4703e595cbe50745b473d",
+   "en": "Still a fledgling, huh."
+  },
+  {
+   "id": 285,
+   "file_off": 2749932,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b6a4af986625e53cf9d832295b43953403cc0f57",
+   "en": "Whew, you saved me."
+  },
+  {
+   "id": 286,
+   "file_off": 2749952,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "6acd2ea70e29dd29c7adc4768bc585a58eb57c03",
+   "en": "Thanks!"
+  },
+  {
+   "id": 287,
+   "file_off": 2749980,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "fdac42553131591457ef74d99ae5a07343626d92",
+   "en": "Sorry. Saved me."
+  },
+  {
+   "id": 288,
+   "file_off": 2750016,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "945e2f01aad53f722d8530719d7691f6dddea5b7",
+   "en": "Keep it up next time."
+  },
+  {
+   "id": 289,
+   "file_off": 2750056,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "f0fa55c733f6cdec4d05acc3ad96419df60be15e",
+   "en": "Well done. Good work."
+  },
+  {
+   "id": 290,
+   "file_off": 2750100,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "2e956d85b5c3d1bd04ee6bef06c9c63445370c38",
+   "en": "You're something else"
+  },
+  {
+   "id": 291,
+   "file_off": 2750140,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "05bcb20ffdfe2a7886469d7b5e1a475af512b7f7",
+   "en": "Amazing..."
+  },
+  {
+   "id": 292,
+   "file_off": 2750156,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "f2c74d36f515fee612b0cd16ad17e0cf971bb968",
+   "en": "I'm impressed."
+  },
+  {
+   "id": 293,
+   "file_off": 2750188,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "75ab609f77ee4301a0c459b68dec887dd79c95cb",
+   "en": "Hey! You need more"
+  },
+  {
+   "id": 294,
+   "file_off": 2750220,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a636fe480a39fd022d72a47b5d62421b2e0bfb3d",
+   "en": "simulator time! Ha."
+  },
+  {
+   "id": 295,
+   "file_off": 2750256,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "a441f2b86e638b7b235c86f4d1e87c3dc12de223",
+   "en": "Here's hoping we both do"
+  },
+  {
+   "id": 296,
+   "file_off": 2750284,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a285f6878ef0fbcedacefd5a1b206413e70e3f7d",
+   "en": "better next time."
+  },
+  {
+   "id": 297,
+   "file_off": 2750320,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "ef92a9af4eee90f608cc7e7cc11b369eb5227224",
+   "en": "That was close!"
+  },
+  {
+   "id": 298,
+   "file_off": 2750336,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "2b9268c442f2846556f43983301b8f1e588f0ed3",
+   "en": "Thanks!"
+  },
+  {
+   "id": 299,
+   "file_off": 2750364,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e426c6e048e6893a3d9cca69fd07acddd6824d14",
+   "en": "Thanks for the cover!"
+  },
+  {
+   "id": 300,
+   "file_off": 2750388,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "cc04f8dc5ddcc73a2523a417345a6c93a67227f8",
+   "en": "...Just kidding."
+  },
+  {
+   "id": 301,
+   "file_off": 2750424,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "198651a011ecf921b38f0455c918a51d91e7f47c",
+   "en": "You've got skills."
+  },
+  {
+   "id": 302,
+   "file_off": 2750444,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "8a726ebb5c88c950d4e36ee2fcffb2180592065f",
+   "en": "I envy you."
+  },
+  {
+   "id": 303,
+   "file_off": 2750476,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "42cdcdac3412cd23b37eb5c877bfae9db5b0bef6",
+   "en": "That was amazing!"
+  },
+  {
+   "id": 304,
+   "file_off": 2750496,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "9c3e64ecb5e567cec65bf40a12cf140cfbc8989b",
+   "en": "Nice moves!"
+  },
+  {
+   "id": 305,
+   "file_off": 2750532,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "18b26796cc58763a8ec5c86a122c39aa2f7dc6f9",
+   "en": "I wish I could"
+  },
+  {
+   "id": 306,
+   "file_off": 2750548,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "20d15343098d4bdb17a79c7741c1b2d0318060fd",
+   "en": "do that well."
+  },
+  {
+   "id": 307,
+   "file_off": 2750584,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "f857b49e58a2e203172875b4cb2004e8355a3787",
+   "en": "Wow! Hey, give me"
+  },
+  {
+   "id": 308,
+   "file_off": 2750612,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "bc4210aedea65b962737fb57e1359e64a0e86f2e",
+   "en": "a lesson sometime!"
+  },
+  {
+   "id": 309,
+   "file_off": 2750656,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "b644974a229621ec15571ac24f5b2823bfbe6501",
+   "en": "Well, we're not"
+  },
+  {
+   "id": 310,
+   "file_off": 2750680,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "d2d1118230c63fbef8d49fcf0818f76ae44b3a46",
+   "en": "just passengers anymore..."
+  },
+  {
+   "id": 311,
+   "file_off": 2750724,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "906eee6dfe2f71b98ae7e95cf2a3db3654d42949",
+   "en": "I'm one to talk, but"
+  },
+  {
+   "id": 312,
+   "file_off": 2750748,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "43ef314bee9406f127f8336ab33d1fd9420dda89",
+   "en": "you should try harder."
+  },
+  {
+   "id": 313,
+   "file_off": 2750792,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "499e8b011dae3915aaab51aa7f2a0350fb3cb0b0",
+   "en": "Sorry for the trouble."
+  },
+  {
+   "id": 314,
+   "file_off": 2750840,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "eed7905382d605155a4de96aaaad0cb5c0b3dc8a",
+   "en": "Saved my life."
+  },
+  {
+   "id": 315,
+   "file_off": 2750856,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "081ccb4d5113f3b850e3a855514605e74efc0653",
+   "en": "Thanks, man."
+  },
+  {
+   "id": 316,
+   "file_off": 2750888,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "4f66e76144323f8ee272b26cfbed034ca0d25273",
+   "en": "Good work. Nice job."
+  },
+  {
+   "id": 317,
+   "file_off": 2750936,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "c4df311cedec477b9e24edf023ba0915cdd7d06c",
+   "en": "Not bad."
+  },
+  {
+   "id": 318,
+   "file_off": 2750948,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "1027429325cab287502cce953a4f5ebbb786b838",
+   "en": "Gotta try harder."
+  },
+  {
+   "id": 319,
+   "file_off": 2750984,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f14516ea5db3adc3055dc55d86e129d3f2e25e63",
+   "en": "No, that was amazing."
+  },
+  {
+   "id": 320,
+   "file_off": 2751008,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "12467f37b7c094fce9c361a731f9748558dd92e1",
+   "en": "Seriously."
+  },
+  {
+   "id": 321,
+   "file_off": 2751040,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "ba2001032ed4c1b77e425ba3ca537e649c37d480",
+   "en": "No, really, that was great."
+  },
+  {
+   "id": 322,
+   "file_off": 2751068,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "beac85545e794e7e7d89ef40c786b7e9b798de49",
+   "en": "Didn't know you could."
+  },
+  {
+   "id": 323,
+   "file_off": 2751108,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e193577273e25ec2860dfddbdfb68409e97446e2",
+   "en": "You're reckless!"
+  },
+  {
+   "id": 324,
+   "file_off": 2751148,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "5c55804cdc84fa924402d7837f2c8c17326c3928",
+   "en": "You're just way too weird."
+  },
+  {
+   "id": 325,
+   "file_off": 2751196,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "8d9ba15052f12021233b6c5651af1e4aaaea232b",
+   "en": "Looks like you saved me."
+  },
+  {
+   "id": 326,
+   "file_off": 2751240,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "8495f38ddd58fc4a5de585212463b49ce1e54b34",
+   "en": "You saved me. Thanks."
+  },
+  {
+   "id": 327,
+   "file_off": 2751280,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "278c1aa0fb022d8a71905117494f0b9ddeb11cda",
+   "en": "Hey, not bad."
+  },
+  {
+   "id": 328,
+   "file_off": 2751320,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b3e54d1238e1e082a8738ed7370e8ce7588bd31b",
+   "en": "Yeah. Nice."
+  },
+  {
+   "id": 329,
+   "file_off": 2751356,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "36031b328ec1ac6d13987cdadfdbc4b2706bda20",
+   "en": "Wow! I misjudged you!"
+  },
+  {
+   "id": 330,
+   "file_off": 2751404,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "47763ea6fd2437b95a340623bdaa4ae0196f8656",
+   "en": "You're amazing! Wow!"
+  },
+  {
+   "id": 331,
+   "file_off": 2751444,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "0b016fcc4a2a11da78b24d4e6dd4b9eabfb65792",
+   "en": "Whoa whoa whoa!"
+  },
+  {
+   "id": 332,
+   "file_off": 2751460,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "65b64b413922e297b163ae0d073a9d14029bd754",
+   "en": "What the hell?!"
+  },
+  {
+   "id": 333,
+   "file_off": 2751500,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "9fa02a4363c48978363c4656b147a176a7be551a",
+   "en": "Tch... No dead weight!"
+  },
+  {
+   "id": 334,
+   "file_off": 2751548,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "bf437529e900c445c870b964049eea70af587ff3",
+   "en": "Keep your hands off!"
+  },
+  {
+   "id": 335,
+   "file_off": 2751592,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "81f2c7b599091151c31cfd0a77df0825034ad3bd",
+   "en": "Halfway useful, huh?"
+  },
+  {
+   "id": 336,
+   "file_off": 2751636,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "18518a1ddb385918307a05e4669879f8d7b67b24",
+   "en": "Lookin' good!"
+  },
+  {
+   "id": 337,
+   "file_off": 2751668,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "68cd7c456018e6ae14e5fef9628d6611b48a1f78",
+   "en": "Never seen a guy like you!"
+  },
+  {
+   "id": 338,
+   "file_off": 2751712,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0d15691e46f3a47646ec4dfac1328661fe7e0bba",
+   "en": "Not bad at all!"
+  },
+  {
+   "id": 339,
+   "file_off": 2751748,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "8172821f88f8e1dedabb8f378ef119394580164e",
+   "en": "Damn, you're good!"
+  },
+  {
+   "id": 340,
+   "file_off": 2751792,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f48617b6e30a22b23af282eb02a4d3a13d23ea43",
+   "en": "What the hell are you?!"
+  },
+  {
+   "id": 341,
+   "file_off": 2751832,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "1d2b59684c13f218243744bb9701883ec56606c7",
+   "en": "Dawdle and I'll take you"
+  },
+  {
+   "id": 342,
+   "file_off": 2751860,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e5e23e623e44198386229764106496926a4e6b63",
+   "en": "out too, got it"
+  },
+  {
+   "id": 343,
+   "file_off": 2751892,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "50185d1ae6bfd338267d924c3d2518c3d023d03f",
+   "en": "Kinda useful, huh?"
+  },
+  {
+   "id": 344,
+   "file_off": 2751932,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "8c00a5bd19699549e02571e9f03acd5e8b69cc03",
+   "en": "Just stay out of my way."
+  },
+  {
+   "id": 345,
+   "file_off": 2751980,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "aebcddd9f941df12737c513d7c92f65c07ccc32f",
+   "en": "Nice skills."
+  },
+  {
+   "id": 346,
+   "file_off": 2752020,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2d8b9392108b52639a111412ea62de471312b3b9",
+   "en": "Pretty good!"
+  },
+  {
+   "id": 347,
+   "file_off": 2752056,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "afa7552d66911cd63c68dec477c843696571de96",
+   "en": "Fun! Do it again next time!"
+  },
+  {
+   "id": 348,
+   "file_off": 2752100,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "390dfd19cf5eabe508f49e804f2fdef3e451a524",
+   "en": "Nice. I like you!"
+  },
+  {
+   "id": 349,
+   "file_off": 2752144,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "0f76a5367b82ed9965d1b4b6bc00feaa5b3468f8",
+   "en": "Hmph..."
+  },
+  {
+   "id": 350,
+   "file_off": 2752168,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "b363d9be2029471014cc9456ca6128b5e7e3fc04",
+   "en": "You're a pain."
+  },
+  {
+   "id": 351,
+   "file_off": 2752200,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "1e5ce42aa690df27da31ba8020aa57eee46c817b",
+   "en": "Well, you were some use."
+  },
+  {
+   "id": 352,
+   "file_off": 2752244,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5bdc5f06826817e2ed138f12d95455297b5bb36a",
+   "en": "I'll repay this fast."
+  },
+  {
+   "id": 353,
+   "file_off": 2752284,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f4ad2218b00c01774198631d54632c667c737b57",
+   "en": "Not half bad."
+  },
+  {
+   "id": 354,
+   "file_off": 2752324,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "09f42261e8261314282d427f3cec49224757b8df",
+   "en": "Heh, not bad."
+  },
+  {
+   "id": 355,
+   "file_off": 2752360,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "6e8c1b3c0a6661d79dceb74cd86134031ec6e5f8",
+   "en": "Nice one."
+  },
+  {
+   "id": 356,
+   "file_off": 2752388,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "a0036220cf8fd8b850f89f6b2dd3cb969d3ba251",
+   "en": "Damn, you rock"
+  },
+  {
+   "id": 357,
+   "file_off": 2752420,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "a7c1a62ec048811be27dcb567a23e5c0e266ab6f",
+   "en": "No guts! Get some guts!"
+  },
+  {
+   "id": 358,
+   "file_off": 2752468,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "aad0d34cc286c851d64f585f9ebf965237c69218",
+   "en": "Get it together!"
+  },
+  {
+   "id": 359,
+   "file_off": 2752488,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "4924586f8d1b3608743236a6ed6a721a58a5ae8e",
+   "en": "I've got my own"
+  },
+  {
+   "id": 360,
+   "file_off": 2752508,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "44e9642e0b68ea834be5e1093c79439d38f66d81",
+   "en": "hands full too!"
+  },
+  {
+   "id": 361,
+   "file_off": 2752544,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "73c2a30612edbe7f0f3bda8ffdcbb9b264738cad",
+   "en": "Thank you!"
+  },
+  {
+   "id": 362,
+   "file_off": 2752560,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "da10faa49ef8a0ca64a44466d6ec9fd63dd37186",
+   "en": "Protect me again!"
+  },
+  {
+   "id": 363,
+   "file_off": 2752600,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "b88d3fb8481eebb8bac2094f7fc6ec909a895586",
+   "en": "Thanks! Count on you again!"
+  },
+  {
+   "id": 364,
+   "file_off": 2752648,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "160554f0480800bbb4029c308714c86c03139ff7",
+   "en": "Keep it up!"
+  },
+  {
+   "id": 365,
+   "file_off": 2752692,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "87455ffd3944992f55326da594ccc62037180264",
+   "en": "Impressive. Not bad!"
+  },
+  {
+   "id": 366,
+   "file_off": 2752732,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "c6d4d1b24fbc511e33987f3816f4674cfc03e6f8",
+   "en": "I wish I could"
+  },
+  {
+   "id": 367,
+   "file_off": 2752748,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a2314a7ed5685f24ec1528b894c8f7aac561a965",
+   "en": "do that well..."
+  },
+  {
+   "id": 368,
+   "file_off": 2752788,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "b2f99a8381f9b5e94d90be39e9251a861905cc25",
+   "en": "Amazing...! You were great!"
+  },
+  {
+   "id": 369,
+   "file_off": 2752836,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "4fd7c3607a0717292d85f26b2a5a588456d16a70",
+   "en": "I kind of wish"
+  },
+  {
+   "id": 370,
+   "file_off": 2752852,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "82b40f861c7612102f504164917bfd561e7d29a9",
+   "en": "you'd tried harder."
+  },
+  {
+   "id": 371,
+   "file_off": 2752892,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "ded545bd951cedd74c6dbcabdcd42ee04d81251d",
+   "en": "Well, everyone has"
+  },
+  {
+   "id": 372,
+   "file_off": 2752924,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "a921eaec19558104a731eb8037065bd51fbb2971",
+   "en": "off days."
+  },
+  {
+   "id": 373,
+   "file_off": 2752952,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "805147b0543c4bfcf214d13ea524a842cee76415",
+   "en": "Thanks! Nice support!"
+  },
+  {
+   "id": 374,
+   "file_off": 2752996,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a7a56efeed5732422bdebe150a4be14b7601ba27",
+   "en": "Thanks to you,"
+  },
+  {
+   "id": 375,
+   "file_off": 2753016,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "10fd00d47927e5f3f3fda04083283aba49de0794",
+   "en": "we made it!"
+  },
+  {
+   "id": 376,
+   "file_off": 2753052,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "6eabc1db61a870e85177b2b0b59cd962c42dbc14",
+   "en": "You're on a roll."
+  },
+  {
+   "id": 377,
+   "file_off": 2753088,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "00e2bfec62d4daa09ae073fad06a348e7fee3f26",
+   "en": "Nice. Well done."
+  },
+  {
+   "id": 378,
+   "file_off": 2753124,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "92090943b5a8475673854da04dd52ae19ea6d444",
+   "en": "Good work. Nice job."
+  },
+  {
+   "id": 379,
+   "file_off": 2753168,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "a78421471152e601bd2658da1fa6c979f2444f3d",
+   "en": "Amazing...!"
+  },
+  {
+   "id": 380,
+   "file_off": 2753180,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "7b3f5b3a6a8d9686f5c19dfc874404b6fcc57db9",
+   "en": "But I won't lose to you!"
+  },
+  {
+   "id": 381,
+   "file_off": 2753228,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "1b6d58a05f8e5519c016ca9e0ddbaf2756a3076f",
+   "en": "I expect more next time"
+  },
+  {
+   "id": 382,
+   "file_off": 2753268,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "015e18e191cde523afa09b3fbd3d8dde44de8857",
+   "en": "Too soft! Try harder."
+  },
+  {
+   "id": 383,
+   "file_off": 2753316,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "cf012150b81a17bc5d680d1c2d874188a6f7e441",
+   "en": "Looks like you saved me."
+  },
+  {
+   "id": 384,
+   "file_off": 2753360,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "434a284ad030762d5b3bc8b7d6007dd29b7fb0a9",
+   "en": "You saved me. Thanks!"
+  },
+  {
+   "id": 385,
+   "file_off": 2753400,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "41381fa24eb3ce0850849fb9f440e3777150d0d9",
+   "en": "You owe that success"
+  },
+  {
+   "id": 386,
+   "file_off": 2753428,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "313be34f90f8f5e94866efb0cba0e2046ec6df0d",
+   "en": "to my support!"
+  },
+  {
+   "id": 387,
+   "file_off": 2753460,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "11a4af68182e3a4534daa1e67253d69456406134",
+   "en": "You could've left some"
+  },
+  {
+   "id": 388,
+   "file_off": 2753488,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "036d5483388f649d7d009e463a5d3565a4e8a850",
+   "en": "for me, you know..."
+  },
+  {
+   "id": 389,
+   "file_off": 2753524,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e8873824ab5044ecf038e8f90d86dff8520ebfb8",
+   "en": "You're so good,"
+  },
+  {
+   "id": 390,
+   "file_off": 2753540,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e7097147cbaedaadca9c6b933e1e648396abaab3",
+   "en": "I'm a bit jealous."
+  },
+  {
+   "id": 391,
+   "file_off": 2753580,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "1672405bc53b8ecb48e547477da5f8d873a8f1e1",
+   "en": "With you here,"
+  },
+  {
+   "id": 392,
+   "file_off": 2753596,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "8d245416edeb9db172d9126f9f573dd8cc072f25",
+   "en": "I can fight easy."
+  },
+  {
+   "id": 393,
+   "file_off": 2753632,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "385fac3f624e9449c5e7e36a239d18a2fcf79614",
+   "en": "You're reckless, you know."
+  },
+  {
+   "id": 394,
+   "file_off": 2753680,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "14b4687bc98fed4f7e59877cb913cc563f2672b3",
+   "en": "Like that, you won't"
+  },
+  {
+   "id": 395,
+   "file_off": 2753704,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "92c71f96eeca99936ab9cda67508f34253ebd8c6",
+   "en": "survive in battle!"
+  },
+  {
+   "id": 396,
+   "file_off": 2753740,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "1d845d8b073b257cd4d2cee33c4afe92797dd0da",
+   "en": "Thanks to you. Thank you."
+  },
+  {
+   "id": 397,
+   "file_off": 2753784,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "b45599c7b9027e55a23763ad0c7b2867b3a89796",
+   "en": "Sorry... You saved me."
+  },
+  {
+   "id": 398,
+   "file_off": 2753824,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "fec387fb72d7ce5c06de438bc8d7a4176f061087",
+   "en": "Not bad."
+  },
+  {
+   "id": 399,
+   "file_off": 2753840,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0e765fc92e7a99d89fc554cfac0ee52579aa8edd",
+   "en": "Good results."
+  },
+  {
+   "id": 400,
+   "file_off": 2753876,
+   "budget": 24,
+   "region": "battle_dialogue",
+   "orig_sha1": "3b64121ed65751e2ce74085f883ac5eb17ca5636",
+   "en": "Such skill, I see..."
+  },
+  {
+   "id": 401,
+   "file_off": 2753916,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "9623eb25eb46279b8f81159d3fb5a44bd20269f8",
+   "en": "I'm glad I met you..."
+  },
+  {
+   "id": 402,
+   "file_off": 2753956,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d384057a1d8c25329383c433c10f0e756ffb66b",
+   "en": "Looks like there's no"
+  },
+  {
+   "id": 403,
+   "file_off": 2753980,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "8212ad2834a451451fe013f83975e013c25309e9",
+   "en": "need for me."
+  },
+  {
+   "id": 404,
+   "file_off": 2754012,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "e0b2e6e08dae99d3b0c10b0453be5e332e09c768",
+   "en": "I'll back you up,"
+  },
+  {
+   "id": 405,
+   "file_off": 2754032,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "02dfe5c3d4071f140dac5540d19a87ab392b5454",
+   "en": "so let's do better!"
+  },
+  {
+   "id": 406,
+   "file_off": 2754072,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "72a6104d80f9f3bc7484feaca3a8a9c08e41ceb8",
+   "en": "Was something wrong"
+  },
+  {
+   "id": 407,
+   "file_off": 2754092,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "34650b9fed69aa7f74dba4536953864c104e5e88",
+   "en": "with your unit...?"
+  },
+  {
+   "id": 408,
+   "file_off": 2754128,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "5cff27d8c58333521b14482cdf89e93a872bc60c",
+   "en": "This time you"
+  },
+  {
+   "id": 409,
+   "file_off": 2754144,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "38bcafff5015c6c8201f6ccedcf80dfcbfc42366",
+   "en": "saved me."
+  },
+  {
+   "id": 410,
+   "file_off": 2754180,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "6276b546e1d945dc34bdcdf107e8011bc8f767ba",
+   "en": "You saved me!"
+  },
+  {
+   "id": 411,
+   "file_off": 2754196,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5bc34dc9f002cc0f852a5481691b3a30145df889",
+   "en": "Thank you so much!"
+  },
+  {
+   "id": 412,
+   "file_off": 2754236,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "bae0e95d65ca078d5775581fcc3fb731260ccd96",
+   "en": "Wow, you're quite skilled."
+  },
+  {
+   "id": 413,
+   "file_off": 2754280,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "762b6d8b71140cb430c5e819af3498a486915274",
+   "en": "Nice work."
+  },
+  {
+   "id": 414,
+   "file_off": 2754292,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "73c624b9d5db75bd95d6d43a115222bad1764b04",
+   "en": "Let's keep it up next time!"
+  },
+  {
+   "id": 415,
+   "file_off": 2754340,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e55096c7fd61a45be52839bac2d9d507101bc6d6",
+   "en": "With you, I don't"
+  },
+  {
+   "id": 416,
+   "file_off": 2754364,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "9b210f9ac04cd2493dcb3d04d0ce1ee658a63708",
+   "en": "think we'd lose"
+  },
+  {
+   "id": 417,
+   "file_off": 2754396,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "3eca3d06765b802bc9efc3754f0fa9fb1489c25b",
+   "en": "Great work... As expected!"
+  },
+  {
+   "id": 418,
+   "file_off": 2754444,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "3ce7992122cfde8fd24138a6e3d014a965d7f717",
+   "en": "Sheesh..."
+  },
+  {
+   "id": 419,
+   "file_off": 2754456,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "5f7d45288124b5977847d808dff47d8fd84a69df",
+   "en": "Is that all you've got?"
+  },
+  {
+   "id": 420,
+   "file_off": 2754500,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "e1e159bd4586c7ab30ebdeff3ab2dfba70033688",
+   "en": "How pathetic...!"
+  },
+  {
+   "id": 421,
+   "file_off": 2754536,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e58cd423e1347c6559a8152b134acfc06af82849",
+   "en": "Saved by you, of all people"
+  },
+  {
+   "id": 422,
+   "file_off": 2754580,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a8295203138defa896a636c1a6876a389794c4e0",
+   "en": "Thanks, I suppose."
+  },
+  {
+   "id": 423,
+   "file_off": 2754616,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "7892627ea975b00e450b0f4e596f616ce79c882d",
+   "en": "Not bad at all."
+  },
+  {
+   "id": 424,
+   "file_off": 2754640,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "17d9e7dda0930f989ed74bf0bce04fcd7e4663c3",
+   "en": "Not bad."
+  },
+  {
+   "id": 425,
+   "file_off": 2754672,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "c8d086381c6e8071d888ecba1cc10ad6ba2c20e7",
+   "en": "Hmm... Quite impressive."
+  },
+  {
+   "id": 426,
+   "file_off": 2754720,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "d28852fb4ac041be86924a2ad915e64e0ad17223",
+   "en": "Good skill."
+  },
+  {
+   "id": 427,
+   "file_off": 2754732,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "39ea0b4dac8122be355753c2383bb234a36196f2",
+   "en": "Second to me, though."
+  },
+  {
+   "id": 428,
+   "file_off": 2754772,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "a00351bf5f9712dee8296052250eeb6d930dd036",
+   "en": "Hey, keep it up next time."
+  },
+  {
+   "id": 429,
+   "file_off": 2754816,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "97c8be7d1f00a4d0d25aa2cec16c9c324bd11743",
+   "en": "Honestly, with skills"
+  },
+  {
+   "id": 430,
+   "file_off": 2754844,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b622563b4a233b516b8e2f6b5fdb5c00b7c20f77",
+   "en": "like that, no way."
+  },
+  {
+   "id": 431,
+   "file_off": 2754880,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "1421517d8ce7e70ca6a7158d900081dec8ce33fe",
+   "en": "Good grief..."
+  },
+  {
+   "id": 432,
+   "file_off": 2754896,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a90ad77a1cf91e38e2db23f025bdd2ca88aeaa09",
+   "en": "Pretty good record."
+  },
+  {
+   "id": 433,
+   "file_off": 2754936,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a6b3fd303e85dfc097fe682481d6c62df156bcaf",
+   "en": "Thanks, you saved me."
+  },
+  {
+   "id": 434,
+   "file_off": 2754976,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "3faab6572600807f7fc6e6c4ca0408905b6715eb",
+   "en": "Saved by you, huh..."
+  },
+  {
+   "id": 435,
+   "file_off": 2755020,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "aa2642a29d89806a3fc9796ed244033a3d816495",
+   "en": "Heh, not bad."
+  },
+  {
+   "id": 436,
+   "file_off": 2755056,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "c68989dde88c0e285ff537db7b67c15d9474e270",
+   "en": "You're pretty good."
+  },
+  {
+   "id": 437,
+   "file_off": 2755096,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "06f1f9533fc46382965428a2612a6dc072bbdcd9",
+   "en": "Awesome! Nicely done!"
+  },
+  {
+   "id": 438,
+   "file_off": 2755144,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "f58a2e18bc6906a452cd318249d2e5abbd58dae4",
+   "en": "Great!"
+  },
+  {
+   "id": 439,
+   "file_off": 2755172,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "2261022be4c3cd1ade068a9e6d94dc783c4672c8",
+   "en": "Shoot first, or"
+  },
+  {
+   "id": 440,
+   "file_off": 2755188,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "354a4b5e86a7a82161682a1530d2d4c7e712e737",
+   "en": "the next one shot"
+  },
+  {
+   "id": 441,
+   "file_off": 2755208,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "8f60c9166016fcaa0688075b1e6eb251a9d824bd",
+   "en": "may be you."
+  },
+  {
+   "id": 442,
+   "file_off": 2755240,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "fe781d781c2be126f7818f823ac7123e68247ab1",
+   "en": "Oh my..."
+  },
+  {
+   "id": 443,
+   "file_off": 2755252,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "7835cdd4e4f66a287cc70b6a0d2069389db7c78d",
+   "en": "Too eager for glory?"
+  },
+  {
+   "id": 444,
+   "file_off": 2755292,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e9fc4c6f44ef045cf1bdf8abb9d114306d6fa20b",
+   "en": "Good support."
+  },
+  {
+   "id": 445,
+   "file_off": 2755308,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "02fdd4cec46e6dea2db8e3fc0927dfe6b2a9f1f3",
+   "en": "Allow me to thank you."
+  },
+  {
+   "id": 446,
+   "file_off": 2755364,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "73dce30c743ffca3de3286817263603bb5067a47",
+   "en": "Well, well..."
+  },
+  {
+   "id": 447,
+   "file_off": 2755400,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "67941b4c54245317b54570451fbeac8fbeec2f03",
+   "en": "Fine skill. I expect more."
+  },
+  {
+   "id": 448,
+   "file_off": 2755448,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "32a7683a04196385f6ffc0e4fdd31c2ea5a24227",
+   "en": "Splendid results."
+  },
+  {
+   "id": 449,
+   "file_off": 2755472,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "a2f294df08f1b11181ef44900ec93bdd04165049",
+   "en": "Surprising."
+  },
+  {
+   "id": 450,
+   "file_off": 2755500,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "8970d88bce7219a8a97ba054c86f1ac3a93812e7",
+   "en": "The key to this war"
+  },
+  {
+   "id": 451,
+   "file_off": 2755528,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "485ab94c3a5d76317c93979fbc0f818dbf2ff5a6",
+   "en": "may be you."
+  },
+  {
+   "id": 452,
+   "file_off": 2755560,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "166d64e139a672ed7cf6c133445304d49989f12e",
+   "en": "Hey now, how pathetic!"
+  },
+  {
+   "id": 453,
+   "file_off": 2755604,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "1f69b556b7006efeb85730e2beb61f8485e868ad",
+   "en": "You're better than"
+  },
+  {
+   "id": 454,
+   "file_off": 2755628,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "787dc9bb0aa14a2046d3c407c83398aad22d8e47",
+   "en": "that, right?"
+  },
+  {
+   "id": 455,
+   "file_off": 2755660,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "c3fe6d446ba9582846d7901acc51e0111a658f91",
+   "en": "Thanks. You saved me."
+  },
+  {
+   "id": 456,
+   "file_off": 2755704,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "ae9e1402e1f9ee0247225b00924cbbcf63775675",
+   "en": "This glory's yours today."
+  },
+  {
+   "id": 457,
+   "file_off": 2755752,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "59965551a298a50347a41f8b8812cf08cc2234b5",
+   "en": "Not bad!"
+  },
+  {
+   "id": 458,
+   "file_off": 2755788,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "584a90d97043b60542a453b99661a575d057fa9e",
+   "en": "Keep it up next time!"
+  },
+  {
+   "id": 459,
+   "file_off": 2755828,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "99715dd2d344a5de9d2ac77f5a449d676ae29d2b",
+   "en": "Nice skills!"
+  },
+  {
+   "id": 460,
+   "file_off": 2755848,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "205a17b4662ad4d78ab6cc382f4d05da2503442d",
+   "en": "I guarantee it!"
+  },
+  {
+   "id": 461,
+   "file_off": 2755884,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "cd84f02e9399a540296eba46ffd6bff7a5ab7c4b",
+   "en": "Can't fall behind."
+  },
+  {
+   "id": 462,
+   "file_off": 2755920,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "98d902d86b516bc931ad819907f03f472d975c11",
+   "en": "Doubt is fatal in battle."
+  },
+  {
+   "id": 463,
+   "file_off": 2755952,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "36cba9e8d6f22706741ddf17d8887cc55043b8cf",
+   "en": "Be careful."
+  },
+  {
+   "id": 464,
+   "file_off": 2755984,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "3727bd43aa0069efea80f614392014ae1ee7ca78",
+   "en": "Hey now..."
+  },
+  {
+   "id": 465,
+   "file_off": 2755996,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "4f167979a18086178732d1a830adc16ec4f6f41a",
+   "en": "What's the matter?"
+  },
+  {
+   "id": 466,
+   "file_off": 2756036,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "baa98c9a757d7f774283138bc87eace24b71b58e",
+   "en": "Good support!"
+  },
+  {
+   "id": 467,
+   "file_off": 2756056,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "019c3dc36c800cc00500da046ecba6cc97951d7d",
+   "en": "You saved me!"
+  },
+  {
+   "id": 468,
+   "file_off": 2756088,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "7d3a7de8aedb37fd86d37187e23a14c8058e70cb",
+   "en": "You were a help."
+  },
+  {
+   "id": 469,
+   "file_off": 2756124,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e4b8840d77156d4b5ae8898ea826690c491ec2f1",
+   "en": "Nice! Quite impressive!"
+  },
+  {
+   "id": 470,
+   "file_off": 2756168,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f0e52a67e991b1bf12d38642e98d54610b6d20bb",
+   "en": "You have skill."
+  },
+  {
+   "id": 471,
+   "file_off": 2756188,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "8ae36753656ce18a482d4101e112ae7c7146791f",
+   "en": "I expect more."
+  },
+  {
+   "id": 472,
+   "file_off": 2756224,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a411cb60e2ec49c4b6b0c60ae3369461d45bb898",
+   "en": "Mmm, a good partner"
+  },
+  {
+   "id": 473,
+   "file_off": 2756248,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "128735d30de66e167407ed9e0699d6f17db47c8a",
+   "en": "feels nice."
+  },
+  {
+   "id": 474,
+   "file_off": 2756280,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "82d973ab06f7c7a2882d1cb8b22864c98ade1d28",
+   "en": "Later, I'll treat you to"
+  },
+  {
+   "id": 475,
+   "file_off": 2756312,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "b08d31da905f0d6cc6669305bb05fbae915eaf71",
+   "en": "my own blend."
+  },
+  {
+   "id": 476,
+   "file_off": 2756344,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "4e791db7967e96a74d0a945be85d20c718cbb7bb",
+   "en": "Perhaps you aren't"
+  },
+  {
+   "id": 477,
+   "file_off": 2756364,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "5a93503231512afba5a42b80e392798d9de98816",
+   "en": "cut out for battle?"
+  },
+  {
+   "id": 478,
+   "file_off": 2756408,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "cf5a981fe4bb9a350bdabc40e73867034bf009c9",
+   "en": "Hmm, a bit disappointing."
+  },
+  {
+   "id": 479,
+   "file_off": 2756436,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a6710f1dc125dcac8d334e98ea814b520144442d",
+   "en": "I expect more."
+  },
+  {
+   "id": 480,
+   "file_off": 2756472,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "63440a73b84900b4dcba31831fb7a1dd001b214b",
+   "en": "Nice moves."
+  },
+  {
+   "id": 481,
+   "file_off": 2756484,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e8bb67414998ef30b2c7274d91f5c639aa823fe4",
+   "en": "Andy is grateful too."
+  },
+  {
+   "id": 482,
+   "file_off": 2756528,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "38571593460457180bd50c0c94ccee7efd23df33",
+   "en": "You saved me. Thanks."
+  },
+  {
+   "id": 483,
+   "file_off": 2756568,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "66242736dd114a95d302f877c8201a4da25ab848",
+   "en": "Not bad. Better than I hoped"
+  },
+  {
+   "id": 484,
+   "file_off": 2756616,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "c2efa9889490f057182f0220387e8cf15382f97a",
+   "en": "Hmm, not bad."
+  },
+  {
+   "id": 485,
+   "file_off": 2756652,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "1111c33020f7a0e37210f1afe58a58c678c4f67c",
+   "en": "Amazing!"
+  },
+  {
+   "id": 486,
+   "file_off": 2756664,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "ec41b3dce778bdb8c692452ea39add0d950d6f3e",
+   "en": "But Andy's still better."
+  },
+  {
+   "id": 487,
+   "file_off": 2756708,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "187bdafb3202af8b5b476572912bda91d26f7ca8",
+   "en": "You're quite lovely!"
+  },
+  {
+   "id": 488,
+   "file_off": 2756752,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "22fae373b56d70f502abf7ee85f519ef183a7335",
+   "en": "You'll never slay foes so!"
+  },
+  {
+   "id": 489,
+   "file_off": 2756800,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "83893ccf5f6862a4b1db39fa04261a632701d4f0",
+   "en": "What a disgrace!"
+  },
+  {
+   "id": 490,
+   "file_off": 2756820,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2c3ac16642ca70525e158a357cd0298720e7416f",
+   "en": "That won't do!"
+  },
+  {
+   "id": 491,
+   "file_off": 2756856,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5ce71352f10efbf69d5070b37b0b89a92305ea7f",
+   "en": "You saved me! Thanks!"
+  },
+  {
+   "id": 492,
+   "file_off": 2756896,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "9b93d23cc69da55c30945d9ccf3ebab1e31c2ffb",
+   "en": "With you, I think we'll"
+  },
+  {
+   "id": 493,
+   "file_off": 2756920,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "6848e8362c5fd0c10be9fca63a07e4f8a95df42e",
+   "en": "get fine results!"
+  },
+  {
+   "id": 494,
+   "file_off": 2756956,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f6a2577985fe3eeef4f16e6a4f6a557ad9d0f007",
+   "en": "Not bad, I see."
+  },
+  {
+   "id": 495,
+   "file_off": 2756992,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "fbe45462c0df9a1b78bc7e5b75c3606b139ee1bb",
+   "en": "Hmm, you're quite skilled."
+  },
+  {
+   "id": 496,
+   "file_off": 2757040,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "9e87c0e845c650d9ee585c5fbfd1f96e1a43a5e6",
+   "en": "Well done! Fine results!"
+  },
+  {
+   "id": 497,
+   "file_off": 2757088,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "b34f14fe35fd197e968f165769ae2cea35c5c186",
+   "en": "Amazing!"
+  },
+  {
+   "id": 498,
+   "file_off": 2757104,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "9c3e3ace657db571d3bab11757fe4ee5a77947f2",
+   "en": "I want you in my unit!"
+  },
+  {
+   "id": 499,
+   "file_off": 2757148,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "0b7cd4396191d0e82f3cc1a3c2945f282d5e5f53",
+   "en": "I know you can do"
+  },
+  {
+   "id": 500,
+   "file_off": 2757176,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2637fe0b0edf635d6089630fcb81624ab9e16805",
+   "en": "better than that!"
+  },
+  {
+   "id": 501,
+   "file_off": 2757212,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "8e431c0ca7527efc6e431aa298d3b919a8dd140c",
+   "en": "What's wrong?"
+  },
+  {
+   "id": 502,
+   "file_off": 2757228,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "bc5baae72b764eaf6911fd213767044066fcfdee",
+   "en": "Get it together next time!"
+  },
+  {
+   "id": 503,
+   "file_off": 2757272,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "700e8ab17dd70525fb03768c98af32ddf0384c00",
+   "en": "You saved me. I'm grateful!"
+  },
+  {
+   "id": 504,
+   "file_off": 2757320,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b33b07f6602adb0b0fc09e845b3d2ae7d77cc07c",
+   "en": "Thanks for cover!"
+  },
+  {
+   "id": 505,
+   "file_off": 2757356,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "2ddc897791b6b02108ed5e8f046d87cd274ed976",
+   "en": "Pretty good."
+  },
+  {
+   "id": 506,
+   "file_off": 2757372,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "db68cdf3226c7beb6329f72ff5a018e53cbe2a3e",
+   "en": "Keep it up next time!"
+  },
+  {
+   "id": 507,
+   "file_off": 2757412,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "de7db63fb1149fea6f06673e261d8cd262f56a34",
+   "en": "Good work!"
+  },
+  {
+   "id": 508,
+   "file_off": 2757444,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "a214c7fd7f38d72fc79014be9ec2967176fec2e0",
+   "en": "Not bad! Fine skills!"
+  },
+  {
+   "id": 509,
+   "file_off": 2757488,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "65234edc7f6bed97d0df8e5c4b3483aa76846226",
+   "en": "For our pure blue world!"
+  },
+  {
+   "id": 510,
+   "file_off": 2757644,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "56190c6a5cbb9a8da317e8d7fbfaca0eb16d2f98",
+   "en": "I won't let them have"
+  },
+  {
+   "id": 511,
+   "file_off": 2757676,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "56b65bcb9dafbdc4c1e6320cca0a6d5f31d2d69b",
+   "en": "their way!"
+  },
+  {
+   "id": 512,
+   "file_off": 2757816,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "f9481848cb31710fd55e5f2d6550dd93b607bb89",
+   "en": "For ZAFT!"
+  },
+  {
+   "id": 513,
+   "file_off": 2757976,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "ff19f70ee443779b6ee97f67bde3c23742740570",
+   "en": "What are you doing?!"
+  },
+  {
+   "id": 514,
+   "file_off": 2758024,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "3ebb2dd16fb047d944e5f4e2bd37cc4b14db6889",
+   "en": "Just how did it come"
+  },
+  {
+   "id": 515,
+   "file_off": 2758052,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "da47d93a8f51a693ca157225163a5123dc80714e",
+   "en": "to this?!"
+  },
+  {
+   "id": 516,
+   "file_off": 2758084,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d01990826aed2c983552271321b098bb509fca3f",
+   "en": "Thanks, you saved me."
+  },
+  {
+   "id": 517,
+   "file_off": 2758124,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "38cda85c05b81d564f903b1086d83e7574254ad1",
+   "en": "Thanks. You really saved me."
+  },
+  {
+   "id": 518,
+   "file_off": 2758172,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d6de6d1c4a3e55f7264d5e0e515af98d288be04",
+   "en": "Pretty good."
+  },
+  {
+   "id": 519,
+   "file_off": 2758208,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "df089b44d4e61c2f45304ed81490740f12ef7fa3",
+   "en": "Heh, impressive."
+  },
+  {
+   "id": 520,
+   "file_off": 2758244,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "7c6aac3e688b8b0eeacae5a53dd2d68ca3e0e922",
+   "en": "Whoa... Is that even legal?!"
+  },
+  {
+   "id": 521,
+   "file_off": 2758292,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e2845ebbb3950dc83cc9838c3128016aa2a2b35a",
+   "en": "So this is a pilot who"
+  },
+  {
+   "id": 522,
+   "file_off": 2758320,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "30199202cbd158fce8968fab1dab142aa0dd28f3",
+   "en": "survived Jachin Due..."
+  },
+  {
+   "id": 523,
+   "file_off": 2758384,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "eeb6abb3922d1275b1c5b15f47bea78d8278da5a",
+   "en": "You'll die."
+  },
+  {
+   "id": 524,
+   "file_off": 2758512,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "1883627383473fc75dba3fb66112ed7118f87f6b",
+   "en": "What a mess..."
+  },
+  {
+   "id": 525,
+   "file_off": 2758548,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0929feba64e56845eea32c18367d74862f2f302a",
+   "en": "Hey, come on."
+  },
+  {
+   "id": 526,
+   "file_off": 2758584,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "672fef8d77d883a83229b75479aa5eeee0469d2d",
+   "en": "Whew... You saved me."
+  },
+  {
+   "id": 527,
+   "file_off": 2758624,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "571a71235b8b058ad58a3c769c40bbeedad336a5",
+   "en": "Thanks."
+  },
+  {
+   "id": 528,
+   "file_off": 2758652,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f2d3f8d401adf891d0e974b68b4b0199846cb721",
+   "en": "Hmph, not bad."
+  },
+  {
+   "id": 529,
+   "file_off": 2758692,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "baad218037f879c36c5c1352dfba4084eba9f28e",
+   "en": "You're pretty capable."
+  },
+  {
+   "id": 530,
+   "file_off": 2758736,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "75e274dcaf45a2d518d9f99612c7e9a2b7b7ca02",
+   "en": "Damn, amazing."
+  },
+  {
+   "id": 531,
+   "file_off": 2758752,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b92efe33ed76ade5f053d5c2eded84125e807a8",
+   "en": "I'm impressed."
+  },
+  {
+   "id": 532,
+   "file_off": 2758784,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "17164f467af773de46dcf61164309b08d2b6e551",
+   "en": "Didn't think anyone but"
+  },
+  {
+   "id": 533,
+   "file_off": 2758808,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "4ccd86bf216039fb5c6159ed72bbfb5e8b8a3423",
+   "en": "us was so good"
+  },
+  {
+   "id": 534,
+   "file_off": 2758840,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f72827ac45e9f2fef29d779530134b737101d9c6",
+   "en": "What's your deal?!"
+  },
+  {
+   "id": 535,
+   "file_off": 2758896,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "0b19b7d884787c5dd476a8255d15f085424c4f63",
+   "en": "Heh heh..."
+  },
+  {
+   "id": 536,
+   "file_off": 2758940,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "9c541df8102d67eae33a11160b3821de28d5831c",
+   "en": "Amazing..."
+  },
+  {
+   "id": 537,
+   "file_off": 2758984,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "abb7a0c346ef933d5af1c9a753682683f92f6f70",
+   "en": "Let's kill them all."
+  },
+  {
+   "id": 538,
+   "file_off": 2759044,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "eed18367fdc56ecac9726c207ad25e9e189fad75",
+   "en": "You die here!"
+  },
+  {
+   "id": 539,
+   "file_off": 2759084,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "84fc0a5e3771fa8466c1894cc612128a097042a6",
+   "en": "Hey, hey."
+  },
+  {
+   "id": 540,
+   "file_off": 2759096,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "64ccfe9535fdf39b01a4c8997c7602bae902468e",
+   "en": "Are you even trying?"
+  },
+  {
+   "id": 541,
+   "file_off": 2759136,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "21f9cfafd0f4902a51af9706838f3250f4c9db53",
+   "en": "Tch...!"
+  },
+  {
+   "id": 542,
+   "file_off": 2759148,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "98fa96bc4d6e914060824b5bcf15695a17a85b9d",
+   "en": "Now I owe you one..."
+  },
+  {
+   "id": 543,
+   "file_off": 2759188,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "4e645b397f035e7d2ef20c38291ea968c959e380",
+   "en": "Well, thanks, I guess."
+  },
+  {
+   "id": 544,
+   "file_off": 2759228,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "cb4cb7b6a07aafc41628885b04053fc51d0d4e20",
+   "en": "Hmm, you've got skill."
+  },
+  {
+   "id": 545,
+   "file_off": 2759272,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "33dfaf0e87bd7700bfc5a033d359d9e1ad2de7a8",
+   "en": "Heh! Stage clear!"
+  },
+  {
+   "id": 546,
+   "file_off": 2759320,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "c64302fa4bbeb880b25816b4e69800422eafa524",
+   "en": "That was a blast!"
+  },
+  {
+   "id": 547,
+   "file_off": 2759360,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "421f7b5b37b534580ebf3d47b6e89527dfdae7d2",
+   "en": "For real? That's awesome!"
+  },
+  {
+   "id": 548,
+   "file_off": 2759404,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "4ea7b7a27b14c19746cbbe9c56bb93bf07e915aa",
+   "en": "Defeat the enemy!"
+  },
+  {
+   "id": 549,
+   "file_off": 2759428,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "dbbec84b1b659dd48369421b8947a26a0c0192ad",
+   "en": "Or else we'll die!"
+  },
+  {
+   "id": 550,
+   "file_off": 2759468,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b90a46eb3841bfcaf0c9f6d0fa85479708226ad",
+   "en": "Like that,"
+  },
+  {
+   "id": 551,
+   "file_off": 2759484,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e618139100eb90c3599510944e4644d9da7fdf5d",
+   "en": "you're a target"
+  },
+  {
+   "id": 552,
+   "file_off": 2759516,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "6a2316b0ca91568150d1bbfb6393cde1b92d956d",
+   "en": "Precise support."
+  },
+  {
+   "id": 553,
+   "file_off": 2759536,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "fbc80b10b26f6bcbdb9d28e54c34907b2b7a0d06",
+   "en": "Thank you."
+  },
+  {
+   "id": 554,
+   "file_off": 2759564,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0c3fa4ce8e434dbf5094679ec62f9ca52bf13002",
+   "en": "Saved me. Thanks."
+  },
+  {
+   "id": 555,
+   "file_off": 2759600,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "3cef23353e17a152ec5f2f05fa9025a3cec85229",
+   "en": "That's it. Again next time!"
+  },
+  {
+   "id": 556,
+   "file_off": 2759660,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5c0ae153acf0c714cc1e322569d00f8b4ee0bd39",
+   "en": "Being alive"
+  },
+  {
+   "id": 557,
+   "file_off": 2759684,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d66f4b96204af443e6a0d10cd083051a8bd145a",
+   "en": "has value in itself."
+  },
+  {
+   "id": 558,
+   "file_off": 2759708,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "fc31266a0a754f19346be6dd6b600015c6ab5114",
+   "en": "It means there's a tomorrow."
+  },
+  {
+   "id": 559,
+   "file_off": 2759756,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "35f69cad3cc42027a8c699c5037a9d6544a9af54",
+   "en": "Good moves."
+  },
+  {
+   "id": 560,
+   "file_off": 2759772,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f8926ba22675e606e48c5ce7c03265df3dbaaa2e",
+   "en": "I'll learn from it."
+  },
+  {
+   "id": 561,
+   "file_off": 2759808,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f595a90edcce0bef531cd9f51861db8c1167ff89",
+   "en": "Get it together!"
+  },
+  {
+   "id": 562,
+   "file_off": 2759828,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "dfae284c02a6a824b6c00b8291cab54870d0a11e",
+   "en": "You're throwing me off."
+  },
+  {
+   "id": 563,
+   "file_off": 2759872,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "531e7e1c7ac41946d6f22d82e41245bd1c3837d3",
+   "en": "Sigh... What a letdown."
+  },
+  {
+   "id": 564,
+   "file_off": 2759912,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "50e7fe5c2c52441e228c98e4b2cceb96c180830d",
+   "en": "Thanks, you saved me!"
+  },
+  {
+   "id": 565,
+   "file_off": 2759956,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "ebc101f62e58e31f652da3e3c326580e6653083d",
+   "en": "You saved me. Thank you!"
+  },
+  {
+   "id": 566,
+   "file_off": 2760000,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "697b9f9a8eb6c03bc6e584600f3dc39472399386",
+   "en": "Hmm, you're pretty good."
+  },
+  {
+   "id": 567,
+   "file_off": 2760044,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "398c52e1b46f3746cf1eb47e1f2c168b290c6b83",
+   "en": "Looking good!"
+  },
+  {
+   "id": 568,
+   "file_off": 2760064,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "32607b32e4e8961d5317aac89e58ea3c2b22e705",
+   "en": "See you next time!"
+  },
+  {
+   "id": 569,
+   "file_off": 2760100,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "ddccc38744018e84fdb9cf14aba6b77f10bf3eb8",
+   "en": "Wow... Surprising."
+  },
+  {
+   "id": 570,
+   "file_off": 2760120,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5ff5ffed1b7acea867e74efd56894c35e928d283",
+   "en": "You did that much?"
+  },
+  {
+   "id": 571,
+   "file_off": 2760160,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "f67fd0f6ac2b2745ed50fa7be51f0f7763054cb6",
+   "en": "But seriously, what got you?"
+  },
+  {
+   "id": 572,
+   "file_off": 2760192,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "43b7adee63ee4948fe9707dc834f9415b51bf968",
+   "en": "Suddenly you're a"
+  },
+  {
+   "id": 573,
+   "file_off": 2760220,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "92cbcc869bd52d388d46a4fd992287958d721428",
+   "en": "super ace!"
+  },
+  {
+   "id": 574,
+   "file_off": 2760632,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "87010a47c38de50573b7f6b2de70b8a9d143b603",
+   "en": "Mission complete! Return!"
+  },
+  {
+   "id": 575,
+   "file_off": 2760684,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "e791074c771727e069144ec2cd3d31adc5679f44",
+   "en": "Mission success! Return!"
+  },
+  {
+   "id": 576,
+   "file_off": 2760736,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "df4ff8921e1991f14266533c601d5a7abfb8a2cb",
+   "en": "Don't overdo it."
+  },
+  {
+   "id": 577,
+   "file_off": 2760760,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "ccc72a8f464dfe8b1c81363b3076501b1374f601",
+   "en": "Mechanics will cry."
+  },
+  {
+   "id": 578,
+   "file_off": 2760800,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "e5176b3eddfaf7245fb567b53d9ee7f207ecbfc2",
+   "en": "Results matter, but"
+  },
+  {
+   "id": 579,
+   "file_off": 2760820,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "3a440a4f0924a661536adb6bb7dd6334498f8483",
+   "en": "first, focus on"
+  },
+  {
+   "id": 580,
+   "file_off": 2760844,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "d58316823fe8a7069c28708dcd39caa61b7142f9",
+   "en": "staying alive."
+  },
+  {
+   "id": 581,
+   "file_off": 2760884,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "31bdeb5f31fa734b6804be2513aa17d556232b60",
+   "en": "Well done."
+  },
+  {
+   "id": 582,
+   "file_off": 2760896,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "3b11b9b7d8445644e109e8d92319c384a9ad229a",
+   "en": "It seems I need to"
+  },
+  {
+   "id": 583,
+   "file_off": 2760920,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "861876ba0bb0eecd9a2bf1eaf33814c9f0afbccb",
+   "en": "rethink my view of you."
+  },
+  {
+   "id": 584,
+   "file_off": 2760964,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "102f2ecb34405d7f33761868e134b74e6b118e94",
+   "en": "Not bad at all."
+  },
+  {
+   "id": 585,
+   "file_off": 2760980,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "382dd84964f9c290ea2d1c9356c5c02a6d75cfab",
+   "en": "I expect more next time"
+  },
+  {
+   "id": 586,
+   "file_off": 2761024,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "c8fef5fb4a0cb0366927307d06e3c8bc95c9a1c2",
+   "en": "You're trying hard."
+  },
+  {
+   "id": 587,
+   "file_off": 2761044,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "8ad649e247f6dfd6b5492344cdb6e6f01271b57f",
+   "en": "Your record shows."
+  },
+  {
+   "id": 588,
+   "file_off": 2761084,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "1b20d6fc7c4e9a3fc418776c18ab0c33a399c7f8",
+   "en": "Good work."
+  },
+  {
+   "id": 589,
+   "file_off": 2761096,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "6c339ae0947dca34f12f1344eda9fd5c13c65d85",
+   "en": "Get some rest"
+  },
+  {
+   "id": 590,
+   "file_off": 2761116,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "353601f10aa47c83f6b4e6ebeeb9741e42742b0c",
+   "en": "for next time."
+  },
+  {
+   "id": 591,
+   "file_off": 2761156,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "a3f0266b67944859c185776b7e15111ba6a3b839",
+   "en": "Doing well, huh"
+  },
+  {
+   "id": 592,
+   "file_off": 2761172,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "760fb46cb21e2e16c9007886bb0a1c0e496eb112",
+   "en": "I can watch at ease, too."
+  },
+  {
+   "id": 593,
+   "file_off": 2761224,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b997143f0812a44a6f1a70bc3d59f03c187d747e",
+   "en": "Nice moves."
+  },
+  {
+   "id": 594,
+   "file_off": 2761244,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "df25921b33dda2e302af5bc4120463bc72658657",
+   "en": "You really understand"
+  },
+  {
+   "id": 595,
+   "file_off": 2761272,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "32c0341b63150c770dc446b44dc9fce762873e4c",
+   "en": "your unit."
+  },
+  {
+   "id": 596,
+   "file_off": 2761304,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "4759792e9fd405160012e65dcd2dd9bc0cbd9dee",
+   "en": "Splendid results."
+  },
+  {
+   "id": 597,
+   "file_off": 2761324,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b294ff0cf0514dc08eddc568465be632fedf4c1",
+   "en": "A true ace indeed."
+  },
+  {
+   "id": 598,
+   "file_off": 2761372,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "ea28ad51596a9435742380981c98f651c88004ca",
+   "en": "Impressive."
+  },
+  {
+   "id": 599,
+   "file_off": 2761384,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6139df42357279934d7d9eb65baf377603664181",
+   "en": "The thought of you as a foe"
+  },
+  {
+   "id": 600,
+   "file_off": 2761412,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "b490b80e1409a176a611f60a7cb0f63f14f3d301",
+   "en": "chills me."
+  },
+  {
+   "id": 601,
+   "file_off": 2761448,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "56931fa920bae0e1f58dc642acbb4fe3b35dcb1e",
+   "en": "If someone like you"
+  },
+  {
+   "id": 602,
+   "file_off": 2761468,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "56d5554242f75d47c1d5677d94b744b43d0f6818",
+   "en": "trained rookies, our losses"
+  },
+  {
+   "id": 603,
+   "file_off": 2761500,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "71a8b36f77459e707617b6e5ee8895da38edc629",
+   "en": "would surely drop."
+  },
+  {
+   "id": 604,
+   "file_off": 2761540,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "8997c5f04da037afbf76838498944f63c39507c3",
+   "en": "Never knew anyone so good..."
+  },
+  {
+   "id": 605,
+   "file_off": 2761572,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "f790d20fb75935ac43f0cd946d3024821a332206",
+   "en": "Wow."
+  },
+  {
+   "id": 606,
+   "file_off": 2761600,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "340dfd301c336534e33a1a6be06124186ac3b1d4",
+   "en": "Following an unreliable"
+  },
+  {
+   "id": 607,
+   "file_off": 2761628,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "34866c9d1db43fedaadbcd3ea2fb7fb5368b99cd",
+   "en": "captain like me this far..."
+  },
+  {
+   "id": 608,
+   "file_off": 2761676,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "194038cd925609a15be1bc04debfda03bb398149",
+   "en": "You're always"
+  },
+  {
+   "id": 609,
+   "file_off": 2761696,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "cf987308e2e277fd9eb020bea44929aec64c5840",
+   "en": "the one saving me..."
+  },
+  {
+   "id": 610,
+   "file_off": 2761740,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "d328f4f0363314359b8f3ee84114cfbececf1f46",
+   "en": "Fall back!"
+  },
+  {
+   "id": 611,
+   "file_off": 2761752,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "835fe5e73490b258d0b1c765c88f06ffd2f0a2bc",
+   "en": "We'll regroup!"
+  },
+  {
+   "id": 612,
+   "file_off": 2761796,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "86c7f3557d395c3b664c55ea795ca889fa5b299a",
+   "en": "Enemy reinforcements!"
+  },
+  {
+   "id": 613,
+   "file_off": 2761820,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "a4c651aa2e3d610f697b5a1f5547ff6ba84904c7",
+   "en": "Be careful!"
+  },
+  {
+   "id": 614,
+   "file_off": 2761856,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "7ecbbeef12f59f1b5e4dd459ae31569cffd23c43",
+   "en": "Success. All units, return."
+  },
+  {
+   "id": 615,
+   "file_off": 2761908,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "379033c5ee9c8916ded857ab38000121a0cad234",
+   "en": "Success. Return now."
+  },
+  {
+   "id": 616,
+   "file_off": 2761952,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "065cdc24fa485ab28ef6edb8fe70b6676557068d",
+   "en": "Hmph... Good enough."
+  },
+  {
+   "id": 617,
+   "file_off": 2761996,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "fba7605045168f6805cbded8e65c46eddab11dcd",
+   "en": "Survival matters, but"
+  },
+  {
+   "id": 618,
+   "file_off": 2762020,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "9fd540fbe9fe3518288383ab4661fa117ddc6f73",
+   "en": "don't forget to score kills."
+  },
+  {
+   "id": 619,
+   "file_off": 2762072,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "05b1c15327f07e0b8cb84a892a35f169122ec189",
+   "en": "Far better than your"
+  },
+  {
+   "id": 620,
+   "file_off": 2762104,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "9695ddd3760ba13e20f2d7860527f6fd994a5b4b",
+   "en": "average rookie."
+  },
+  {
+   "id": 621,
+   "file_off": 2762144,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "4b7b8931ef5ee9efd1b065c731ff99206965c92a",
+   "en": "You might be dependable."
+  },
+  {
+   "id": 622,
+   "file_off": 2762196,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6efd6d8664731cd3e4e3d26bba44513d57624aa0",
+   "en": "Very good work this time."
+  },
+  {
+   "id": 623,
+   "file_off": 2762224,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "54bca7ca09a2bedc7a8645caf3ab7aa1995bb9f1",
+   "en": "Keep it up."
+  },
+  {
+   "id": 624,
+   "file_off": 2762260,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "09030fcf0f88322b03697c9fd2aa6f222265a704",
+   "en": "Nice moves out there."
+  },
+  {
+   "id": 625,
+   "file_off": 2762284,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "ef5206299e36f7196cacfc36e79e096426866776",
+   "en": "I expect more next."
+  },
+  {
+   "id": 626,
+   "file_off": 2762324,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "4dee9a12285fc3719ae52f4f21af442ac39b1ae1",
+   "en": "Good work."
+  },
+  {
+   "id": 627,
+   "file_off": 2762336,
+   "budget": 32,
+   "region": "battle_dialogue",
+   "orig_sha1": "778106c7bea404956a0e081c23a53406b9755a5b",
+   "en": "Use those skills for us."
+  },
+  {
+   "id": 628,
+   "file_off": 2762388,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "ee9aa207f4f08270daa87ef6710a16f369d0eef3",
+   "en": "Well done."
+  },
+  {
+   "id": 629,
+   "file_off": 2762400,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b4f7ee6a811b932990fc213b7cb117795f090ff",
+   "en": "I'll report this upstairs."
+  },
+  {
+   "id": 630,
+   "file_off": 2762448,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "98b7feeaefab24ac183215acb7cf41705c08c060",
+   "en": "With power like yours,"
+  },
+  {
+   "id": 631,
+   "file_off": 2762472,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "95ffd14c877dbc61fde941014e08dacf41ee1798",
+   "en": "this war may end sooner,"
+  },
+  {
+   "id": 632,
+   "file_off": 2762500,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "14e225ad4287ebd76c343ce4daaf6bc86599f61c",
+   "en": "perhaps."
+  },
+  {
+   "id": 633,
+   "file_off": 2762532,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b31f61d142ea4d4461fa03bff7d0d16e70d2de0e",
+   "en": "Splendid results."
+  },
+  {
+   "id": 634,
+   "file_off": 2762552,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "2d175645f9e5c94a1273dabb99a5f1d979d80d02",
+   "en": "I'm amazed."
+  },
+  {
+   "id": 635,
+   "file_off": 2762584,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "0376e9fce52f4002b625e364063d510b8317fb7b",
+   "en": "Good work."
+  },
+  {
+   "id": 636,
+   "file_off": 2762600,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "b249655520fe08f1e09c741b3dada461a84f56d7",
+   "en": "Command speaks very"
+  },
+  {
+   "id": 637,
+   "file_off": 2762628,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "7d5b28c6e59d2bf4073eac18be16b47011a99acb",
+   "en": "highly of your efforts."
+  },
+  {
+   "id": 638,
+   "file_off": 2762676,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "7c467a181e59561999ab202d325bbc9c822636ae",
+   "en": "Superb."
+  },
+  {
+   "id": 639,
+   "file_off": 2762688,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "d3c014e05e6257def1091808915e0f253a4959f3",
+   "en": "Supporting someone like you"
+  },
+  {
+   "id": 640,
+   "file_off": 2762716,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f074f012fa1c3581063aa028d4b3ddcbda96bca6",
+   "en": "makes me proud."
+  },
+  {
+   "id": 641,
+   "file_off": 2762756,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b90028d9b254e692458d9b4b0c259c08c3fe9465",
+   "en": "Moves like those..."
+  },
+  {
+   "id": 642,
+   "file_off": 2762776,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "8aacc7125b37cf5fa705dff3f7a99aa4a2ccf653",
+   "en": "a Coordinator's..."
+  },
+  {
+   "id": 643,
+   "file_off": 2762800,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "e6cb8aa6b1730c0d4f5e511c0336c417577049d0",
+   "en": "No, it can't be..."
+  },
+  {
+   "id": 644,
+   "file_off": 2762840,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "0d1cc0a580832289577761977ac4bc27a2d95d9f",
+   "en": "That skill"
+  },
+  {
+   "id": 645,
+   "file_off": 2762852,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "c83fdd177754547a6dd50e041c6f5ec335918a9f",
+   "en": "It rivals even that of"
+  },
+  {
+   "id": 646,
+   "file_off": 2762880,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "19c1ce233856a6f213db7cb4f18511ca4733af23",
+   "en": "the Hawk of Endymion."
+  },
+  {
+   "id": 647,
+   "file_off": 2762928,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "3e21ccc5fe7f8374a71d53e2ac0b4da456ad046b",
+   "en": "We're pulling back!"
+  },
+  {
+   "id": 648,
+   "file_off": 2762972,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "40f44d5394fad6e9f902d0a9ddf37c1b71d578d7",
+   "en": "Enemies near! Incoming!"
+  },
+  {
+   "id": 649,
+   "file_off": 2763016,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "6820c0dc7b89388914d319fa5bf5f3e243faf68c",
+   "en": "Mission success."
+  },
+  {
+   "id": 650,
+   "file_off": 2763036,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d564f70c164292b3c7e7712c0983ed384ac605e5",
+   "en": "All units, return."
+  },
+  {
+   "id": 651,
+   "file_off": 2763080,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "0091a8fb12d19919c0533429189b09be7b433fde",
+   "en": "Mission over."
+  },
+  {
+   "id": 652,
+   "file_off": 2763096,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0584ef591e3ca8585daf4a1fcb36fcafc4b28320",
+   "en": "Please return!"
+  },
+  {
+   "id": 653,
+   "file_off": 2763136,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "afa876216aa8eb3e12b7086c6e5e38635b2a2212",
+   "en": "Hmm. Not bad, I guess."
+  },
+  {
+   "id": 654,
+   "file_off": 2763204,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d15ff2bc0a0c873a91f4006d83891903eef16061",
+   "en": "Huh, that's a surprise."
+  },
+  {
+   "id": 655,
+   "file_off": 2763248,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d0efd8031c2902513ca7c9c3a5dd3443cefe192c",
+   "en": "You're not half bad."
+  },
+  {
+   "id": 656,
+   "file_off": 2763292,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f5f26194b5c40ffe8a5774dcc438297073e1a217",
+   "en": "Looking good!"
+  },
+  {
+   "id": 657,
+   "file_off": 2763312,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "3177412db42785717872957368f7847c64f78cd9",
+   "en": "Keep it up, okay?"
+  },
+  {
+   "id": 658,
+   "file_off": 2763352,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "e2d385122b869426e969a27fd4cdb77d0d727f44",
+   "en": "You're working hard"
+  },
+  {
+   "id": 659,
+   "file_off": 2763372,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "7b289b9e2f2c40fe44015b00bb1e230d4aea8c7a",
+   "en": "I'd better try too."
+  },
+  {
+   "id": 660,
+   "file_off": 2763412,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "a69b0d13a6ccd02fabc24234a4a96c3461fe4e72",
+   "en": "I don't get"
+  },
+  {
+   "id": 661,
+   "file_off": 2763428,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f2f0398b25c085f6e7c46f96689bae50ca95321d",
+   "en": "the technical stuff,"
+  },
+  {
+   "id": 662,
+   "file_off": 2763452,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "7235d6d8719057b26f0557c5ea9263131437918c",
+   "en": "but you moved great!"
+  },
+  {
+   "id": 663,
+   "file_off": 2763496,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "07b35626ed4e31228e44e81af90c6bef3ec36009",
+   "en": "Nice work. But don't let"
+  },
+  {
+   "id": 664,
+   "file_off": 2763528,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a23b3271ac5229bd5566e955630cc42f0dcd3cd7",
+   "en": "it go to your head!"
+  },
+  {
+   "id": 665,
+   "file_off": 2763572,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "936fa7d0e5e3c52a7d1de09b51faf6c1fc12a5ec",
+   "en": "If you can do that,"
+  },
+  {
+   "id": 666,
+   "file_off": 2763592,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b1339ab710af4cd2d0608a7d61cc1c720fc50565",
+   "en": "that's impressive."
+  },
+  {
+   "id": 667,
+   "file_off": 2763632,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "e372d16ddbca60ea3d16def9518d1814046553ca",
+   "en": "I saw that earlier."
+  },
+  {
+   "id": 668,
+   "file_off": 2763652,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d937354d1f0603e42e1e3f069624ff90d3a1808",
+   "en": "Great moves!"
+  },
+  {
+   "id": 669,
+   "file_off": 2763692,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "77c230aee03e6cd83f8cf17272893cfc47bae2dd",
+   "en": "With you here, we're safe!"
+  },
+  {
+   "id": 670,
+   "file_off": 2763744,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "0801707b771885ac08e06fa7f6d4aaf114c826a3",
+   "en": "Impressive!"
+  },
+  {
+   "id": 671,
+   "file_off": 2763756,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "9e2e5e42e8347ad87a98e0f77ab27f4e5056c1b0",
+   "en": "Tolle should learn from you"
+  },
+  {
+   "id": 672,
+   "file_off": 2763804,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "aad1c86bac8f3ab78f58c51e1e186813c7830c9f",
+   "en": "But don't push yourself."
+  },
+  {
+   "id": 673,
+   "file_off": 2763852,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "8ece66d26a7a5d9490e6f2a9e8d1abfa13f52642",
+   "en": "I'm counting on you"
+  },
+  {
+   "id": 674,
+   "file_off": 2763872,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "7a44dd9780bedf8bc6fa4f7c0e505c46a79eb1dc",
+   "en": "Good luck!"
+  },
+  {
+   "id": 675,
+   "file_off": 2763908,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "848406c6d94d29db69b930fc4c0d2a7dc62494e2",
+   "en": "Withdrawing! Please respond!"
+  },
+  {
+   "id": 676,
+   "file_off": 2763940,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "5967ed689c66a20d3d0da8bf9658355396067b69",
+   "en": "Retreat!"
+  },
+  {
+   "id": 677,
+   "file_off": 2763972,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "3b1fbc0e048407469e679c2a0af2b5cfb9fdf98d",
+   "en": "New units sighted! Careful!"
+  },
+  {
+   "id": 678,
+   "file_off": 2764024,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "7d9806481f0dd04b427686432b9ddbb27318ab70",
+   "en": "Success. Please return."
+  },
+  {
+   "id": 679,
+   "file_off": 2764096,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "c61233e108c167cc76e8ba0f10334fed28904149",
+   "en": "Battle's over."
+  },
+  {
+   "id": 680,
+   "file_off": 2764132,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "7088cacc1c55e00fa4bd168bdac7ff7a1c961789",
+   "en": "Thank you. Well done."
+  },
+  {
+   "id": 681,
+   "file_off": 2764176,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "05ce03aadcae36101d0ddd0e6b9a58385276f37b",
+   "en": "I wish this would end soon."
+  },
+  {
+   "id": 682,
+   "file_off": 2764204,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "5e5f3ee10c6c05a7a9d1df1e85aa498959b88917",
+   "en": "Such conflict..."
+  },
+  {
+   "id": 683,
+   "file_off": 2764244,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "b94c52a00468e9e9b187edb1fd499f414863fd42",
+   "en": "What must we truly fight?"
+  },
+  {
+   "id": 684,
+   "file_off": 2764272,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "2c2b639642e06a04f72665b5830a43e36403d963",
+   "en": "War is so difficult."
+  },
+  {
+   "id": 685,
+   "file_off": 2764316,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "2c44eff84a6af2ef689ad9663ffbafa75292a559",
+   "en": "You're very strong."
+  },
+  {
+   "id": 686,
+   "file_off": 2764360,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e2b058fee7af0545f36a337a729a376bc303a872",
+   "en": "My, how skillful."
+  },
+  {
+   "id": 687,
+   "file_off": 2764404,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2c6c10dbcdcacab99f387833b65f34cf6039cc5f",
+   "en": "A fine result."
+  },
+  {
+   "id": 688,
+   "file_off": 2764424,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "f0cf7e7cfd9d66848947847cee4f9c1b44356ecc",
+   "en": "Until the next battle,"
+  },
+  {
+   "id": 689,
+   "file_off": 2764448,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "ce5e60d58f2aeba25694947cc3106b8601658ba7",
+   "en": "please rest well."
+  },
+  {
+   "id": 690,
+   "file_off": 2764496,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "b3a318327b0775e07a7fa7a699075e7f49083b4f",
+   "en": "Results matter, but please"
+  },
+  {
+   "id": 691,
+   "file_off": 2764524,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "f96b484ae515a65ef9c55a9ba6ff48bc1e4966df",
+   "en": "never forget those"
+  },
+  {
+   "id": 692,
+   "file_off": 2764552,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0f3853e5167c1c787f96f3f87d63d8beae122a32",
+   "en": "who are sacrificed."
+  },
+  {
+   "id": 693,
+   "file_off": 2764592,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "9b13dd9c30195571074f6045d8c1f53d07be21b4",
+   "en": "Wonderful!"
+  },
+  {
+   "id": 694,
+   "file_off": 2764608,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "2f9c7a54282cf7e0e8ffcee9f1738640b74d0424",
+   "en": "Please do your best again!"
+  },
+  {
+   "id": 695,
+   "file_off": 2764656,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "ccba01243d1f51b0d6cb059b49f4f729d5f33aa7",
+   "en": "Your efforts"
+  },
+  {
+   "id": 696,
+   "file_off": 2764672,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "8f0067e5e3b6efc19b8f6181ab60d7a3fdeb9764",
+   "en": "bring all of us"
+  },
+  {
+   "id": 697,
+   "file_off": 2764696,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "5b56e23e769e50a13b772f1690d66a4b7ae362d9",
+   "en": "great joy."
+  },
+  {
+   "id": 698,
+   "file_off": 2764744,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "62555d31454e9140751ce65dad81222ec5187f31",
+   "en": "With your power, please"
+  },
+  {
+   "id": 699,
+   "file_off": 2764772,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "49121c352d6cd5f697c283dfcde8f344f04366dc",
+   "en": "end this conflict quickly."
+  },
+  {
+   "id": 700,
+   "file_off": 2764824,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a355479ae7d05c83217708216d6a830b47bbf3ef",
+   "en": "Wonderful work."
+  },
+  {
+   "id": 701,
+   "file_off": 2764848,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "172c8cb6e920b3167d5031bc1d752d724a1db1df",
+   "en": "But please don't"
+  },
+  {
+   "id": 702,
+   "file_off": 2764876,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "41ae22a56c4f69124652bce30e0a3dd6df47fe95",
+   "en": "overdo it."
+  },
+  {
+   "id": 703,
+   "file_off": 2764908,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "af8218144f5c56e5689c0a0b69dba21aa1ea9d66",
+   "en": "Please come back to us."
+  },
+  {
+   "id": 704,
+   "file_off": 2764932,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "4aefb962442c4f2c3d6c17f5c1123661351a3203",
+   "en": "Next time"
+  },
+  {
+   "id": 705,
+   "file_off": 2764964,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "3a390681b2b4457d3513c1288bbe0cd90db5a313",
+   "en": "Will you keep clearing"
+  },
+  {
+   "id": 706,
+   "file_off": 2764996,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "9b1df382b72e738252f5d17ac5a577b8563091d9",
+   "en": "the path we walk ahead?"
+  },
+  {
+   "id": 707,
+   "file_off": 2765044,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "716e9e893a61fd9cf4efc7d271d2b264c87e00b9",
+   "en": "Please withdraw!"
+  },
+  {
+   "id": 708,
+   "file_off": 2765084,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "7eb1008121def5eeaf892872b312722e77ddbde3",
+   "en": "A new MS squad is closing"
+  },
+  {
+   "id": 709,
+   "file_off": 2765116,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "1b2e2f3fddd77544fdcfb0442fe575ee6a06c282",
+   "en": "in! Stay alert!"
+  },
+  {
+   "id": 710,
+   "file_off": 2765160,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "db055edf85cf57e055e09f541b0f71eba275385a",
+   "en": "Well, I'd say job done."
+  },
+  {
+   "id": 711,
+   "file_off": 2765212,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "4095b273bc076e6378383916d1d5a8c039ef29fa",
+   "en": "Mission over. Come on back."
+  },
+  {
+   "id": 712,
+   "file_off": 2765284,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b8fd7c1d06ff2ed02287e7b4f9a862b7a137f687",
+   "en": "I bet you could aim"
+  },
+  {
+   "id": 713,
+   "file_off": 2765304,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "b89d43abd1a8a00984a749f9e2fe38ec7f60c2ea",
+   "en": "even higher than that."
+  },
+  {
+   "id": 714,
+   "file_off": 2765352,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "0524934c289c1b47435886d15247c98c32be1db6",
+   "en": "Oh, not bad."
+  },
+  {
+   "id": 715,
+   "file_off": 2765388,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "22e9f62669b3041064c90f3488a92f29502a0a70",
+   "en": "What a surprise."
+  },
+  {
+   "id": 716,
+   "file_off": 2765408,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "652af78bd86da1363544603236b0d052b50cb191",
+   "en": "No, really, that's praise."
+  },
+  {
+   "id": 717,
+   "file_off": 2765456,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "eeca42f28bf3751b9fa5b5d8333b18b1fe981abe",
+   "en": "Mm, you moved well there."
+  },
+  {
+   "id": 718,
+   "file_off": 2765508,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f948518030199d4c91e2f20324b6b6e4d62dcc1e",
+   "en": "Hey, good work."
+  },
+  {
+   "id": 719,
+   "file_off": 2765528,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e10f556a8361f0fc7632f3bdadc87959ccba4ee5",
+   "en": "Keep it up next time."
+  },
+  {
+   "id": 720,
+   "file_off": 2765572,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "d3403f3b59fb0878275ce866acbb7a88bf9b5759",
+   "en": "Nice. Really nice."
+  },
+  {
+   "id": 721,
+   "file_off": 2765632,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "ec2eb4c425edd7e2b5efc9c162c4792cc5dc3f7e",
+   "en": "Glad you're not my enemy."
+  },
+  {
+   "id": 722,
+   "file_off": 2765680,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "21a8e273135b305ace30e00990cf1e2bef01e97c",
+   "en": "Good work."
+  },
+  {
+   "id": 723,
+   "file_off": 2765696,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b182691b7ec89e291cfeb7a6d4d0c03f530cab2",
+   "en": "Go and get some rest."
+  },
+  {
+   "id": 724,
+   "file_off": 2765744,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "6eca038122c69fe6bbaa06070814c1cc8db7a35e",
+   "en": "I'm shocked."
+  },
+  {
+   "id": 725,
+   "file_off": 2765760,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "3548b98c52a408d0416c74b71cef0cff7683c33e",
+   "en": "Are you what"
+  },
+  {
+   "id": 726,
+   "file_off": 2765776,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "5f2b6d9212269877edd2d995813222be1e96e51b",
+   "en": "they call an ace?"
+  },
+  {
+   "id": 727,
+   "file_off": 2765820,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "4a0dcca20f4b5f43721332f5222eb9f8b2c6bcb5",
+   "en": "Skilled men are a boon."
+  },
+  {
+   "id": 728,
+   "file_off": 2765864,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "1d15648dc047bee562a54480a203c11af8ddae8f",
+   "en": "You need a nickname"
+  },
+  {
+   "id": 729,
+   "file_off": 2765884,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "99c19b8ac1cdc15a13fbf44120b3c8dd8d9b7c4b",
+   "en": "of your own."
+  },
+  {
+   "id": 730,
+   "file_off": 2765904,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "e21c7c646958f4be9680e42ef547762b0fe8e7aa",
+   "en": "What would you like?"
+  },
+  {
+   "id": 731,
+   "file_off": 2765948,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "360c217769cd5aa5959d95f062c2e57ef9b3f064",
+   "en": "Hmm... With that,"
+  },
+  {
+   "id": 732,
+   "file_off": 2765968,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "50c7f9f0f8f0720e8d50404542593137ce4008cc",
+   "en": "you're a real berserker."
+  },
+  {
+   "id": 733,
+   "file_off": 2766016,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d014339b4e15a6aa16b394e98ad96b6a496124b",
+   "en": "Recall all mobile suits!"
+  },
+  {
+   "id": 734,
+   "file_off": 2766048,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "a6b3a9fe8b55d9677ece654ccc65e0d6d0985ffc",
+   "en": "Fall back!"
+  },
+  {
+   "id": 735,
+   "file_off": 2766084,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "cd793fbd319a118b005090805845fe59a2392534",
+   "en": "New enemy squad incoming!"
+  },
+  {
+   "id": 736,
+   "file_off": 2766112,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "268c4118e49efc4cca54829e835447e1d2468ad3",
+   "en": "Watch out!"
+  },
+  {
+   "id": 737,
+   "file_off": 2766184,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "18329a1b30ae2d069724f7b30fccaa737ae2048e",
+   "en": "Hone your skills more,"
+  },
+  {
+   "id": 738,
+   "file_off": 2766208,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "5f3a7c6b6b715936e0a41a8324a57f98eb184631",
+   "en": "or you may not survive."
+  },
+  {
+   "id": 739,
+   "file_off": 2766260,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "1fd7c1300d34b665062f223ec18f5c3bdb8d7f25",
+   "en": "Good work."
+  },
+  {
+   "id": 740,
+   "file_off": 2766276,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "1759358f9cc9f411c2355f82977a9a8e59fd9fa4",
+   "en": "But that record won't do."
+  },
+  {
+   "id": 741,
+   "file_off": 2766328,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "0dac741029eb06862c6f44dd72c68a86a792ed56",
+   "en": "You're not bad at all."
+  },
+  {
+   "id": 742,
+   "file_off": 2766376,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "458c605c921bb5825d3a636af12c4c931fd414fb",
+   "en": "Oh... You're quite skilled."
+  },
+  {
+   "id": 743,
+   "file_off": 2766428,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a9bedba3e1fad0fc96a6d9c7bff69181e6a1e314",
+   "en": "Good. Well done."
+  },
+  {
+   "id": 744,
+   "file_off": 2766468,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "4cdf717e0bd57ed9a3dfaaa4c41522f2b595bbd8",
+   "en": "Hmm... Not bad."
+  },
+  {
+   "id": 745,
+   "file_off": 2766484,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "9190602ce9e0d45013a74ca08c73bfef22c2b5ee",
+   "en": "I expect more next."
+  },
+  {
+   "id": 746,
+   "file_off": 2766524,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "9159918a3360b2b0b3031332dfff8fe86e47fe48",
+   "en": "Good moves!"
+  },
+  {
+   "id": 747,
+   "file_off": 2766540,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "9890ffdef1be93d5339727b6df179e0bb65228ad",
+   "en": "I'd like the M1 squad"
+  },
+  {
+   "id": 748,
+   "file_off": 2766564,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d66c610f9f37e3d483fcb739e8aaf054e03b1783",
+   "en": "to learn from you."
+  },
+  {
+   "id": 749,
+   "file_off": 2766608,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "5124143985a50b39bdedba2038d31190645ed65d",
+   "en": "Fine results."
+  },
+  {
+   "id": 750,
+   "file_off": 2766628,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "1c421b42cd224943819bfa451d28d3bc3ab86bfa",
+   "en": "I'll report to Lord Uzumi."
+  },
+  {
+   "id": 751,
+   "file_off": 2766676,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "7de383eda7681311aaa392bdccc92b59bc9c50f1",
+   "en": "Thanks. Well done."
+  },
+  {
+   "id": 752,
+   "file_off": 2766696,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "9a7ca5d833479530e58f6b146f1b658f6fdf33fc",
+   "en": "Before next battle,"
+  },
+  {
+   "id": 753,
+   "file_off": 2766716,
+   "budget": 20,
+   "region": "battle_dialogue",
+   "orig_sha1": "0edd003b72bc0cf23fbe69121da24502debd1caa",
+   "en": "get some good rest."
+  },
+  {
+   "id": 754,
+   "file_off": 2766756,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "1119b31b7b1fe5d0e79692fcbe2bc7451067a8fc",
+   "en": "Excellent results."
+  },
+  {
+   "id": 755,
+   "file_off": 2766776,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "b794ba0a60a157fa256d00ecde4a275d308e2498",
+   "en": "But don't get careless."
+  },
+  {
+   "id": 756,
+   "file_off": 2766820,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "de7c16fedc04167b2b30d9e45db6d0d78a2bc315",
+   "en": "Amazing..."
+  },
+  {
+   "id": 757,
+   "file_off": 2766832,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "d1e99198425d9eb245e972965ac1b7c44bf0b1ec",
+   "en": "We'd love to have you!"
+  },
+  {
+   "id": 758,
+   "file_off": 2766880,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "ef705e6813c7d1ad2c2a14fea534cc08fad5b16f",
+   "en": "Fine skills!"
+  },
+  {
+   "id": 759,
+   "file_off": 2766900,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "d1dedd38f42a9e3ca7b9c95c5ccbe8d8c468e89f",
+   "en": "Moves like that"
+  },
+  {
+   "id": 760,
+   "file_off": 2766920,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "83fcf5b036ded0158cb14ec71c21403d05dd2e3e",
+   "en": "are rarely seen."
+  },
+  {
+   "id": 761,
+   "file_off": 2766960,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "15bf7d3922ca2033c902428eac9589560fcdbb7f",
+   "en": "A seasoned veteran must"
+  },
+  {
+   "id": 762,
+   "file_off": 2766988,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "ae83954ca6ef121b77f97a04247aa17ce8f01014",
+   "en": "mean a pilot like you."
+  },
+  {
+   "id": 763,
+   "file_off": 2767036,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "38ffb9c6a655522633bbd4861ec22010f939b07d",
+   "en": "I never expected..."
+  },
+  {
+   "id": 764,
+   "file_off": 2767056,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "1c5440b8243c319e6ea726c65d9d871ad73d8316",
+   "en": "I'm truly amazed."
+  },
+  {
+   "id": 765,
+   "file_off": 2767096,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "7298f3644cfc1d4e20dfbc31bb41e0389d8ef8b2",
+   "en": "Regroup! We're withdrawing!"
+  },
+  {
+   "id": 766,
+   "file_off": 2767164,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "cab54f398520fbdc0e4e5afdfed550b985ae8052",
+   "en": "Well done. Return."
+  },
+  {
+   "id": 767,
+   "file_off": 2767228,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "de1e8b183d21865fa607ad8db16af77f765ba176",
+   "en": "I'd like to see much"
+  },
+  {
+   "id": 768,
+   "file_off": 2767260,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "22a7631a0921a19d72d0911e1204cce819afcbec",
+   "en": "more of you"
+  },
+  {
+   "id": 769,
+   "file_off": 2767292,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "b8f504715c96b12218a4997136a061407cf3558b",
+   "en": "Hmph... Good enough, then."
+  },
+  {
+   "id": 770,
+   "file_off": 2767340,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "14913d2608d81074b106b04586913113a7fce301",
+   "en": "Oh my, well well."
+  },
+  {
+   "id": 771,
+   "file_off": 2767380,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "dc76f32cc4a85bf2b15e62ff4485f07f46e8420a",
+   "en": "Hmm... A happy miscalc."
+  },
+  {
+   "id": 772,
+   "file_off": 2767432,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "118c9a78d8f4fd2358b14a72c718a3cbd2c505e2",
+   "en": "Quite a performance."
+  },
+  {
+   "id": 773,
+   "file_off": 2767476,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "b27abc71c3f590cd3c17efb32b6805853ee1cf32",
+   "en": "Not bad. I'm impressed."
+  },
+  {
+   "id": 774,
+   "file_off": 2767524,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "85398b937f409d86d815eeeb3be2b015114c4f36",
+   "en": "I've seen your skill."
+  },
+  {
+   "id": 775,
+   "file_off": 2767572,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2d27998caf3f075f29e0fa699869a5237645efac",
+   "en": "I can watch you"
+  },
+  {
+   "id": 776,
+   "file_off": 2767592,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "edeac68c1c448a3b9bb3011d5c6cf1621b62d575",
+   "en": "fight at ease."
+  },
+  {
+   "id": 777,
+   "file_off": 2767628,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "7e3a6a194f0bf6d4ffa80f035c8ed507d556fd31",
+   "en": "I never imagined such"
+  },
+  {
+   "id": 778,
+   "file_off": 2767652,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "43f61a779f33ad5f1deca705f53cbd26e79aed54",
+   "en": "power. I'm surprised."
+  },
+  {
+   "id": 779,
+   "file_off": 2767696,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a16fa32303a2ff5b52bf407c62f415cf3b08a49c",
+   "en": "I hope you'll keep"
+  },
+  {
+   "id": 780,
+   "file_off": 2767716,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "9dbfe9302b910c613e654f1551c8a26b2e16e89a",
+   "en": "lending me your strength."
+  },
+  {
+   "id": 781,
+   "file_off": 2767768,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "a510cac365084b7f642029fea1e6f890f4bdf62f",
+   "en": "Do so well, and my standing"
+  },
+  {
+   "id": 782,
+   "file_off": 2767800,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a99653679cf0b725a234e98c4c28dfb0e39bedee",
+   "en": "will vanish."
+  },
+  {
+   "id": 783,
+   "file_off": 2767840,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "aee723b271af61d41684eda381484bced817ee74",
+   "en": "Splendid."
+  },
+  {
+   "id": 784,
+   "file_off": 2767852,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e1ad62ea40a76342e976c723f05b636834ee3e69",
+   "en": "I look forward to more."
+  },
+  {
+   "id": 785,
+   "file_off": 2767900,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b891f29295789c69f033e68bb6da17d8a531328",
+   "en": "Now this is a bind."
+  },
+  {
+   "id": 786,
+   "file_off": 2767920,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "90b8e8dd41a0146a45d445418249489920074d24",
+   "en": "I've no complaints."
+  },
+  {
+   "id": 787,
+   "file_off": 2767964,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f6193f227db6e1ed63bbb0472410ecdf1101a8fa",
+   "en": "Perhaps you could"
+  },
+  {
+   "id": 788,
+   "file_off": 2767984,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "5763b5b620b45adba9ed5d1d5ef53ce8cebe4110",
+   "en": "this wish of mine."
+  },
+  {
+   "id": 789,
+   "file_off": 2768032,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "9393c70b8610ffea206f6c5ffe0e92da502bab0c",
+   "en": "Withdraw. All remaining"
+  },
+  {
+   "id": 790,
+   "file_off": 2768056,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "c5427bc2858e687cbd0a1be9b054a80ec06a268d",
+   "en": "units, regroup at Delta 0."
+  },
+  {
+   "id": 791,
+   "file_off": 2768104,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "2c20c59f7dbea51ba15c9112f25ee2c10319b0bd",
+   "en": "Pursuers!"
+  },
+  {
+   "id": 792,
+   "file_off": 2768120,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "72578aa1da2e6f13e8276de1c5bae1a826d1442d",
+   "en": "Make them regret it!"
+  },
+  {
+   "id": 793,
+   "file_off": 2768164,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e903fdba5875ccf86a36a2945d305662dcfb2c92",
+   "en": "Mission success"
+  },
+  {
+   "id": 794,
+   "file_off": 2768180,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "4b7d8079714930814e6c692acb112b24b4500f2a",
+   "en": "All units, return!"
+  },
+  {
+   "id": 795,
+   "file_off": 2768220,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a78160aa888e299ac62cd6781fb331872d21abf4",
+   "en": "Mission over. Return!"
+  },
+  {
+   "id": 796,
+   "file_off": 2768264,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "6b56f2f52b3d2a79ff9a0becfd289396ae3e3854",
+   "en": "Not yet enough."
+  },
+  {
+   "id": 797,
+   "file_off": 2768300,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "378183823648a6fe565029251b1201f59158c330",
+   "en": "Do better next."
+  },
+  {
+   "id": 798,
+   "file_off": 2768340,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "38180e206c88027484f46a6f906c7a8c6e8bdac7",
+   "en": "Unexpected. In a good way."
+  },
+  {
+   "id": 799,
+   "file_off": 2768392,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "8dc2069f5f6f0fb35ebdfa30f1b1891f05e313ce",
+   "en": "Oh... Better than I thought"
+  },
+  {
+   "id": 800,
+   "file_off": 2768440,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "d921f90027aceaf6f54c2b4483819a7fbcbaa935",
+   "en": "Fine results."
+  },
+  {
+   "id": 801,
+   "file_off": 2768460,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "53d0335f27b2308e4f9ba523eee8949958b6c57f",
+   "en": "I expect more next!"
+  },
+  {
+   "id": 802,
+   "file_off": 2768500,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "070b1b4a54236ba6805727423de0675f206e5dd3",
+   "en": "Good work. Keep it up."
+  },
+  {
+   "id": 803,
+   "file_off": 2768548,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "74ae0303fe21fa6e0bb5f10e870508e746e78ea3",
+   "en": "Keep serving the military."
+  },
+  {
+   "id": 804,
+   "file_off": 2768600,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "4aeab0c80e82c27532d12f8fa4eacd5bd0a85aeb",
+   "en": "Well done."
+  },
+  {
+   "id": 805,
+   "file_off": 2768612,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "bcf8ef067de8c3d89c1827cfdaf351732333c38d",
+   "en": "Ready for the next op."
+  },
+  {
+   "id": 806,
+   "file_off": 2768656,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a66b738dacede61faa731b906115f4a2060e9340",
+   "en": "You're doing fine work!"
+  },
+  {
+   "id": 807,
+   "file_off": 2768680,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "4ea355ad7ff41a340f3e35e74aa5d529d366e909",
+   "en": "I'll report this home!"
+  },
+  {
+   "id": 808,
+   "file_off": 2768728,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "8812f7800e62174431b0c663368c41d522318692",
+   "en": "Good work! As I expected!"
+  },
+  {
+   "id": 809,
+   "file_off": 2768776,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "c7dd65946f20b0314d12630cf505502dfd5529e9",
+   "en": "Hmm, you could serve as"
+  },
+  {
+   "id": 810,
+   "file_off": 2768800,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "698ff4bea8ac710a206c8198a831303e895dfd1b",
+   "en": "the commander's right hand."
+  },
+  {
+   "id": 811,
+   "file_off": 2768848,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "1e542f4d1e7a8bff4ad9c48943891787bd212a4a",
+   "en": "Good!"
+  },
+  {
+   "id": 812,
+   "file_off": 2768860,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e892e723ce7318904fac90dffa5765c23a63c1c1",
+   "en": "Truly ace-level skill!"
+  },
+  {
+   "id": 813,
+   "file_off": 2768908,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "16008c34aab6355694757b5e29a58b8cfea0bb07",
+   "en": "This is...!"
+  },
+  {
+   "id": 814,
+   "file_off": 2768920,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "828a6fcd8be508fb70a8334b34eec191464f808e",
+   "en": "You may rival the commander!"
+  },
+  {
+   "id": 815,
+   "file_off": 2768972,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "ccb11737d1c941de0eba5815ced8395eb05b8eed",
+   "en": "Splendid!"
+  },
+  {
+   "id": 816,
+   "file_off": 2768988,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "8d191051ee16b5411e8a9a26638b34fada9b76d0",
+   "en": "Le Creuset Team needs you!"
+  },
+  {
+   "id": 817,
+   "file_off": 2769040,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "3caf861ff2e45bdf8158832cf3825eea209b6511",
+   "en": "Damn...! Falling back!"
+  },
+  {
+   "id": 818,
+   "file_off": 2769088,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "279d39fce37a6f97ceac90917507d0bb7bef9a64",
+   "en": "New enemies!? Watch out!"
+  },
+  {
+   "id": 819,
+   "file_off": 2769136,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "89fc35ff99cfed9cce9a7ba8321f345cf94d9397",
+   "en": "Success."
+  },
+  {
+   "id": 820,
+   "file_off": 2769152,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "c2084ceda37a791026aa2ddeca8137cb98fe86c8",
+   "en": "All units, return."
+  },
+  {
+   "id": 821,
+   "file_off": 2769196,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "efcca2e52bd7f818cd711a058b802fc87151bd89",
+   "en": "Mission over. Please return."
+  },
+  {
+   "id": 822,
+   "file_off": 2769248,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "156e88bfe72b057d90db9806942875ed2c75debd",
+   "en": "I expect more results."
+  },
+  {
+   "id": 823,
+   "file_off": 2769292,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "cfb3a4fe31e1589eeec266383c8e6dd99a6c32f6",
+   "en": "I expect more next."
+  },
+  {
+   "id": 824,
+   "file_off": 2769336,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "971d9a7d3bc4b82e552641c67df63b6627aa652a",
+   "en": "You're pretty good!"
+  },
+  {
+   "id": 825,
+   "file_off": 2769376,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "79eff5744fa519beb1b38315f95ae01d134d1988",
+   "en": "Surprising! Oh, sorry..."
+  },
+  {
+   "id": 826,
+   "file_off": 2769424,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "3efca9b0703b95e82523f67a45f84e1dd3335ee2",
+   "en": "You're moving really well!"
+  },
+  {
+   "id": 827,
+   "file_off": 2769476,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b308708a7b4f536c89b654f1ab6ed8865728c56c",
+   "en": "Wow, that's quite"
+  },
+  {
+   "id": 828,
+   "file_off": 2769496,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d344f1c76707c64e56e33aaa006c93fd3fdabd04",
+   "en": "a record!"
+  },
+  {
+   "id": 829,
+   "file_off": 2769540,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "254ba97bb0a5d2306bba0eee4cd380d5989a5809",
+   "en": "Good results. Keep it up!"
+  },
+  {
+   "id": 830,
+   "file_off": 2769592,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "e826c5d13ee594d3d3728e09b7eb528d10d4d019",
+   "en": "Keep up the good work!"
+  },
+  {
+   "id": 831,
+   "file_off": 2769640,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "9963398ebd9fc64b85d05e9b52e19260f02fbd61",
+   "en": "Good work."
+  },
+  {
+   "id": 832,
+   "file_off": 2769656,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "0b6de03f44ff91369fb7b6e5c62f19f54b67e696",
+   "en": "Get some good rest!"
+  },
+  {
+   "id": 833,
+   "file_off": 2769704,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "6cae8686337143c8572f70162c79c71c195bd8bf",
+   "en": "Looking forward to more"
+  },
+  {
+   "id": 834,
+   "file_off": 2769748,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "cfbad93b6375f0db0e00d46f044f553be27824f4",
+   "en": "More kills again!?"
+  },
+  {
+   "id": 835,
+   "file_off": 2769776,
+   "budget": 16,
+   "region": "battle_dialogue",
+   "orig_sha1": "4c1b7a81f8d052232784d20df49ddd1bc3cd6fa6",
+   "en": "Impressive!"
+  },
+  {
+   "id": 836,
+   "file_off": 2769812,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2e1dc5208d4b91824f726f5d27ae8fcf4ccee03c",
+   "en": "To do this much..."
+  },
+  {
+   "id": 837,
+   "file_off": 2769832,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f24d612ba4bfaa54d944828c9ee64cb955a958a4",
+   "en": "That's something."
+  },
+  {
+   "id": 838,
+   "file_off": 2769872,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "4370edeaa5298147f679e3afbf740fd7c74f5617",
+   "en": "Wow...! A true ace...!"
+  },
+  {
+   "id": 839,
+   "file_off": 2769920,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "9536f319b8f6be52828c180f2372bb4c8a99ac2f",
+   "en": "Better than our commander!"
+  },
+  {
+   "id": 840,
+   "file_off": 2769948,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e57a964c1e64399826d3795a930fafd8728de504",
+   "en": "Oops!"
+  },
+  {
+   "id": 841,
+   "file_off": 2770004,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "d25ed4d37dde034a6f1bcd6f02949bb17d15c864",
+   "en": "Units on radar!"
+  },
+  {
+   "id": 842,
+   "file_off": 2770024,
+   "budget": 20,
+   "region": "battle_dialogue",
+   "orig_sha1": "3e4fa0151f8b44203f428bb85a37501376e68a36",
+   "en": "Mobile suits!"
+  },
+  {
+   "id": 843,
+   "file_off": 2770064,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "d71b124599e1958764b97dfe15fcb631c6f29171",
+   "en": "Mission over!"
+  },
+  {
+   "id": 844,
+   "file_off": 2770080,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "4f8168e8694aeebd071a5c010c41ffeda3e716ae",
+   "en": "Let's wrap it up quick."
+  },
+  {
+   "id": 845,
+   "file_off": 2770132,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e137105758b3938fff3a0e820282f55b68329101",
+   "en": "Success!"
+  },
+  {
+   "id": 846,
+   "file_off": 2770148,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "d6d7f3a5af78c384ca1eb6cd3cd98eb6391ceb43",
+   "en": "Good work, everyone."
+  },
+  {
+   "id": 847,
+   "file_off": 2770192,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "a934da189f4b239bf7cdd0e4a53f771db2d5296c",
+   "en": "Well, that's about it."
+  },
+  {
+   "id": 848,
+   "file_off": 2770236,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "41bfa18703633912b82d532bd5896c9b18855417",
+   "en": "Hmm, passable, I suppose."
+  },
+  {
+   "id": 849,
+   "file_off": 2770284,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "77b179fbdb2f6489747fe0d9ac658d1ccb686ef8",
+   "en": "Oh? Well, well."
+  },
+  {
+   "id": 850,
+   "file_off": 2770324,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "0ed70f8fbb882d1563058596b082a27a13fce52b",
+   "en": "My, how unexpected."
+  },
+  {
+   "id": 851,
+   "file_off": 2770364,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "27cb42f02ee47e0637eebfbc0306c3dad2843592",
+   "en": "Oh, not bad at all."
+  },
+  {
+   "id": 852,
+   "file_off": 2770412,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "9991d91445dc29e60cbeafe95e06052817cc7d12",
+   "en": "You're pretty good."
+  },
+  {
+   "id": 853,
+   "file_off": 2770456,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "a3ccca995194718ed6a08b1cf9786c1f98093fce",
+   "en": "Mm. Very nice results."
+  },
+  {
+   "id": 854,
+   "file_off": 2770508,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "8d7a10a1849316909865e9421cbac3bbd567354c",
+   "en": "Good work."
+  },
+  {
+   "id": 855,
+   "file_off": 2770524,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "38a31830614ebe7b563923629ab720c278eb71d7",
+   "en": "Get some good rest."
+  },
+  {
+   "id": 856,
+   "file_off": 2770568,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "27b2313fa08d4797dfe5293c83ce8af6bc845b63",
+   "en": "Looking good."
+  },
+  {
+   "id": 857,
+   "file_off": 2770584,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "49f74f0272a6d53791af896b9eedd120e28d94f0",
+   "en": "I can watch with ease."
+  },
+  {
+   "id": 858,
+   "file_off": 2770628,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "c4d9e0eb6286b87990c4a0942ed289ecac5a2fe1",
+   "en": "Superb results."
+  },
+  {
+   "id": 859,
+   "file_off": 2770648,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "4114d7216492bee804e818e9961a90d3f113f2a4",
+   "en": "I'm touched."
+  },
+  {
+   "id": 860,
+   "file_off": 2770684,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "ddfa5b537eb516e84c80d39ed586566e39b634aa",
+   "en": "Impressive."
+  },
+  {
+   "id": 861,
+   "file_off": 2770696,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "8114b85d0665d46b12c904056c5f4ec8782331fb",
+   "en": "The bigwigs rate you highly."
+  },
+  {
+   "id": 862,
+   "file_off": 2770748,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "dddd2920366e92450b2b7e2c4379083c2a83b988",
+   "en": "Admirable."
+  },
+  {
+   "id": 863,
+   "file_off": 2770760,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "85b04e64ab4daa00611671155e2291c3ce698a08",
+   "en": "Keep it up next time."
+  },
+  {
+   "id": 864,
+   "file_off": 2770808,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "0b6cdf1484ca076e38b23df17dfa2257bb0ea8a9",
+   "en": "Our ideals... you could"
+  },
+  {
+   "id": 865,
+   "file_off": 2770832,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "c810092ed39c9bdc75911fa5a5c80731a0ac4c3e",
+   "en": "carry them for us."
+  },
+  {
+   "id": 866,
+   "file_off": 2770872,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "825c04cb483ab5f3578c09683bb16b956c7f1938",
+   "en": "I'd love for you to use"
+  },
+  {
+   "id": 867,
+   "file_off": 2770896,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "99a6d197e95fa5940d02b956bb96846d6aca59b9",
+   "en": "your power for me."
+  },
+  {
+   "id": 868,
+   "file_off": 2770940,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "8fbeaadc90fc25daee674fee9381bb468ca8a618",
+   "en": "Enough."
+  },
+  {
+   "id": 869,
+   "file_off": 2770952,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "bbc14c2186516b6a4714c1d7b565a8efd9077f58",
+   "en": "Let's take a little break."
+  },
+  {
+   "id": 870,
+   "file_off": 2771000,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "4364b8fa1a85ee6a3ad153d10410e20026fac887",
+   "en": "Oh? New units?"
+  },
+  {
+   "id": 871,
+   "file_off": 2771028,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "ee24415e37766e7abace768d43b2957ed8a99b2c",
+   "en": "Interesting...!"
+  },
+  {
+   "id": 872,
+   "file_off": 2771064,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "efc8d598cd807438eb4b9f957ea5606e605fa21f",
+   "en": "Success. Well done!"
+  },
+  {
+   "id": 873,
+   "file_off": 2771116,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "bc9dd31cc130b2cf66a15a77f4b0fa15c2365697",
+   "en": "Mission success. Return!"
+  },
+  {
+   "id": 874,
+   "file_off": 2771164,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "4347b45099957570fbaecc619f24b3215b6ed9ff",
+   "en": "Hmm... I expect more next."
+  },
+  {
+   "id": 875,
+   "file_off": 2771216,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "25a0c2c6048bff12752498b8cc0736f93273836c",
+   "en": "Surely this is not"
+  },
+  {
+   "id": 876,
+   "file_off": 2771244,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "66258356417917d5af7be586e4758f7e2f8ab464",
+   "en": "your limit."
+  },
+  {
+   "id": 877,
+   "file_off": 2771280,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "00182d99b33d8f62cfda99272c335d2413c56959",
+   "en": "May I rely upon"
+  },
+  {
+   "id": 878,
+   "file_off": 2771312,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "c272609b7b3ad678e83251b2cfeae941f3e6bde1",
+   "en": "your power?"
+  },
+  {
+   "id": 879,
+   "file_off": 2771348,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "10d0c9d29f5c4cf16ce1e5e01c36f9ebacb17e97",
+   "en": "Oh, you are quite capable."
+  },
+  {
+   "id": 880,
+   "file_off": 2771400,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "7897af52a64bf225c4b1d7c8ac59e7bf90eafb39",
+   "en": "With that skill"
+  },
+  {
+   "id": 881,
+   "file_off": 2771420,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "3724b1a348042dfc44fcefcfb1b1a4aa72ecc713",
+   "en": "you can aim higher."
+  },
+  {
+   "id": 882,
+   "file_off": 2771440,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "f5144ad04f3a8d600334ba208eead29c1839eaee",
+   "en": "I expect much."
+  },
+  {
+   "id": 883,
+   "file_off": 2771480,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "2870ffd340c19d333b3f56ee0b48498b9ed9ff4f",
+   "en": "Mm... Fine skill."
+  },
+  {
+   "id": 884,
+   "file_off": 2771520,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "668ef2c2fdaeb3e875b7f2eab63911aab963ef67",
+   "en": "Good moves. As expected."
+  },
+  {
+   "id": 885,
+   "file_off": 2771572,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "60f43a019e047f730fede3075b8f75d51f52b600",
+   "en": "Fine record. Well done."
+  },
+  {
+   "id": 886,
+   "file_off": 2771624,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "cef520d7a5a9eeee463d4a2886778e47ae20073c",
+   "en": "Kisaka has told me"
+  },
+  {
+   "id": 887,
+   "file_off": 2771652,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "61c1dae021e20fa23bc8a4cccebae53f6613bf32",
+   "en": "much of your deeds."
+  },
+  {
+   "id": 888,
+   "file_off": 2771672,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "7415638dd2b619c0e650d5dd6349e7d2e12c08a1",
+   "en": "I'll count on you."
+  },
+  {
+   "id": 889,
+   "file_off": 2771716,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "93eb7d88bd7da5244e5a092d885fe70af27a9df7",
+   "en": "Oh... Never have I seen"
+  },
+  {
+   "id": 890,
+   "file_off": 2771740,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "3d56c92edb8efa68dde557ceb707ae412b406424",
+   "en": "one such as you..."
+  },
+  {
+   "id": 891,
+   "file_off": 2771780,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "c6093ff2bad66129836474bac6f74563d14599d4",
+   "en": "Splendid work."
+  },
+  {
+   "id": 892,
+   "file_off": 2771800,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "b6847a2312560e5121208371c3dade5ef63c1000",
+   "en": "I count on you!"
+  },
+  {
+   "id": 893,
+   "file_off": 2771844,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "a963106302005b6d39d6dfddf1feba018d1b98f0",
+   "en": "Use that power for peace."
+  },
+  {
+   "id": 894,
+   "file_off": 2771896,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "89e78b2af8b28acb302bbd823dc565b1bc858471",
+   "en": "To impress me so..."
+  },
+  {
+   "id": 895,
+   "file_off": 2771928,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "dd93fdc3136ce260102cb8844893a8ca487ad058",
+   "en": "I'm in awe."
+  },
+  {
+   "id": 896,
+   "file_off": 2771960,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "06a10e90ece91c572cce5232b27bae2348a41ea6",
+   "en": "To you, I may entrust"
+  },
+  {
+   "id": 897,
+   "file_off": 2771988,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "c14bf16c649dc0cbf96fb2b058a3f986581e39e4",
+   "en": "the next generation"
+  },
+  {
+   "id": 898,
+   "file_off": 2772028,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "ba12f727c4d25fdfe98c5f23024e5e95c3516c05",
+   "en": "Retreat! We'll regroup!"
+  },
+  {
+   "id": 899,
+   "file_off": 2772080,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "27d2d8d12d079287a1f51ecd1f8d0f388e04a947",
+   "en": "New units are approaching!"
+  },
+  {
+   "id": 900,
+   "file_off": 2772108,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "b5799daf4172344e5931c95d18d9bf3abc3326b5",
+   "en": "Be careful!"
+  },
+  {
+   "id": 901,
+   "file_off": 2772148,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "eb05e71e8c3fba8b21eb802fee26c41cea40dffb",
+   "en": "Objective done!"
+  },
+  {
+   "id": 902,
+   "file_off": 2772164,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "136e628abf0fc1af0bf18377edb0a490337c4ce7",
+   "en": "All units, out!"
+  },
+  {
+   "id": 903,
+   "file_off": 2772200,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "300d54ae37a2f125b6e99d30e474e3683b9c6638",
+   "en": "Success! All units, return!"
+  },
+  {
+   "id": 904,
+   "file_off": 2772252,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "a62db5a4024808e6b6d5227c212c734ba816c72f",
+   "en": "Well, that'll do."
+  },
+  {
+   "id": 905,
+   "file_off": 2772292,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "1f5e649d536e2e1049ff26878ef7de9e9d0168cb",
+   "en": "Everything's still at the"
+  },
+  {
+   "id": 906,
+   "file_off": 2772320,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "6f500b27f53694e1806d272f4a3fc28bc2f7c380",
+   "en": "prototype stage now."
+  },
+  {
+   "id": 907,
+   "file_off": 2772364,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "860c574989fa018b868a2658d52c2b7693f8c5c7",
+   "en": "Oh, not bad at all."
+  },
+  {
+   "id": 908,
+   "file_off": 2772416,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "01af5522f5d5e04823cdf8760192b60db7e2389b",
+   "en": "Hmm..."
+  },
+  {
+   "id": 909,
+   "file_off": 2772424,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "29413fc3b4f98ecc22e94e61e78153a2e0603336",
+   "en": "Your power's still an"
+  },
+  {
+   "id": 910,
+   "file_off": 2772448,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "724fa9ab008040e92a693b45bfdebae70b3f4f99",
+   "en": "unknown, huh?"
+  },
+  {
+   "id": 911,
+   "file_off": 2772488,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "69f65b9fff87321c246942c962b75b4b8349b3ce",
+   "en": "Nice job. Keep it up!"
+  },
+  {
+   "id": 912,
+   "file_off": 2772540,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "134ec8c7aee77b17627bd12636e1876f49f3201c",
+   "en": "Good. Remember that feel."
+  },
+  {
+   "id": 913,
+   "file_off": 2772612,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "dcfe749bf67d346cb15f922e4cf5e923829e98b9",
+   "en": "Well done. Again next time!"
+  },
+  {
+   "id": 914,
+   "file_off": 2772660,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "7e99349756e24c2457066501b74c4f3763106d63",
+   "en": "Didn't expect this much."
+  },
+  {
+   "id": 915,
+   "file_off": 2772712,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "8e4da8ec398565da7c75c5d45f3b0a29e1d6746e",
+   "en": "Fine work."
+  },
+  {
+   "id": 916,
+   "file_off": 2772724,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "d800c98dee756934d92b4767952bae70d9fb7d75",
+   "en": "Makes me proud."
+  },
+  {
+   "id": 917,
+   "file_off": 2772760,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "4b5521977acab8d18a7862ec1346a51343507194",
+   "en": "Good work."
+  },
+  {
+   "id": 918,
+   "file_off": 2772792,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "10752a41fc9cb60f47d4f152b00eb281962ba00c",
+   "en": "Like this,"
+  },
+  {
+   "id": 919,
+   "file_off": 2772804,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "771c2572b15cbd5f6e2ca3c51aab94438f99ab8b",
+   "en": "I won't need to sortie."
+  },
+  {
+   "id": 920,
+   "file_off": 2772856,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "6610b1760de0d31f6ebf5d5b33201253fd9efe7d",
+   "en": "Heh..."
+  },
+  {
+   "id": 921,
+   "file_off": 2772864,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "92d9ab1d7521360648c0a270ed71c175efaf677a",
+   "en": "How far will you go,"
+  },
+  {
+   "id": 922,
+   "file_off": 2772892,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "fda0b4a2bb0d0a5e6ecee38987982bf6fe292ffa",
+   "en": "huh?"
+  },
+  {
+   "id": 923,
+   "file_off": 2772920,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "7d85a05a156e003292482fed8ec5d639ace50bed",
+   "en": "Well, now..."
+  },
+  {
+   "id": 924,
+   "file_off": 2772936,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "e92b457541a2995e25f57b623b907816a7e57956",
+   "en": "This much, huh?"
+  },
+  {
+   "id": 925,
+   "file_off": 2772972,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "4dcd4c408c2c6b006ffedc2367cefa3c647933af",
+   "en": "I see."
+  },
+  {
+   "id": 926,
+   "file_off": 2772984,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "0671273ede7f19470077e6cf7df783152dbcd57b",
+   "en": "Guess this one's on me."
+  },
+  {
+   "id": 927,
+   "file_off": 2773032,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "ad539186dc74deeef7d48dcd09dcb1299bb47030",
+   "en": "New enemies!?"
+  },
+  {
+   "id": 928,
+   "file_off": 2773052,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "14e9fcb998ae8e697b6422cecccb45355fe31e48",
+   "en": "Stay sharp out there!"
+  },
+  {
+   "id": 929,
+   "file_off": 2773096,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "da72c76aa13d03235a5ef6b259ae598832981d8b",
+   "en": "All units, return!"
+  },
+  {
+   "id": 930,
+   "file_off": 2773140,
+   "budget": 19,
+   "region": "battle_dialogue",
+   "orig_sha1": "bfa56c5469a74164df7d4fe47a2769f06eaf7f27",
+   "en": "Return to the ship!"
+  },
+  {
+   "id": 931,
+   "file_off": 2773180,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "b2f946002f0014317f915fc9dd5494c74073a007",
+   "en": "Mission over."
+  },
+  {
+   "id": 932,
+   "file_off": 2773196,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "f76a351ad02b73ccf75eea9ad0945106c68b3754",
+   "en": "Good work."
+  },
+  {
+   "id": 933,
+   "file_off": 2773232,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6852bcfe2c31d60e3e1d7351d7b9c71939f2ea81",
+   "en": "Report damage status."
+  },
+  {
+   "id": 934,
+   "file_off": 2773280,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "1bde7b0c5ab418123e234ab08d5790985569b689",
+   "en": "Hmm."
+  },
+  {
+   "id": 935,
+   "file_off": 2773288,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "fa5485497a25043c0f781a78b9ef7b48cd7428bf",
+   "en": "You're working pretty hard."
+  },
+  {
+   "id": 936,
+   "file_off": 2773336,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "08a2f88e0dc14e8d8a51650dbbc2b00eafd28afb",
+   "en": "Huh, you're pretty good."
+  },
+  {
+   "id": 937,
+   "file_off": 2773384,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "6808b385cd4917222d58737e9f24325f2ef0a023",
+   "en": "That went pretty well."
+  },
+  {
+   "id": 938,
+   "file_off": 2773432,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "1ea185b55c0ac96c220141ee8ede20de697719ff",
+   "en": "Let's keep it up next time."
+  },
+  {
+   "id": 939,
+   "file_off": 2773480,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "5c74d79fc67502c0163f4062568c56a158f4a1be",
+   "en": "Impressive!"
+  },
+  {
+   "id": 940,
+   "file_off": 2773492,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "dbe36d9bea4e71faf2caa603745a92371b77437e",
+   "en": "You've really mastered"
+  },
+  {
+   "id": 941,
+   "file_off": 2773520,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "7de224e6048343e133e1ecee283a2bba464d1cf6",
+   "en": "your machine!"
+  },
+  {
+   "id": 942,
+   "file_off": 2773556,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "f9705699cbf5d8cdc9e1e5740a6bf143f9f99b76",
+   "en": "Nice record."
+  },
+  {
+   "id": 943,
+   "file_off": 2773572,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "99921d2bdf3c22ea84c16b3408333a5eb4851736",
+   "en": "Good luck next time."
+  },
+  {
+   "id": 944,
+   "file_off": 2773616,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "1d49d066504b26216f4da535ba6f33f4a19c0020",
+   "en": "How to say"
+  },
+  {
+   "id": 945,
+   "file_off": 2773628,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "151b1f109fdde553e36e13f1ca61a9e1d2560769",
+   "en": "So sharp, I mean..."
+  },
+  {
+   "id": 946,
+   "file_off": 2773652,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "d833a070313d116a77143e9c47e2c1e3177c4fa1",
+   "en": "Anyway, great moves!"
+  },
+  {
+   "id": 947,
+   "file_off": 2773700,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "f279608904212e1fcebbe1f58fcf3ca02443d477",
+   "en": "Impressive!"
+  },
+  {
+   "id": 948,
+   "file_off": 2773736,
+   "budget": 11,
+   "region": "battle_dialogue",
+   "orig_sha1": "9cc529ffadd44c4b8f4d9e38a7243a04a95a56a8",
+   "en": "Amazing..."
+  },
+  {
+   "id": 949,
+   "file_off": 2773748,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "6e5f6eaf764b674462cebcb4189e05ead3079f86",
+   "en": "So this is what an ace is."
+  },
+  {
+   "id": 950,
+   "file_off": 2773800,
+   "budget": 15,
+   "region": "battle_dialogue",
+   "orig_sha1": "72f890aa4758f4a7b4998854bf269c4dc58e8859",
+   "en": "Great work!"
+  },
+  {
+   "id": 951,
+   "file_off": 2773816,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "c5bf25af806d9ba184c4922b6a2794add9b7b4a0",
+   "en": "Got any secrets?"
+  },
+  {
+   "id": 952,
+   "file_off": 2773864,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "63697e4c564ef5571e83714cb4024c789c784546",
+   "en": "Can anyone be this good..."
+  },
+  {
+   "id": 953,
+   "file_off": 2773916,
+   "budget": 7,
+   "region": "battle_dialogue",
+   "orig_sha1": "f5bbf51e9578202e04e3f6b4ff048dc21449b739",
+   "en": "Um..."
+  },
+  {
+   "id": 954,
+   "file_off": 2773924,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "8fa025fd8d4971844a09968be35f9934f0af43d8",
+   "en": "You were so cool!!"
+  },
+  {
+   "id": 955,
+   "file_off": 2773968,
+   "budget": 23,
+   "region": "battle_dialogue",
+   "orig_sha1": "ff874bf72924c8f2cb233963561f5362519b0524",
+   "en": "Regrouping!"
+  },
+  {
+   "id": 956,
+   "file_off": 2774012,
+   "budget": 27,
+   "region": "battle_dialogue",
+   "orig_sha1": "4f3853a0405a66019786e3e07775da299bc545e4",
+   "en": "Heat source at Yellow 62B!"
+  },
+  {
+   "id": 957,
+   "file_off": 2774040,
+   "budget": 31,
+   "region": "battle_dialogue",
+   "orig_sha1": "c480da99158902ba12d303930f5b4aab7fb07bbc",
+   "en": "It's... enemy mobile suits!"
+  },
+  {
+   "id": 959,
+   "file_off": 2808932,
+   "budget": 15,
+   "region": "misc",
+   "orig_sha1": "6dd1ae04c5faf86b18d1cf9ec6f6d0d1678df1fb",
+   "en": "Move with D-pad"
+  },
+  {
+   "id": 960,
+   "file_off": 2808964,
+   "budget": 27,
+   "region": "misc",
+   "orig_sha1": "1c1d342e2d57c563031593fc8cde62f173a6fa08",
+   "en": "Press Jump to ascend"
+  },
+  {
+   "id": 961,
+   "file_off": 2809004,
+   "budget": 27,
+   "region": "misc",
+   "orig_sha1": "d972cf7207429dbd6d2fd77641d11ff20eb3190c",
+   "en": "Hold to rise even higher!"
+  },
+  {
+   "id": 962,
+   "file_off": 2809044,
+   "budget": 43,
+   "region": "misc",
+   "orig_sha1": "fa058a23ea681dcf3c1191cdb1bbd9196c5a437a",
+   "en": "Press Jump twice quickly in midair to"
+  },
+  {
+   "id": 963,
+   "file_off": 2809088,
+   "budget": 31,
+   "region": "misc",
+   "orig_sha1": "74b007e7cdd7a126325c3c4a63ed98e947eba83d",
+   "en": "Boost dash! Move at high speed!"
+  },
+  {
+   "id": 964,
+   "file_off": 2809132,
+   "budget": 27,
+   "region": "misc",
+   "orig_sha1": "052f2b3db32dd29e2c8afe2bbb2cd95985526757",
+   "en": "Steer with the D-pad!"
+  },
+  {
+   "id": 965,
+   "file_off": 2809172,
+   "budget": 28,
+   "region": "misc",
+   "orig_sha1": "1eb04a1064eaee0766ab02de021bdcc7100f99c4",
+   "en": "Watch your boost gauge!"
+  },
+  {
+   "id": 966,
+   "file_off": 2809232,
+   "budget": 27,
+   "region": "misc",
+   "orig_sha1": "ac28f512a294be8b2e3cc8945bff8479e94563d9",
+   "en": "Red reticle: your chance!"
+  },
+  {
+   "id": 967,
+   "file_off": 2809260,
+   "budget": 23,
+   "region": "misc",
+   "orig_sha1": "efc4eb9dfe885531c5bac6a9d953a03a9ad4f900",
+   "en": "Press Shoot to fire!"
+  },
+  {
+   "id": 968,
+   "file_off": 2809296,
+   "budget": 15,
+   "region": "misc",
+   "orig_sha1": "0c4425b178fac691853a7a7f8296476683d5648d",
+   "en": "Watch the ammo!"
+  },
+  {
+   "id": 969,
+   "file_off": 2809332,
+   "budget": 35,
+   "region": "misc",
+   "orig_sha1": "cf7da98fac866d27312a505f28e397855208244a",
+   "en": "Slash nearby foes with Melee!"
+  },
+  {
+   "id": 970,
+   "file_off": 2809380,
+   "budget": 43,
+   "region": "misc",
+   "orig_sha1": "66230fb7ec4cabc56450c370da609f1c5c7d5eb8",
+   "en": "A yellow reticle means no damage"
+  },
+  {
+   "id": 971,
+   "file_off": 2809444,
+   "budget": 39,
+   "region": "misc",
+   "orig_sha1": "cfd67ea5e9e92cdd50e60601c53342c1cb8234cf",
+   "en": "Press Search to switch targets"
+  },
+  {
+   "id": 972,
+   "file_off": 2809500,
+   "budget": 43,
+   "region": "misc",
+   "orig_sha1": "40889cd0b945d36ce07e55c7df53bf7bdfa050d5",
+   "en": "Tap a direction twice to step!"
+  },
+  {
+   "id": 973,
+   "file_off": 2809556,
+   "budget": 43,
+   "region": "misc",
+   "orig_sha1": "a157194969fe74e8c69570bc00355b561310b2a3",
+   "en": "A warning sign shows incoming attacks!"
+  },
+  {
+   "id": 974,
+   "file_off": 2809612,
+   "budget": 35,
+   "region": "misc",
+   "orig_sha1": "0d8a30a05994c9ac65758ac32e6d5c1d1b62b5b7",
+   "en": "Dodge at a right angle to the sign!"
+  },
+  {
+   "id": 975,
+   "file_off": 2809672,
+   "budget": 39,
+   "region": "misc",
+   "orig_sha1": "c7d502b60e53330ec9a06881d6f96622cf25d703",
+   "en": "Radar shows enemy and ally positions!"
+  },
+  {
+   "id": 976,
+   "file_off": 2809724,
+   "budget": 23,
+   "region": "misc",
+   "orig_sha1": "f87fb00b1f32bd99b161aa44a2b97b732f418977",
+   "en": "Yellow=foe, green=ally!"
+  },
+  {
+   "id": 977,
+   "file_off": 2809768,
+   "budget": 43,
+   "region": "misc",
+   "orig_sha1": "b4a6c4f478a6b232124c8bb03681082a95c689a0",
+   "en": "Destroying enemies drains their force gauge"
+  },
+  {
+   "id": 978,
+   "file_off": 2809824,
+   "budget": 39,
+   "region": "misc",
+   "orig_sha1": "ab2833e2860979849a52ff1cde2460908c0be218",
+   "en": "Empty the enemy force gauge to win!"
+  },
+  {
+   "id": 979,
+   "file_off": 2809876,
+   "budget": 51,
+   "region": "misc",
+   "orig_sha1": "d267c2ad9b61f4eeeda6b5d5e42102346ceee270",
+   "en": "When you or allies fall, your force gauge drops"
+  },
+  {
+   "id": 980,
+   "file_off": 2809940,
+   "budget": 52,
+   "region": "misc",
+   "orig_sha1": "d86fc3c496d1212db5f270b97c3de13a6c6fe585",
+   "en": "Game over when your force gauge hits zero!"
+  },
+  {
+   "id": 981,
+   "file_off": 2810004,
+   "budget": 47,
+   "region": "misc",
+   "orig_sha1": "581d320816930ab5986a172f9fd52b8f08d7c399",
+   "en": "You can sortie again until the gauge is zero!"
+  },
+  {
+   "id": 982,
+   "file_off": 2810084,
+   "budget": 39,
+   "region": "misc",
+   "orig_sha1": "ea13cac8fce6d09f486d9c6915203f8461ccbaf5",
+   "en": "Hit enemies or take damage to"
+  },
+  {
+   "id": 983,
+   "file_off": 2810124,
+   "budget": 19,
+   "region": "misc",
+   "orig_sha1": "10d96fd86466dd38d6cff1bef6422dcc04a37e3f",
+   "en": "charge Awakening"
+  },
+  {
+   "id": 984,
+   "file_off": 2810156,
+   "budget": 47,
+   "region": "misc",
+   "orig_sha1": "a77448559fdae8494cf6fc9c6ed18b0dc85ecea9",
+   "en": "At MAX, it's a big chance to attack!"
+  },
+  {
+   "id": 985,
+   "file_off": 2810204,
+   "budget": 51,
+   "region": "misc",
+   "orig_sha1": "76f678b611ee955ffedbe0bb388021b60f62e66e",
+   "en": "Press Shoot+Melee+Jump together to Awaken!"
+  },
+  {
+   "id": 986,
+   "file_off": 2810268,
+   "budget": 27,
+   "region": "misc",
+   "orig_sha1": "58f29a980f291ba886ecc9a655a405bcaf6eb6ec",
+   "en": "Your unit gets a big boost!"
+  },
+  {
+   "id": 987,
+   "file_off": 2810296,
+   "budget": 19,
+   "region": "misc",
+   "orig_sha1": "18f40715d407405dfb02d151afa2e6e190dd6348",
+   "en": "Go all out!!"
+  },
+  {
+   "id": 988,
+   "file_off": 2878424,
+   "budget": 27,
+   "region": "network",
+   "orig_sha1": "c6b52c66ea4d9037bdaeb4f76a2a301e01c53fd6",
+   "en": "Connecting to network..."
+  },
+  {
+   "id": 989,
+   "file_off": 2878452,
+   "budget": 27,
+   "region": "network",
+   "orig_sha1": "4278747ae6ecd2ef47d64448c23e3b67219673cb",
+   "en": "Please wait."
+  },
+  {
+   "id": 990,
+   "file_off": 2878480,
+   "budget": 47,
+   "region": "network",
+   "orig_sha1": "7fd7bb919d39a9c95d89fd02baee2cdf2bd96a38",
+   "en": "The wireless LAN switch is off."
+  },
+  {
+   "id": 991,
+   "file_off": 2878528,
+   "budget": 31,
+   "region": "network",
+   "orig_sha1": "8f5e36aa4496c4817cec3b92a2203db2ab3baa51",
+   "en": "To connect to the network,"
+  },
+  {
+   "id": 992,
+   "file_off": 2878560,
+   "budget": 47,
+   "region": "network",
+   "orig_sha1": "2fb34a90baee20c0513604a2eeb6ef7378fa9626",
+   "en": "turn on the wireless LAN switch."
+  },
+  {
+   "id": 993,
+   "file_off": 2878608,
+   "budget": 27,
+   "region": "network",
+   "orig_sha1": "704bf82a008db0eb5d368e0b92bc2c1874161b8c",
+   "en": "An internal error occurred."
+  },
+  {
+   "id": 994,
+   "file_off": 2878636,
+   "budget": 27,
+   "region": "network",
+   "orig_sha1": "f88483d208d40914b3d427af0b046e6e336b63d1",
+   "en": "Connection error occurred."
+  },
+  {
+   "id": 995,
+   "file_off": 2878664,
+   "budget": 39,
+   "region": "network",
+   "orig_sha1": "4627d1244a5cb04c6ab5370a1eb65de405578233",
+   "en": "Disconnected from the access point."
+  },
+  {
+   "id": 996,
+   "file_off": 2878704,
+   "budget": 35,
+   "region": "network",
+   "orig_sha1": "b7190e3a7dfb0995df9f2d105b608df2ea1b6d6b",
+   "en": "Disconnected from the network."
+  },
+  {
+   "id": 997,
+   "file_off": 2878740,
+   "budget": 27,
+   "region": "network",
+   "orig_sha1": "d220363d89fe004dc9f28af75970d8dd0698e3d9",
+   "en": "Preparing to start game..."
+  },
+  {
+   "id": 998,
+   "file_off": 2878768,
+   "budget": 35,
+   "region": "network",
+   "orig_sha1": "825258b9a7f3ada03232f1bc435fd1eae4bbb676",
+   "en": "Could not connect to partner."
+  },
+  {
+   "id": 999,
+   "file_off": 2878804,
+   "budget": 19,
+   "region": "network",
+   "orig_sha1": "c9f27a3e961f50c6453a5bcda1fb5cd4e6af012c",
+   "en": "Returning to lobby."
+  },
+  {
+   "id": 1000,
+   "file_off": 2878824,
+   "budget": 43,
+   "region": "network",
+   "orig_sha1": "c259efc891e625058ccb8270bc91d6a137b8165f",
+   "en": "Lost connection with the host (1P)."
+  },
+  {
+   "id": 1001,
+   "file_off": 2878868,
+   "budget": 23,
+   "region": "network",
+   "orig_sha1": "13939a005f80bc7ad8528024502a2e845c529c7b",
+   "en": "2P has left."
+  },
+  {
+   "id": 1002,
+   "file_off": 2878892,
+   "budget": 23,
+   "region": "network",
+   "orig_sha1": "3e9f885ea204cd26743ef7ca81b1d83d381d1537",
+   "en": "CPU will take over."
+  },
+  {
+   "id": 1003,
+   "file_off": 2878916,
+   "budget": 23,
+   "region": "network",
+   "orig_sha1": "36a12646ac09dd4ac32a374843852c505f982736",
+   "en": "3P has left."
+  },
+  {
+   "id": 1004,
+   "file_off": 2878940,
+   "budget": 23,
+   "region": "network",
+   "orig_sha1": "8e99d61039bc7e8984e0747bf081582aa03c2aa2",
+   "en": "4P has left."
+  },
+  {
+   "id": 1005,
+   "file_off": 2878964,
+   "budget": 35,
+   "region": "network",
+   "orig_sha1": "3b9335ab750afb38b14998a17c25c5ff53cf40a6",
+   "en": "Connection timed out."
+  }
+ ]
+}

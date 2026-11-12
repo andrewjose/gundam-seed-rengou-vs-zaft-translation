@@ -1,0 +1,177 @@
+{
+ "file": "2_13",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 11
+   },
+   "regions": [
+    {
+     "box": [
+      3,
+      2,
+      80,
+      15
+     ],
+     "en": "Resume game",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      97,
+      2,
+      187,
+      16
+     ],
+     "en": "Are you sure?",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      191,
+      2,
+      238,
+      16
+     ],
+     "en": "VS Select",
+     "size": 12,
+     "erase_box": [
+      189,
+      1,
+      241,
+      17
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      3,
+      20,
+      67,
+      34
+     ],
+     "en": "Buttons",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      97,
+      21,
+      162,
+      34
+     ],
+     "en": "",
+     "erase_box": [
+      95,
+      19,
+      164,
+      35
+     ]
+    },
+    {
+     "box": [
+      191,
+      20,
+      238,
+      34
+     ],
+     "en": "Title Screen",
+     "size": 12,
+     "erase_box": [
+      189,
+      19,
+      241,
+      35
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      2,
+      38,
+      84,
+      52
+     ],
+     "en": "Mission info",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      96,
+      38,
+      154,
+      52
+     ],
+     "en": "Abort mission",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      191,
+      38,
+      238,
+      52
+     ],
+     "en": "Main Menu",
+     "size": 12,
+     "erase_box": [
+      189,
+      37,
+      241,
+      53
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      64,
+      57,
+      90,
+      69
+     ],
+     "en": "Yes",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    },
+    {
+     "box": [
+      101,
+      57,
+      137,
+      69
+     ],
+     "en": "No",
+     "fname": "rc",
+     "size": 12,
+     "ss": 4,
+     "fix5": 1
+    }
+   ]
+  }
+ }
+}

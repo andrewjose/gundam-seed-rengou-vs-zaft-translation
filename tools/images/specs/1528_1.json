@@ -1,0 +1,42 @@
+{
+ "file": "1528_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": [
+     0,
+     0,
+     0
+    ],
+    "align": "center"
+   },
+   "regions": [
+    {
+     "box": [
+      18,
+      75,
+      96,
+      93
+     ],
+     "en": "ZAFT Redcoat",
+     "erase_box": [
+      23,
+      75,
+      87,
+      93
+     ],
+     "erase": "inpaint_bw",
+     "erase_pad": 1
+    }
+   ]
+  }
+ }
+}

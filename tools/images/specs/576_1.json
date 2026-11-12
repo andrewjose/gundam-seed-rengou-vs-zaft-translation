@@ -1,0 +1,38 @@
+{
+ "file": "576_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 13,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null,
+    "align": "left"
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      1,
+      119,
+      18
+     ],
+     "en": "Armory One",
+     "erase_box": [
+      0,
+      0,
+      120,
+      18
+     ],
+     "erase_pad": 0,
+     "size": 13
+    }
+   ]
+  }
+ }
+}

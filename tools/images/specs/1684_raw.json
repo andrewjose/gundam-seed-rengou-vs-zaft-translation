@@ -1,0 +1,242 @@
+{
+ "file": "1684_raw",
+ "pics": {
+  "3": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "semi",
+    "size": 13,
+    "color": [
+     255,
+     255,
+     255
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      70,
+      17,
+      82,
+      34
+     ],
+     "en": "\"",
+     "erase_box": [
+      72,
+      17,
+      81,
+      34
+     ],
+     "align": "center",
+     "size": 16
+    },
+    {
+     "box": [
+      172,
+      19,
+      185,
+      36
+     ],
+     "en": "\"",
+     "erase_box": [
+      174,
+      19,
+      183,
+      36
+     ],
+     "align": "center",
+     "size": 16
+    },
+    {
+     "box": [
+      40,
+      48,
+      100,
+      63
+     ],
+     "en": "Lyrics",
+     "erase_box": [
+      44,
+      48,
+      75,
+      63
+     ]
+    },
+    {
+     "box": [
+      110,
+      48,
+      215,
+      63
+     ],
+     "en": "Akio Inoue",
+     "erase_box": [
+      140,
+      48,
+      211,
+      63
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      40,
+      70,
+      100,
+      85
+     ],
+     "en": "Music",
+     "erase_box": [
+      44,
+      70,
+      74,
+      85
+     ]
+    },
+    {
+     "box": [
+      110,
+      69,
+      215,
+      85
+     ],
+     "en": "Daisuke Asakura",
+     "erase_box": [
+      140,
+      69,
+      211,
+      85
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      40,
+      92,
+      100,
+      107
+     ],
+     "en": "Vocals",
+     "erase_box": [
+      44,
+      92,
+      59,
+      107
+     ]
+    },
+    {
+     "box": [
+      11,
+      147,
+      245,
+      166
+     ],
+     "en": "\"Anna ni Issho Datta no ni\"",
+     "align": "center",
+     "size": 14
+    },
+    {
+     "box": [
+      40,
+      178,
+      100,
+      193
+     ],
+     "en": "Lyrics",
+     "erase_box": [
+      44,
+      178,
+      75,
+      193
+     ]
+    },
+    {
+     "box": [
+      110,
+      178,
+      215,
+      193
+     ],
+     "en": "Chiaki Ishikawa",
+     "erase_box": [
+      124,
+      178,
+      211,
+      193
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      40,
+      200,
+      100,
+      215
+     ],
+     "en": "Music",
+     "erase_box": [
+      44,
+      200,
+      74,
+      215
+     ]
+    },
+    {
+     "box": [
+      110,
+      200,
+      215,
+      215
+     ],
+     "en": "Yuki Kajiura",
+     "erase_box": [
+      140,
+      200,
+      211,
+      215
+     ],
+     "align": "right"
+    },
+    {
+     "box": [
+      40,
+      222,
+      100,
+      237
+     ],
+     "en": "Vocals",
+     "erase_box": [
+      44,
+      222,
+      59,
+      237
+     ]
+    }
+   ]
+  },
+  "4": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "semi",
+    "size": 15,
+    "color": [
+     255,
+     255,
+     255
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      22,
+      255,
+      39
+     ],
+     "en": "BANDAI NAMCO Games Inc.",
+     "align": "center"
+    }
+   ]
+  }
+ }
+}

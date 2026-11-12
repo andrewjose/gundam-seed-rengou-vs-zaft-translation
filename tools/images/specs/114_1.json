@@ -1,0 +1,43 @@
+{
+ "file": "114_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 13,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "shadow": [
+     30,
+     30,
+     30,
+     200
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      60,
+      220,
+      250,
+      236
+     ],
+     "en": "Space Fortress Jachin Due",
+     "erase_box": [
+      72,
+      219,
+      252,
+      237
+     ],
+     "erase": "inpaint_bright",
+     "erase_thr": 185,
+     "align": "right"
+    }
+   ]
+  }
+ }
+}

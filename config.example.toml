@@ -1,0 +1,7 @@
+# Copy to config.local.toml (git-ignored) and adjust. Environment variables override these:
+#   GSEED_WORK, GSEED_XDATA, GSEED_EBOOT, GSEED_FONTS
+# Relative paths are relative to the repository root.
+[paths]
+workdir = "work"        # everything generated goes here (game-derived; never commit it)
+xdata = ""              # default: <workdir>/iso/X_DATA.BIN (build/build.py extracts it from your ISO)
+eboot_dump = ""         # default: <workdir>/iso/EBOOT_dec.BIN (your PPSSPP dump of the decrypted EBOOT)

@@ -1,0 +1,231 @@
+{
+ "file": "1324_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 11,
+    "color": [
+     245,
+     245,
+     245
+    ],
+    "outline": [
+     0,
+     0,
+     0
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      64,
+      71,
+      80
+     ],
+     "en": "Armor Low!",
+     "color": [
+      10,
+      10,
+      10
+     ],
+     "outline": null,
+     "size": 12
+    },
+    {
+     "box": [
+      4,
+      129,
+      47,
+      143
+     ],
+     "en": "No Ammo",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      53,
+      129,
+      102,
+      143
+     ],
+     "en": "Charging",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      5,
+      146,
+      47,
+      159
+     ],
+     "en": "Thanks",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      69,
+      146,
+      124,
+      159
+     ],
+     "en": "Can't hold on!",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      135,
+      146,
+      190,
+      159
+     ],
+     "en": "No damage!",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      5,
+      163,
+      60,
+      177
+     ],
+     "en": "Lightly hit!",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      70,
+      163,
+      124,
+      177
+     ],
+     "en": "Badly hit!",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      135,
+      163,
+      190,
+      177
+     ],
+     "en": "Going down!",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      5,
+      181,
+      54,
+      193
+     ],
+     "en": "Normal",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      75,
+      180,
+      108,
+      193
+     ],
+     "en": "Spread",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      13,
+      197,
+      47,
+      210
+     ],
+     "en": "Evade",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      75,
+      197,
+      109,
+      210
+     ],
+     "en": "Focus",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      135,
+      197,
+      168,
+      210
+     ],
+     "en": "Charge",
+     "fname": "rc",
+     "size": 11,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      164,
+      213,
+      228,
+      229
+     ],
+     "en": "Camera",
+     "size": 12
+    },
+    {
+     "box": [
+      207,
+      128,
+      229,
+      193
+     ],
+     "en": "Selecting",
+     "rotate": 270,
+     "align": "center",
+     "size": 12
+    }
+   ]
+  }
+ }
+}

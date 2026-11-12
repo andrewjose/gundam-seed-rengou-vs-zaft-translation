@@ -1,0 +1,10 @@
+numpy>=1.24
+pillow>=10.0
+opencv-python-headless>=4.8   # inpainting for the menu-image builder
+scipy>=1.10                   # pilot-name glyph outlines
+pycdlib>=1.14                 # ISO read/patch
+# developer tools only (regenerating EBOOT patches / emulated tests):
+capstone>=5.0
+keystone-engine>=0.9
+unicorn>=2.0
+# + llvm-mc / llvm-objcopy / llvm-nm on PATH for tools/vwf/masm.py

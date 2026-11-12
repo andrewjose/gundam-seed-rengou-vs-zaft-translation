@@ -1,0 +1,36 @@
+{
+ "file": "122_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 13,
+    "color": [
+     255,
+     255,
+     255
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      150,
+      220,
+      250,
+      236
+     ],
+     "en": "New Game",
+     "erase_box": [
+      215,
+      219,
+      252,
+      237
+     ],
+     "erase": "rows",
+     "align": "right"
+    }
+   ]
+  }
+ }
+}

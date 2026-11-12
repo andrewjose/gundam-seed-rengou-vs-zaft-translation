@@ -1,0 +1,27 @@
+{
+ "file": "138_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      175,
+      225,
+      205,
+      240
+     ],
+     "en": "Delete",
+     "size": 11,
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    }
+   ]
+  }
+ }
+}

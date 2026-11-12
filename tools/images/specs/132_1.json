@@ -1,0 +1,691 @@
+{
+ "file": "132_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      185,
+      41,
+      256,
+      61
+     ],
+     "en": "GROUND ONLY",
+     "size": 13,
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      186,
+      62,
+      256,
+      82
+     ],
+     "en": "SPACE ONLY",
+     "size": 13,
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      2,
+      117,
+      114,
+      132
+     ],
+     "en": "Close menu"
+    },
+    {
+     "box": [
+      137,
+      118,
+      160,
+      131
+     ],
+     "en": "Yes",
+     "align": "center"
+    },
+    {
+     "box": [
+      162,
+      118,
+      214,
+      131
+     ],
+     "en": "No",
+     "align": "center"
+    },
+    {
+     "box": [
+      2,
+      134,
+      108,
+      149
+     ],
+     "en": "Show status"
+    },
+    {
+     "box": [
+      2,
+      150,
+      110,
+      165
+     ],
+     "en": "Load / Save",
+     "erase_box": [
+      2,
+      150,
+      111,
+      166
+     ],
+     "erase_pad": 0,
+     "fix2": 1
+    },
+    {
+     "box": [
+      2,
+      166,
+      133,
+      181
+     ],
+     "en": "Quit Mission Mode",
+     "erase_box": [
+      2,
+      165,
+      134,
+      182
+     ]
+    },
+    {
+     "box": [
+      136,
+      163,
+      219,
+      183
+     ],
+     "en": "CAN'T LAUNCH!!",
+     "size": 12,
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      2,
+      185,
+      211,
+      199
+     ],
+     "en": "Launch on this mission?",
+     "erase_box": [
+      2,
+      185,
+      212,
+      200
+     ]
+    },
+    {
+     "box": [
+      2,
+      202,
+      225,
+      217
+     ],
+     "en": "Unit is unsuited to this terrain."
+    }
+   ]
+  },
+  "3": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Resource Satellite Heliopolis",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 3,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "4": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Military Fortress Artemis",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 4,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "5": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Debris Belt",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 5,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "6": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "African Desert",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 6,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "7": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Onogoro Island",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 7,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "8": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "South Pacific",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 8,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "9": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Alaska Base",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 9,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "10": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Panama Base",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 10,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "11": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Colony Mendel",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 11,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "12": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Space Fortress Jachin Due",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 12,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "13": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "African Desert (Wide)",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 13,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "14": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Junius Seven",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 14,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "15": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Red Sea",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 15,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "16": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Indian Ocean",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 16,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "17": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Armory One",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 17,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "18": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "Inside GENESIS",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 18,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  },
+  "19": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "cond",
+    "size": 14,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      194,
+      0,
+      256,
+      64
+     ],
+     "en": "African Desert",
+     "custom": "strip",
+     "erase_pad": 0,
+     "src": "132_1",
+     "pic": 19,
+     "restore_cols": [
+      193
+     ],
+     "fix2": 1
+    }
+   ]
+  }
+ }
+}

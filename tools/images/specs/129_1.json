@@ -1,0 +1,200 @@
+{
+ "file": "129_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 14,
+    "outline": [
+     0,
+     0,
+     0
+    ],
+    "color": [
+     250,
+     250,
+     250
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      3,
+      3,
+      100,
+      25
+     ],
+     "en": "Can't join",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      101,
+      3,
+      203,
+      25
+     ],
+     "en": "Please wait",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      5,
+      30,
+      85,
+      52
+     ],
+     "en": "New Room",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      3,
+      58,
+      66,
+      80
+     ],
+     "en": "Open",
+     "size": 18,
+     "color": [
+      255,
+      30,
+      30
+     ],
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      155,
+      72,
+      255,
+      89
+     ],
+     "en": "Ready to launch",
+     "align": "right",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      146,
+      90,
+      255,
+      108
+     ],
+     "en": "Please wait",
+     "align": "right",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      4,
+      99,
+      82,
+      121
+     ],
+     "en": "Ready",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      116,
+      109,
+      255,
+      127
+     ],
+     "en": "Waiting for players",
+     "align": "right",
+     "fname": "rc",
+     "size": 16,
+     "ss": 4,
+     "fix8": 1
+    }
+   ]
+  },
+  "1": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      108,
+      216,
+      125
+     ],
+     "en": "Choose a room to join",
+     "size": 13
+    },
+    {
+     "box": [
+      2,
+      128,
+      86,
+      144
+     ],
+     "en": "Team Battle:"
+    },
+    {
+     "box": [
+      108,
+      128,
+      140,
+      143
+     ],
+     "en": "Yes"
+    },
+    {
+     "box": [
+      155,
+      128,
+      201,
+      144
+     ],
+     "en": "No"
+    },
+    {
+     "box": [
+      2,
+      148,
+      157,
+      165
+     ],
+     "en": "Co-op Arcade:"
+    },
+    {
+     "box": [
+      170,
+      148,
+      229,
+      165
+     ],
+     "en": "2-4 players"
+    }
+   ]
+  }
+ }
+}

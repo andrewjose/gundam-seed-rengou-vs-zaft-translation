@@ -1,0 +1,106 @@
+{
+ "file": "561_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 16,
+    "rotate": 270,
+    "align": "center",
+    "color": [
+     250,
+     250,
+     250
+    ]
+   },
+   "regions": [
+    {
+     "box": [
+      181,
+      105,
+      204,
+      173
+     ],
+     "en": "ENEMY UNITS",
+     "erase_box": [
+      181,
+      104,
+      204,
+      224
+     ],
+     "fname": "rc",
+     "size": 15,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      181,
+      176,
+      204,
+      224
+     ],
+     "en": "SHIPS",
+     "erase_box": null,
+     "fname": "rc",
+     "size": 15,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      156,
+      106,
+      179,
+      224
+     ],
+     "en": "DESTROY THEM!",
+     "fname": "rc",
+     "size": 15,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      131,
+      106,
+      154,
+      224
+     ],
+     "en": "ENEMY TARGETS",
+     "fname": "rc",
+     "size": 15,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      106,
+      106,
+      130,
+      238
+     ],
+     "en": "WIPE THEM OUT!",
+     "fname": "rc",
+     "size": 15,
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      82,
+      104,
+      105,
+      254
+     ],
+     "en": "ENEMY MOBILE SUITS",
+     "fname": "rc",
+     "size": 15,
+     "ss": 4,
+     "fix8": 1
+    }
+   ]
+  }
+ }
+}

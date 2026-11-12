@@ -1,0 +1,280 @@
+{
+ "file": "11_1",
+ "pics": {
+  "0": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12,
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "outline": null
+   },
+   "regions": [
+    {
+     "box": [
+      1,
+      73,
+      262,
+      87
+     ],
+     "en": "Choose a mobile suit to pilot",
+     "erase": "fill",
+     "erase_fill": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "erase_box": [
+      0,
+      73,
+      222,
+      87
+     ],
+     "erase_pad": 0
+    },
+    {
+     "box": [
+      1,
+      89,
+      262,
+      103
+     ],
+     "en": "Choose a pilot",
+     "erase": "fill",
+     "erase_fill": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "erase_box": [
+      0,
+      89,
+      222,
+      103
+     ],
+     "erase_pad": 0
+    },
+    {
+     "box": [
+      1,
+      105,
+      262,
+      119
+     ],
+     "en": "Choose a side",
+     "erase": "fill",
+     "erase_fill": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "erase_box": [
+      0,
+      105,
+      222,
+      119
+     ],
+     "erase_pad": 0
+    },
+    {
+     "box": [
+      1,
+      121,
+      262,
+      135
+     ],
+     "en": "Choose a stage",
+     "erase": "fill",
+     "erase_fill": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "erase_box": [
+      0,
+      121,
+      222,
+      135
+     ],
+     "erase_pad": 0
+    },
+    {
+     "box": [
+      222,
+      73,
+      264,
+      87
+     ],
+     "en": "",
+     "erase": "inpaint_bright",
+     "erase_thr": 225,
+     "erase_pad": 0
+    },
+    {
+     "box": [
+      50,
+      169,
+      96,
+      185
+     ],
+     "en": "Selected",
+     "size": 11
+    },
+    {
+     "box": [
+      128,
+      173,
+      177,
+      197
+     ],
+     "en": "CO-OP",
+     "size": 17
+    },
+    {
+     "box": [
+      128,
+      216,
+      179,
+      240
+     ],
+     "en": "VS",
+     "size": 19
+    }
+   ]
+  },
+  "1": {
+   "erase": "transparent",
+   "defaults": {
+    "fname": "sans",
+    "size": 12
+   },
+   "regions": [
+    {
+     "box": [
+      185,
+      111,
+      211,
+      123
+     ],
+     "en": "Back"
+    },
+    {
+     "box": [
+      219,
+      110,
+      250,
+      125
+     ],
+     "en": "OK"
+    },
+    {
+     "box": [
+      2,
+      152,
+      156,
+      168
+     ],
+     "en": "Please wait..."
+    },
+    {
+     "box": [
+      2,
+      172,
+      174,
+      188
+     ],
+     "en": "Waiting for entries..."
+    },
+    {
+     "box": [
+      195,
+      172,
+      228,
+      188
+     ],
+     "en": "Launch",
+     "fname": "rc",
+     "ss": 4,
+     "fix8": 1
+    },
+    {
+     "box": [
+      3,
+      192,
+      246,
+      208
+     ],
+     "en": "Preparing stage select..."
+    },
+    {
+     "box": [
+      88,
+      221,
+      113,
+      235
+     ],
+     "en": "Move",
+     "size": 10
+    },
+    {
+     "box": [
+      115,
+      221,
+      140,
+      235
+     ],
+     "en": "Enter",
+     "size": 10
+    },
+    {
+     "box": [
+      142,
+      221,
+      167,
+      235
+     ],
+     "en": "Back",
+     "size": 10
+    },
+    {
+     "box": [
+      1,
+      239,
+      27,
+      253
+     ],
+     "en": "Select",
+     "size": 10
+    },
+    {
+     "box": [
+      49,
+      239,
+      75,
+      253
+     ],
+     "en": "OK",
+     "size": 10
+    },
+    {
+     "box": [
+      97,
+      240,
+      198,
+      253
+     ],
+     "en": "Back to menu",
+     "size": 11
+    }
+   ]
+  }
+ }
+}
