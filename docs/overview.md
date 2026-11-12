@@ -38,3 +38,4 @@ English version from it on your computer (see the README). The result is a disc 
 - **0.3.1 / 0.3.2** button setup, map labels, more menu pieces, stage names, music names
 - **0.4** nicer fonts, better-spaced name tags, messages, battle chatter and tutorial
 - **0.4.1** better-spaced names on the pilot-select screen, centred Yes/No
+- **0.4.2** fixed blank unit descriptions on the Z.A.F.T. side (shown when you unlock or upgrade a suit)

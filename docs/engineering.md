@@ -43,6 +43,12 @@ If you change a string's length you either keep it inside its old slot or move i
   original slot (truncated if needed). These translations are keyed by a SHA-1 hash of the original Japanese bytes:
   the inserter hashes each original string at build time and looks the hash up. Hashes let us match without
   publishing the source text.
+
+  A bug worth knowing about: in v0.4.1 the inserter treated a pointer value of 0 as "a string at offset 0". In
+  one file the first bytes of the pointer table are zero, so the inserter thought it had found an empty string
+  there and blanked it, wiping the whole table. Every pointer then pointed at an empty string, and the ZAFT-side
+  descriptions would show as blank. It is the classic mistake of not telling a NULL pointer apart from a valid
+  offset 0. v0.4.2 skips empty strings and keeps the table.
 - **Executable strings (~1,000):** menu text, memory-stick messages, network errors, names and battle dialogue live
   inside the EBOOT. Each was rewritten **in place** within its original byte budget, so no code pointers had to move.
 

@@ -1,4 +1,4 @@
-# Technical reference (v0.4.1)
+# Technical reference (v0.4.2)
 
 For ROM hackers who want to study or reproduce the work. Target: ULJM05238 (retail ISO MD5
 `0d4dd06ba223f7ff60e05d9f61483905`). Engineer-level explanations are in [engineering.md](engineering.md).
@@ -63,8 +63,9 @@ string start, truncated if longer. Data: `translations/units.json`, keyed by `sh
 *v0.4.1 build note:* the original inserter treated pointer value 0 as a string at offset 0; in AFS 173 the first
 table word starts with byte 0x00, so that "empty string" zero-filled the whole table (0..0x500). The tested v0.4.1
 image contains that zeroed table. `insert_text.py` skips empty strings and keeps the table; AFS 172 was unaffected
-(its first table bytes decode as a control character and were skipped). Verify the ZAFT-side "new unit received"
-texts in play.
+(its first table bytes decode as a control character and were skipped). Fixed in v0.4.2: the 0x500-byte table of
+AFS 173 (entry at X_DATA offset 0x00B0A000 in the shipped image) was written back from the original, string bodies
+unchanged; X_DATA size and layout are identical to v0.4.1. Not yet seen in play.
 
 ## 4. EBOOT
 
@@ -212,10 +213,15 @@ shelves; names drawn with Poppins Bold outlined (4×) / Inter Bold; quads' x1 an
   hunks, Huffman-coded compressed map, `DVD ` metadata, raw and overall SHA-1). `chdverify.py --against ISO`
   decompresses every hunk, checks CRCs and SHA-1s and compares byte-for-byte. Verified against chdman 0.264 and
   libchdr; the v0.4.1 CHD was verified byte-identical on the tester's machine.
+- `tools/chd/chdsplice.py old.chd new.iso out.chd --range START:LEN ...` makes the CHD for a small ISO change in
+  about 40 s instead of a full encode: hunks covering the ranges (and SELF-hunks that referenced them) are
+  recompressed, all other compressed data is copied in contiguous blocks, offsets shift, and the map, raw SHA-1 and
+  overall SHA-1 are rebuilt. v0.4.2 was made this way (one hunk, 160868) and checked byte-identical with
+  `chdverify.py --against`.
 
 ## 7. Reproducibility
 
-| Output | Result of `build/build.py` vs. the tested v0.4.1 image |
+| Output | Result of `build/build.py` vs. the released v0.4.2 image |
 |---|---|
 | EBOOT | identical (MD5 checked) |
 | AFS 172, 174–473 | identical |

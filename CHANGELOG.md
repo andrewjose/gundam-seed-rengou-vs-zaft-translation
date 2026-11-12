@@ -2,6 +2,12 @@
 
 All versions were tested in PPSSPP (1.20.4) on the user's PC unless noted.
 
+## v0.4.2
+- **ZAFT-side unit descriptions restored** (AFS 173). The v0.4.1 inserter read a pointer value of 0 as an empty
+  string at offset 0 and zero-filled the whole pointer table (0x000-0x4FF), so every ZAFT "New unit received" and
+  upgrade message pointed at an empty string. v0.4.2 writes the original table back; the English strings are
+  unchanged. Same-size, in-place change; EBOOT unchanged. Static check only: the messages were not reached in play.
+
 ## v0.4.1
 - **Pilot-select big name now proportional** (VWF item A2): the SELECT A PILOT panel draws the name through the
   object draw callback at 0x0899D314; its fixed 17.75 px per-slot advance is replaced by the proportional pen of the

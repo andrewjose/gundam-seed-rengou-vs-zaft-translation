@@ -1,4 +1,4 @@
-# Gundam SEED: Rengou vs. Z.A.F.T. Portable — English fan translation (v0.4.1)
+# Gundam SEED: Rengou vs. Z.A.F.T. Portable — English fan translation (v0.4.2)
 
 An English translation patch for the Japanese PSP game **Kidou Senshi Gundam SEED: Rengou vs. Z.A.F.T. Portable**
 (game ID **ULJM05238**), built from your own copy of the game.
@@ -9,7 +9,7 @@ from your own legally obtained copy and stays in the git-ignored `work/` folder.
 
 | | |
 |---|---|
-| Status | v0.4.1 — playable start to finish in **PPSSPP**; not for real PSP hardware (see Known issues) |
+| Status | v0.4.2 — playable start to finish in **PPSSPP**; not for real PSP hardware (see Known issues) |
 | Translated | 300 mission files (names, objectives, briefings), 257 unit descriptions, ~1000 EBOOT strings (menus, memory-stick messages, network text, battle dialogue, tutorial captions, unit/pilot names), ~113 menu/HUD pictures, select-screen label models |
 | Engine work | proportional font for the system text renderer, variable-width text for name tags, pilot-select names, message boxes, battle dialogue and tutorial captions |
 
@@ -56,11 +56,11 @@ Steps: `extract, eboot, text, unpack, glyph, images, atlas, xdata, iso, chd`.
 
 ### What is automated and what is not
 
-| Step | Automated | Reproduces the tested v0.4.1 build |
+| Step | Automated | Reproduces the released v0.4.2 build |
 |---|---|---|
 | EBOOT (strings + all code patches) | yes | **byte-exact** — the result is checked against MD5 `1667c483ad06c3cfbe3455389aba9ce9` |
 | Mission text (AFS 174–473), unit text AFS 172 | yes | byte-exact |
-| Unit text AFS 173 | yes | differs on purpose: the v0.4.1 test build zeroed this file's pointer table through an insertion bug; the repo keeps the original table (see Known issues) |
+| Unit text AFS 173 | yes | byte-exact (v0.4.2 restored the pointer table that the v0.4.1 build had zeroed) |
 | Label models (AFS 12, 140), pilot-name glyph sheets (AFS 2, 11, 124, 129, 130, 134, 135, 137, 138) | yes | byte-exact (with the font versions above) |
 | ~113 menu/HUD pictures (70 entries incl. the glyph bases) | yes | 55 entries byte-exact; 13 differ in a few anti-aliased pixels because the tested build was made in several incremental passes (≤ 1.8 % of pixels, visually identical) |
 | VWF glyph atlases (AFS 10, 1677) | yes | the 96 glyph cells match; unused parts of the textures differ |
@@ -100,7 +100,7 @@ tools/chd               pure-Python ISO → CHD v5 writer and verifier
 scripts/                fetch_fonts.sh, scrub_check.sh (pre-publish check)
 ```
 
-## Known issues (v0.4.1)
+## Known issues (v0.4.2)
 
 - Emulator only: the EBOOT is unsigned/decrypted.
 - Battle dialogue and tutorial captions were verified in an emulated harness and previews but have not been
@@ -109,8 +109,9 @@ scripts/                fetch_fonts.sh, scrub_check.sh (pre-publish check)
 - Unit/pilot name tags are limited to 8 characters, so some names are abbreviated.
 - Saves made with the Japanese version show wrong letters in player names entered in kana.
 - Copyright lines remain in Japanese.
-- AFS 173 (ZAFT-side "new unit received" texts): the tested v0.4.1 build had this file's pointer table zeroed
-  by an insertion bug; this repository keeps the original pointers. Please check these messages when playtesting.
+- ZAFT-side unit descriptions ("New unit received...", upgrade notes; AFS 173) were blank in v0.4.1 because of an
+  insertion bug, and are fixed in v0.4.2. The fix is checked byte-for-byte but these messages have not yet been seen
+  in play (they appear when a ZAFT unit is unlocked or upgraded in Mission mode).
 
 ## Credits
 
