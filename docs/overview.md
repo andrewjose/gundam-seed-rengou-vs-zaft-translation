@@ -19,7 +19,8 @@ in Japan. This patch turns its text into English so you can play it without read
 
 ## What it does not do (yet)
 
-- It only runs in the PPSSPP emulator, not on a real PSP.
+- It has only been tested in the PPSSPP emulator. Since 0.4.3 it should also run on a PSP with custom firmware and
+  on a PS Vita with Adrenaline, but nobody has tried that yet. A PSP without custom firmware cannot run it.
 - Battle chatter and tutorial captions have been checked in a test setup but not yet seen while playing.
 - Local wireless (Ad Hoc) play has not been tested.
 - The copyright notice stays in Japanese.
@@ -28,7 +29,8 @@ in Japan. This patch turns its text into English so you can play it without read
 ## How you get it
 
 The repository does not contain the game. You need your own copy of the game, and the build script makes the
-English version from it on your computer (see the README). The result is a disc image you open in PPSSPP.
+English version from it on your computer (see the README). The result is a disc image you open in PPSSPP. For a modded PSP or Vita there is also a version that goes in the
+memory stick's game folder and shows up with an English name in the menu.
 
 ## Version history in short
 
@@ -39,3 +41,4 @@ English version from it on your computer (see the README). The result is a disc 
 - **0.4** nicer fonts, better-spaced name tags, messages, battle chatter and tutorial
 - **0.4.1** better-spaced names on the pilot-select screen, centred Yes/No
 - **0.4.2** fixed blank unit descriptions on the Z.A.F.T. side (shown when you unlock or upgrade a suit)
+- **0.4.3** English game title in the menu; versions for modded PSPs and the Vita (memory-stick game folder)

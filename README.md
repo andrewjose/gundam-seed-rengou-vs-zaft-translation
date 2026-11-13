@@ -1,4 +1,4 @@
-# Gundam SEED: Rengou vs. Z.A.F.T. Portable — English fan translation (v0.4.2)
+# Gundam SEED: Rengou vs. Z.A.F.T. Portable — English fan translation (v0.4.3)
 
 An English translation patch for the Japanese PSP game **Kidou Senshi Gundam SEED: Rengou vs. Z.A.F.T. Portable**
 (game ID **ULJM05238**), built from your own copy of the game.
@@ -9,7 +9,7 @@ from your own legally obtained copy and stays in the git-ignored `work/` folder.
 
 | | |
 |---|---|
-| Status | v0.4.2 — playable start to finish in **PPSSPP**; not for real PSP hardware (see Known issues) |
+| Status | v0.4.3 — playable start to finish in **PPSSPP**; signed EBOOT and EBOOT.PBP for CFW/HEN PSP and Vita Adrenaline (not yet tested on hardware) |
 | Translated | 300 mission files (names, objectives, briefings), 257 unit descriptions, ~1000 EBOOT strings (menus, memory-stick messages, network text, battle dialogue, tutorial captions, unit/pilot names), ~113 menu/HUD pictures, select-screen label models |
 | Engine work | proportional font for the system text renderer, variable-width text for name tags, pilot-select names, message boxes, battle dialogue and tutorial captions |
 
@@ -80,9 +80,21 @@ Steps: `extract, eboot, text, unpack, glyph, images, atlas, xdata, iso, chd`.
 | VWF glyph atlases (AFS 10, 1677) | yes | the 96 glyph cells match; unused parts of the textures differ |
 | Dumping the decrypted EBOOT | **manual** (PPSSPP) | — |
 | Playtesting | **manual** | — |
-| Re-signing the EBOOT for real hardware | **not done** | — |
+| Re-signing the EBOOT, English XMB title, EBOOT.PBP | yes, as a post-step (`tools/psp/psp_hw.py`, needs sign_np) | signed EBOOT byte-exact |
 
-The patched EBOOT is stored decrypted in the ISO. PPSSPP runs it; a real PSP would need it re-signed.
+### Real PSP / Vita (optional)
+
+The pipeline's ISO carries the decrypted EBOOT, which PPSSPP runs. For a CFW/HEN PSP or Vita Adrenaline, build
+[sign_np](https://github.com/swarzesherz/sign_np) (`make`, needs zlib) and run, on a copy of the ISO:
+
+```sh
+python3 tools/psp/psp_hw.py work/out/game.iso \
+    --title "Mobile Suit Gundam SEED: Alliance vs. Z.A.F.T. Portable" \
+    --sign-np /path/to/sign_np --pbp work/out/PSP/GAME/ULJM05238/EBOOT.PBP
+```
+
+Put the ISO in `ms0:/ISO/`, or copy the `PSP` folder to the root of the memory stick for the EBOOT.PBP. The script
+prints the changed byte ranges for `tools/chd/chdsplice.py`. A CHD is for emulators only; a PSP cannot read CHD.
 
 ### Editing the translation
 
@@ -111,12 +123,14 @@ tools/images            menu-picture builder (specs → redrawn GIMs)
 tools/glyph             PMF2 label models, pilot-name glyph sheets, name-table EBOOT generator
 tools/vwf               variable-width-font items (name tags, message box, dialogue, tutorial, pilot select)
 tools/chd               pure-Python ISO → CHD v5 writer and verifier
+tools/psp               PARAM.SFO title, EBOOT signing and EBOOT.PBP packaging (uses sign_np)
 scripts/                fetch_fonts.sh, scrub_check.sh (pre-publish check)
 ```
 
-## Known issues (v0.4.2)
+## Known issues (v0.4.3)
 
-- Emulator only: the EBOOT is unsigned/decrypted.
+- Real hardware not tested yet: the signed ISO and EBOOT.PBP boot in PPSSPP; reports from CFW/HEN PSPs and Vita
+  Adrenaline are welcome. A PSP on stock firmware cannot run them.
 - Battle dialogue and tutorial captions were verified in an emulated harness and previews but have not been
   seen in actual play yet.
 - Ad Hoc multiplayer untested.

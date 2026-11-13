@@ -2,6 +2,19 @@
 
 All versions were tested in PPSSPP (1.20.4) on the user's PC unless noted.
 
+## v0.4.3
+- **Runs on real hardware (CFW/HEN PSP, Vita Adrenaline) — untested on hardware.** The patched EBOOT is now
+  fake-signed with `sign_np -elf` (tag 0xD91609F0) and written into its original extent (3,278,112 → 3,278,448 bytes,
+  same 1,601 sectors; only the EBOOT.BIN directory record's size changes). `sign_np -elf` is deterministic, so the
+  result is reproducible.
+- **PSN-style `EBOOT.PBP`** built from the ISO with `sign_np -pbp -c` (NPUMDIMG, fixed key, content ID
+  `JP0000-ULJM05238_00-0000000000000000`), for `ms0:/PSP/GAME/ULJM05238/` or a Vita bubble.
+- **English XMB title** in PARAM.SFO: "Mobile Suit Gundam SEED: Alliance vs. Z.A.F.T. Portable" (56/128 bytes,
+  in place).
+- New `tools/psp/psp_hw.py` (title, signing, PBP) and `tools/psp/sfo_set_title.py`. sign_np itself is not included.
+- Tested in PPSSPP 1.20.4: both the ISO and the PBP boot to the English main menu and render the proportional
+  message box (Mission > Load). Text and game data are unchanged from v0.4.2.
+
 ## v0.4.2
 - **ZAFT-side unit descriptions restored** (AFS 173). The v0.4.1 inserter read a pointer value of 0 as an empty
   string at offset 0 and zero-filled the whole pointer table (0x000-0x4FF), so every ZAFT "New unit received" and

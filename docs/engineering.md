@@ -121,7 +121,16 @@ The rebuilt archive can be larger than the original because recompressed files c
 stores each file's start sector and length in a **directory record** (like an inode). If the new `X_DATA.BIN` does not
 fit its old place, the builder writes it into the space of a large padding file (`DUMMY.BIN`) and edits the directory
 records to point there — no other file moves. The decrypted EBOOT replaces the encrypted one in place; PPSSPP accepts
-an unencrypted EBOOT, a real PSP would not.
+an unencrypted EBOOT.
+
+For real hardware (v0.4.3) the EBOOT is **re-signed**. A retail PSP only runs executables wrapped in Sony's encrypted,
+signed container (like a code-signed binary). Custom firmware and the Vita's PSP emulator also accept a container
+signed with a publicly known key, which the open-source tool `sign_np` produces. The signed file is a few hundred bytes
+bigger but still fits the sectors the old file used, so only its length in the directory record changes. The same
+tool can also wrap the whole disc image in the format PSN downloads use (`EBOOT.PBP`, a container holding the
+compressed, encrypted ISO plus the menu icon and title), which is what goes in `PSP/GAME/<id>/` on a memory stick
+or becomes a Vita LiveArea bubble. The menu title comes from `PARAM.SFO`, a small key/value file (like a package
+manifest); the English title is written into the existing fixed-size slot, so nothing moves.
 
 Optionally the ISO is converted to **CHD**, a compressed disc-image format (per-2 KB-block zlib, deduplication of
 repeated blocks) that PPSSPP reads directly. The repo's writer is pure Python and its verifier decompresses every
@@ -140,7 +149,8 @@ block and compares with the ISO.
 
 - **In-place over relocation.** Rewriting strings in place keeps every pointer valid and avoids crashes like the
   Arcade one, at the cost of tight byte budgets (hence abbreviations, and the 8-character name tags).
-- **Emulator-only.** Re-signing the EBOOT for hardware needs tools we did not build; PPSSPP is the target.
+- **Emulator first.** PPSSPP is the test target. Hardware support uses a third-party signing tool (sign_np) that is
+  not shipped here, and has not yet been confirmed on a real PSP or Vita.
 - **Reproducible vs. identical.** The EBOOT build reproduces the tested executable bit for bit. The pictures are
   regenerated, so a different font version or a single-pass build can change a few anti-aliased pixels; the
   tested release itself was produced in several incremental passes.

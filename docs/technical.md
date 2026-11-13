@@ -1,4 +1,4 @@
-# Technical reference (v0.4.2)
+# Technical reference (v0.4.3)
 
 For ROM hackers who want to study or reproduce the work. Target: ULJM05238 (retail ISO MD5
 `0d4dd06ba223f7ff60e05d9f61483905`). Engineer-level explanations are in [engineering.md](engineering.md).
@@ -208,7 +208,7 @@ shelves; names drawn with Poppins Bold outlined (4×) / Inter Bold; quads' x1 an
 - `tools/core/isoreloc.py` parses `/PSP_GAME/USRDIR` directory records and rewrites extent/size (both-endian).
 - `tools/core/build_iso.py src dst xdata eboot` (dst = full copy of src): if X_DATA fits the space before Y_DATA it
   is written in place, otherwise into DUMMY.BIN's extent (DUMMY's record is shrunk); EBOOT.BIN is overwritten in
-  place (same size, unencrypted). PPSSPP loads unencrypted EBOOTs; real hardware needs a signed one.
+  place (same size, unencrypted). PPSSPP loads unencrypted EBOOTs; real hardware needs a signed one (§6.1).
 - `tools/chd/iso2chd.py` writes CHD v5 like `chdman createdvd -hs 2048 -c zlib` (zlib / uncompressed / self-reference
   hunks, Huffman-coded compressed map, `DVD ` metadata, raw and overall SHA-1). `chdverify.py --against ISO`
   decompresses every hunk, checks CRCs and SHA-1s and compares byte-for-byte. Verified against chdman 0.264 and
@@ -218,6 +218,24 @@ shelves; names drawn with Poppins Bold outlined (4×) / Inter Bold; quads' x1 an
   recompressed, all other compressed data is copied in contiguous blocks, offsets shift, and the map, raw SHA-1 and
   overall SHA-1 are rebuilt. v0.4.2 was made this way (one hunk, 160868) and checked byte-identical with
   `chdverify.py --against`.
+
+### 6.1 Hardware: signed EBOOT, PARAM.SFO, EBOOT.PBP (v0.4.3) — `tools/psp/psp_hw.py`
+
+- PARAM.SFO is at sector 22144 (472 bytes). TITLE is fmt 0x0204, max_len 128; the original is 56 bytes. The English
+  title is also 56 bytes and is written in place (index entry `len` updated, slot zero-padded). 45 bytes change.
+- EBOOT.BIN: extent 32, 3,278,112 bytes (1,601 sectors, slot 3,278,848). `sign_np -elf in out 0` (sign_np v1.0.2,
+  swarzesherz/sign_np @ ac77d56) gives a ~PSP container of 3,278,448 bytes: modname `seedpsp`, elf_size 3,278,112,
+  tag 0xD91609F0 (retail is 0xC0CB167C, game-specific). Output is deterministic. Written into the same extent and
+  zero-padded; the directory record in /PSP_GAME/SYSDIR (sector 24, record 0xC098) gets the new size, both-endian.
+- PBP: `sign_np -pbp -c ISO EBOOT.PBP JP0000-ULJM05238_00-0000000000000000 0` (fixed key, compressed NPUMDIMG).
+  The input must already carry a signed EBOOT. sign_np copies PARAM.SFO (CATEGORY becomes `EG`), ICON0, PIC0, PIC1
+  and SND0 from the ISO. Release v0.4.3: 532,666,000 bytes, DATA.PSAR at 0x9B900. sign_np crashed on a minimal
+  test ISO holding only UMD_DATA/PARAM.SFO/EBOOT, so use the full image.
+- CHD after these changes: `chdsplice.py ... --range 49152:2048 --range 65536:3278848 --range 45350912:472`
+  (hunks 24, 32–1632, 22144); verified byte-identical with `chdverify.py --against`.
+- Checked in PPSSPP 1.20.4: ISO and PBP both boot, main menu, Mission > Load message box (VWF item 2). Not checked
+  on hardware. Decrypting the signed EBOOT back with pspdecrypt was not possible in the build environment; the
+  header fields above and the PPSSPP boot are the evidence.
 
 ## 7. Reproducibility
 
@@ -260,5 +278,5 @@ python3 tools/vwf/refs.py | dead.py | freespan.py | live.py   # xref / dead-code
 
 Battle dialogue and tutorial captions not yet seen in actual play (emulated harness and previews only); Ad Hoc
 untested; name tags ≤ 8 characters; kana names from Japanese saves show wrong letters (kana cells now hold Latin
-glyphs); copyright lines Japanese (string 958); item A's screen unverified; emulator-only EBOOT; AFS 173 table
+glyphs); copyright lines Japanese (string 958); item A's screen unverified; signed EBOOT/PBP untested on hardware; AFS 173 table
 difference (§3).
