@@ -1,4 +1,4 @@
-# Technical reference (v0.4.3)
+# Technical reference (v0.4.6)
 
 For ROM hackers who want to study or reproduce the work. Target: ULJM05238 (retail ISO MD5
 `0d4dd06ba223f7ff60e05d9f61483905`). Engineer-level explanations are in [engineering.md](engineering.md).
@@ -55,6 +55,15 @@ are cp932, NUL-terminated, packed; the string area ends at the table. The insert
 from `ptrs[0]`, zero-fills to the table and rewrites the 10 pointers. Alignment of strings was tested and is not
 needed. Data: `translations/missions.json` (`entries[afs][slot]`).
 
+*Width model (v0.4.4).* Briefing, condition and title lines are drawn by the proportional sceFont renderer (§4.3),
+so an ASCII line is `Σ (bitmapWidth + bitmapLeft + 1)` in size/20 units (space 11, double-byte 20). The metrics were
+taken from PPSSPP's `assets/flash0/font/jpn0.pgf` (FTT-NewRodin Pro DB; parsed as in PPSSPP `Core/Font/PGF.cpp`,
+glyph header bits w7 h7 left7 top7 after a 14-bit size field). The box limits measured in v0.2 with a FreeSans
+model convert to briefing 576, condition 292, title 373 units. v0.4.4 checked all 300 files: 11 fields over the
+limit were refit; "Destroy 20/30 target drones" stay 1 unit (0.3 %) over. Lose conditions are outcomes
+("Strike destroyed"), win conditions orders ("Destroy Strike"): the v0.2 inserter mapped one English string per
+Japanese string, so the same "gekiha" (destroy) phrase got the win wording in lose slots.
+
 **Unit descriptions — AFS 172 / 173:** u32 pointer table (first pointer / 4 = entry count; 304 and 320 entries,
 some 0), strings in 0x40-byte slots. **Every original offset must be kept** — relocating strings (v0.1) crashes
 Arcade mode (found by bisecting AFS entries in PPSSPP). English is written over each slot, NUL-padded to the next
@@ -89,6 +98,23 @@ python3 tools/vwf/apply_all.py            # items 1,2,3,3b,A,B,A2 -> work/stage/
 # regenerate item patches: tools/vwf/item*/build.py (item A2 needs work/stage/eboot_v041a.elf = apply_all --items 1,2,3,3b,A,B)
 ```
 All item generators reproduce the committed patch JSONs byte-for-byte from these stages.
+
+### 4.2a v0.4.4+ EBOOT changes (`translations/eboot_strings_v044.json`, `tools/eboot/insert_v044.py`)
+Applied to the v0.4.1 EBOOT (MD5 `1667c483…`) → v0.4.6 EBOOT MD5 `d8de64db99dae4ad07e8cae7bbf56bd2`
+(`de002b7995f74c00c501d94108b51236` with `--no-itemC`). 30 strings, 1 blob, 2 pointers, then item C (§4.7):
+| file | what |
+|---|---|
+| 0x21BBE8 | memory-stick fragment (message box, `%n` = KB count, drawn as full-width digits by the game) |
+| 0x21D52C–0x21D5C4 | save-data DETAIL text, built by 0x088DE4F4 with strcpy/strcat/sprintf into 0x08DB6C40 and copied by 0x088F4E04 into the PspUtilitySavedataSFOParam (title 0x80, savedataTitle 0x80, detail 0x400) through the SJIS→UTF-8 converter 0x0884415C; shown by the PSP save dialog |
+| 0x24C228 | SFO title of the save data (save dialog) |
+| 0x2A9084 | lobby "1P is setting up. Please wait." (blinking, 0x089A19C0) |
+| 0x2BEBB8 | network "Press any button." (0x089C302C, pointer variable 0x08AC2B80) |
+| 0x21B58C–0x21B5D4 | ad hoc team list [TEAM A]/[TEAM B]/CPU/1P–4P (were full-width Latin; drawn left-aligned by 0x088CDB6C through 0x088D24DC) |
+| 0x1DB488–0x1DB4BB + pointers 0x1DB4F8/0x1DB4FC | `sprintf("%s%s", word[x != 2], fragment)` at 0x088715A8: the two word slots hold "Return to the menu" / "Return to the lobby", the fragment is "?" (was "Menu" + ": Return to this screen?") |
+| 0x21B848, 0x21BAAC | "Load this data?", "Overwrite data?" (v0.4.5) |
+| 0x29F3EC… (7) | tutorial lines (pool of the v0.3 re-layout) |
+| 0x2A03F4, 0x2A16A4, 0x2A347C | "!?" → "?!" |
+Message-box acknowledgements (`%r`) draw the ▼ arrow (0x088D1884), not a "Yes" label, so no one-button "Yes" exists.
 
 ### 4.3 Proportional system font (v0.2) — `tools/eboot/propfont.py`
 Renderer 0x088D2330 (wrapper 0x088D24DC) draws Shift-JIS through sceFont glyphs cached in 20 px cells and advanced
@@ -173,9 +199,30 @@ replaced by the items. `apply_all.py` checks hashes, overlaps, the prop-font blo
 | B | 4 | Yes/No centring: %y handler calls 0x088FFC78(0, x, y) with boxes centred at x+21 / x+91; labels drawn at centre − w/2; sites 0x088D1A38, 0x088D1ADC; `VW_LW`+0x64 counts %y as 14 so the caller's +98 still gives the original 112 px block. Tested in PPSSPP |
 | A2 | 2 | SELECT A PILOT big name: draw callback 0x0899D314 (codes at obj+0x170 filled by 0x0899D1F8, 8 slots, x = slot × 17.75 on the 18 px sheet); stub `VW_PN` 0x089D6ED0 sums proportional widths of the previous slots into f20; site 0x0899D36C. Tested: Kira, Sai, Cagalli, Asagi, Mayura, Juri |
 
+| C (v0.4.4) | 10 | `VW_BLEN` 0x089D723C (+1 entry 0x089D7244, +2 entry 0x089D724C), file 0x1D3290–0x1D3368 in the ADXT strings after item B; replaces `jal strlen` (0x0880D70C) at 9 sites, see §4.7 |
+
 Assembly: `tools/vwf/masm.py` (llvm-mc, mipsel, mips32r2, no relocations). Emulated tests: `tools/vwf/emu.py`
 (Unicorn) — `test_item1.py`, `test_sites.py`, `item2/test.py`, `item3/test.py`, `item3/test_tut.py`,
 `itemA/test.py`, `itemA2/test.py` (they render previews into `<work>/preview/`).
+
+### 4.7 Item C — byte-count width estimates (v0.4.4) — `tools/vwf/itemC`
+Nine call sites compute a text width as `strlen × 7` px (2 bytes = one 14 px full-width cell) to centre or fit text.
+`VW_BLEN(s)` returns `(units + 5) / 10` with units as in §3 (ASCII via the glyph cache 0x08979F40 exactly like item 2's
+`VW_ADVCH`; space 11; lead byte ≥ 0x80 = 20 and skip 2), i.e. the byte count of a Japanese string of the same
+width: Japanese input returns its strlen. Frame 0x50, saves ra/s0/s1, the +k entries store k at sp+0x48. Every site
+was checked for caller-saved registers live across the call (none).
+| site | caller | drawn |
+|---|---|---|
+| 0x0888AE54 | 0x0888ACBC | "1P is in control. Please wait." x = (480 − n·7)/2 |
+| 0x088715B0 | 0x0887126C | "%s%s" lobby confirm |
+| 0x088717F4 (+1) | 0x0887126C | "1P is selecting from the menu…" (n − 1) |
+| 0x089A19E8 | 0x089A19C0 | "1P is setting up…" |
+| 0x089C2F5C (+2) | 0x089C2F3C | network messages, (n − 2) (the Japanese ended with a 2-byte full stop) |
+| 0x089C305C | 0x089C302C | "Press any button.", x = (448 − n·7)/2 + 32 |
+| 0x089AEEF0 | 0x089AEE7C | mission info titles: size 13 (14 for one line) until (n/2)·size ≥ 197, then size = 196/(n/2), centred on the estimate |
+| 0x089AF72C, 0x089AF800 | 0x089AF690 | mission info win / lose lines: size 13 until n/2 ≥ 15, then 182/(n/2) |
+The panel's data is resource 3 (`0x088DC5E4(3)`), the loaded mission file's pointer table (titles +0, win +8,
+lose +0x14). Tested in PPSSPP (mission info and pause > Mission info). Emulated test: `tools/vwf/itemC/test.py`.
 
 ## 5. Graphics in X_DATA
 
@@ -200,6 +247,25 @@ subtitle, `sel12_qXX` weapon strips) and AFS 140 (mission-mode list `misres_mirX
 0x04 prim, 0x0B end), sub 1 = 512×512 index8 texture. Left half of the 12 texture is cleared and re-packed on
 shelves; names drawn with Poppins Bold outlined (4×) / Inter Bold; quads' x1 and u1 rewritten
 (raw x per texel 77.07 for AFS 12, (16457+16163)/222 for AFS 140), bounding spheres recomputed.
+
+**Polish rounds v0.4.4–v0.4.6** (`tools/images/polish`, build step `polish`): made on top of the v0.4.2 pictures, so the
+step first builds `X_DATA_base.BIN` (original + `afs_new`) and unpacks it to `<work>/polish/out`; `ORIG` is the
+original unpack (`<work>/xd_out`). Rounds run in order; each round's entry is rebuilt with `rebuild_pack` from the
+newest earlier version of that entry (afs_out_r5 > r4 > r3 > afs_out > base), changing only its own sub-files:
+| round | script | entries (sub) |
+|---|---|---|
+| 1 | `fixes.py` | 2_0 help-bar legends (rects from the EBOOT sprite table, 8-byte records x,y,w,h,0,0,0,tex at file 0x1DE925–0x1DE9C5), 133_1 pic8, 1608_1, 562–578 map labels, 105–121 banners (rebuilt from the original texture, underline rows masked out of the inpaint), 2_20 Options grid, 1684 credits, copyright 2_16 pic0 + 9_9 pic5 |
+| 2 | `fixes2.py` | PMF2 quad re-layouts: 129 sub 0/1 lobby (l1a–l26), 124 sub 0/1 VS prompts (k60–k64), 11 sub 0/1 link status (k70/k71, k7b–k7d); help words 11_1 pic1, 130_1 pic0, 133_1 pic6/8; credits artist names |
+| 3 | `fixes3.py`, `fixes3.py banner` | 2 sub 10/11 Pause > Buttons (keyconf00_kc08–kc11), 2_15 phase banner, 125_1 headers, 1609_1 "OK" |
+| 4 | `fixes4.py` | 133 sub 0 `selmi02_si22` header gap, 131_1 pic1 "EAF" |
+| 5 | `fixes5.py` | 125 sub 0/1 VS. SETTINGS labels rc18 (selvs02_k69–k71, BGM k9f) |
+| 6 | `fixes6.py` | 1609 sub 0/1 result buttons (result02_rm03/rm17/rm18), 2 sub 19/20 Options labels (menu01_g08–g50) |
+PMF2 layout objects (§5 Label models format): texture index = u32 at object+0x74 (0 = sub-1 pic0 …), UV u16 =
+texel·32768/texture width, vtype 0x102, prim 4 = 4-vertex strip per quad. A message is one object whose quads cut
+word pieces out of the texture; the Japanese word order is just the quads' x positions. Rounds 2–6 draw whole English
+phrases into free texture space and rewrite the object's quads in place (same prim count and byte length; unused
+quads get four identical vertices = zero area). `check_pmf()` asserts that only the edited objects' vertex arrays
+change. `pmfdump.py <afs>` / `pmfuse.py <afs> [tex]` list objects and quads.
 
 **Atlases**: see 4.5. `atlas_vwf.py` writes cells 0–95 only; the rest of each texture is unused by the VWF code.
 
@@ -239,15 +305,20 @@ shelves; names drawn with Poppins Bold outlined (4×) / Inter Bold; quads' x1 an
 
 ## 7. Reproducibility
 
-| Output | Result of `build/build.py` vs. the released v0.4.2 image |
+Measured for v0.4.6 from the retail X_DATA and the PPSSPP EBOOT dump (`--steps eboot,text,unpack,glyph,images,atlas,polish,xdata`,
+fonts DejaVu 2.37 / Inter 4.0 / Poppins from `scripts/fetch_fonts.sh`). The xdata step prints the comparison against
+`patches/release_v046_xdata.json` (sha1 of every entry of the tested image).
+| Output | Result vs. the tested v0.4.6 image (X_DATA MD5 `38b26dce…`) |
 |---|---|
-| EBOOT | identical (MD5 checked) |
-| AFS 172, 174–473 | identical |
-| AFS 173 | identical (v0.4.2 restored the pointer table, see §3) |
-| AFS 2, 11, 12, 124, 129, 130, 134, 135, 137, 138, 140 | identical (Inter 4.0, Poppins, DejaVu 2.37 as packaged by Debian) |
-| 55 of 70 picture entries | identical |
-| AFS 11, 124, 125, 129, 130, 132, 133, 138, 1323–1325, 1609, 2 (pictures on top of glyph bases) | ≤ 1.8 % of pixels differ by more than 24/255 in a channel: the release was built incrementally (a full pass, then several fix passes on the previous output); the repo does one pass with the final specs |
-| AFS 10, 1677 | glyph cells 0–95 identical; unused texture areas differ (the release started from the v0.3 pair-glyph atlases) |
+| EBOOT | identical, MD5 `d8de64db99dae4ad07e8cae7bbf56bd2` checked (and the v0.4.1 stage `1667c483…` on the way) |
+| AFS 172, 173, 174–473 | identical |
+| 1723 of 1737 entries | identical |
+| AFS 2, 124, 125, 129, 130, 133, 1609 (polished) | same size; 0.01–1.3 % of the pixels of one picture each differ by more than 24/255 — inherited from their v0.4.2-level base below. Run on a byte-identical v0.4.2 base the polish scripts reproduce all 46 polished entries byte-for-byte |
+| AFS 10, 132, 138, 1323–1325 | v0.4.2-level differences (the release was built incrementally; the repo does one pass) |
+| AFS 1677 | glyph cells identical, unused texture area and size differ (49,152 vs 32,768 bytes) |
+So the repo build is not MD5-identical to the release X_DATA (it is 103,079,936 bytes); reproducing those 14 entries
+exactly would need the tested pixels, which are game-derived and not stored here. Font versions matter: upstream
+DejaVu 2.37 TTFs differ slightly from Debian's build.
 
 Font versions matter for exactness: upstream DejaVu 2.37 TTFs differ slightly from Debian's build.
 
@@ -262,6 +333,12 @@ python3 tools/xdata/mdis.py 0x088D2330 40                # disassemble (capstone
 python3 tools/eboot/propfont_gen.py                      # re-assemble the prop-font block (keystone)
 python3 tools/glyph/labels/verify.py                     # label sheets before/after (local previews)
 python3 tools/vwf/refs.py | dead.py | freespan.py | live.py   # xref / dead-code / free-span / register-liveness helpers
+python3 tools/eboot/insert_v044.py work/stage/eboot_v041.elf out.elf [--no-itemC]   # v0.4.4+ strings + item C
+python3 tools/vwf/itemC/build.py [eboot_v041.elf]            # regenerate itemC/patch.json + layout.json
+python3 tools/vwf/itemC/test.py [eboot_v041.elf]             # emulated VW_BLEN check (Unicorn)
+python3 tools/images/polish/run.py                           # polish rounds 1-6 -> work/afs_polish (build step 'polish')
+python3 tools/images/polish/pmfdump.py 129                   # PMF2 objects of <work>/polish/out/129_0.bin
+python3 tools/images/polish/pmfuse.py 2 0                    # every quad of a PMF2 with its texel rect (texture 0)
 ```
 
 ## 9. Dead ends
@@ -273,10 +350,21 @@ python3 tools/vwf/refs.py | dead.py | freespan.py | live.py   # xref / dead-code
   then VWF (v0.4).
 - Relocating unit-description strings: Arcade crash (v0.1).
 - Using the ADX error-text area without excluding `AFS\0`: black screen (v0.3 first attempt).
+- Fixing the lobby / VS prompt word order in the EBOOT (v0.4.4): the messages are not assembled by code from piece
+  IDs but are PMF2 layout objects; the fix is a quad edit in the data (§5).
+- Fixing the off-centre network messages by padding strings with trailing spaces: works only within byte budgets and
+  would also change the strings' other users; replaced by item C.
+- Making the mission-info panel fit by padding titles to `units/10` bytes: not enough slack in many mission files;
+  replaced by item C.
+- Locating a layout table for the Arcade phase banner pieces (2_15): none found (no PMF2 quad match), so the pieces
+  were reworded inside their own rects.
 
 ## 10. Known issues
 
-Battle dialogue and tutorial captions not yet seen in actual play (emulated harness and previews only); Ad Hoc
-untested; name tags ≤ 8 characters; kana names from Japanese saves show wrong letters (kana cells now hold Latin
-glyphs); copyright lines Japanese (string 958); item A's screen unverified; signed EBOOT/PBP untested on hardware; AFS 173 table
-difference (§3).
+v0.4.4–v0.4.6 images use the unsigned decrypted EBOOT (emulator only) until the §6.1 signing step is rerun and
+tested; battle dialogue (690 lines, triggered at battle start by 0x0898700C from the battle-scene init 0x088C3BCC)
+and tutorial captions not yet seen in actual play; Ad Hoc untested (the lobby and link screens changed in v0.4.4–
+v0.4.6 were checked statically); name tags ≤ 8 characters (the Morassim tag reads "Morasim"); kana names from Japanese
+saves show wrong letters (kana cells now hold Latin glyphs); EBOOT string 958 (copyright) untranslated, the title-screen
+copyright picture is English since v0.4.4; item A's screen unverified; signed EBOOT/PBP untested on hardware;
+the X_DATA is not MD5-reproducible from this repo (§7).

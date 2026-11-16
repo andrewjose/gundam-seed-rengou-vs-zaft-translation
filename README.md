@@ -1,4 +1,4 @@
-# Gundam SEED: Rengou vs. Z.A.F.T. Portable — English fan translation (v0.4.3)
+# Gundam SEED: Rengou vs. Z.A.F.T. Portable — English fan translation (v0.4.6)
 
 An English translation patch for the Japanese PSP game **Kidou Senshi Gundam SEED: Rengou vs. Z.A.F.T. Portable**
 (game ID **ULJM05238**), built from your own copy of the game.
@@ -9,9 +9,9 @@ from your own legally obtained copy and stays in the git-ignored `work/` folder.
 
 | | |
 |---|---|
-| Status | v0.4.3 — playable start to finish in **PPSSPP**; signed EBOOT and EBOOT.PBP for CFW/HEN PSP and Vita Adrenaline (not yet tested on hardware) |
-| Translated | 300 mission files (names, objectives, briefings), 257 unit descriptions, ~1000 EBOOT strings (menus, memory-stick messages, network text, battle dialogue, tutorial captions, unit/pilot names), ~113 menu/HUD pictures, select-screen label models |
-| Engine work | proportional font for the system text renderer, variable-width text for name tags, pilot-select names, message boxes, battle dialogue and tutorial captions |
+| Status | v0.4.6 — playable start to finish in **PPSSPP** (emulator only: v0.4.4+ use the unsigned EBOOT; the v0.4.3 signing step for CFW/HEN PSP and Vita has to be rerun) |
+| Translated | 300 mission files (names, objectives, briefings), 257 unit descriptions, ~1000 EBOOT strings (menus, memory-stick messages, network text, battle dialogue, tutorial captions, unit/pilot names), ~113 menu/HUD pictures plus the v0.4.4–v0.4.6 polish (help bars, Options, VS. SETTINGS, Pause > Buttons, ad hoc lobby and link screens as whole English sentences, English copyright line), select-screen label models |
+| Engine work | proportional font for the system text renderer, variable-width text for name tags, pilot-select names, message boxes, battle dialogue and tutorial captions, real-width centring/fitting for the mission info panel and network/lobby messages (item C) |
 
 > **Help wanted: playtesting.** This needs more people playing it. If you find a bug, crash or anything that looks wrong, please [open an issue on GitHub](https://github.com/andrewjose/gundam-seed-rengou-vs-zaft-translation/issues) and include the patch version, your PPSSPP version and device, where it happened (mode and mission), and a screenshot of any untranslated, cut-off or garbled text.
 
@@ -66,23 +66,26 @@ Documentation comes in three levels:
 4. **Play** the ISO or CHD in PPSSPP.
 
 Run single steps with `--steps`, e.g. `--steps text,xdata,iso` after editing mission text.
-Steps: `extract, eboot, text, unpack, glyph, images, atlas, xdata, iso, chd`.
+Steps: `extract, eboot, text, unpack, glyph, images, atlas, polish, xdata, iso, chd`. `--no-itemC` builds the EBOOT
+without item C (for bisecting a display problem).
 
 ### What is automated and what is not
 
-| Step | Automated | Reproduces the released v0.4.2 build |
+| Step | Automated | Reproduces the released v0.4.6 build |
 |---|---|---|
-| EBOOT (strings + all code patches) | yes | **byte-exact** — the result is checked against MD5 `1667c483ad06c3cfbe3455389aba9ce9` |
-| Mission text (AFS 174–473), unit text AFS 172 | yes | byte-exact |
-| Unit text AFS 173 | yes | byte-exact (v0.4.2 restored the pointer table that the v0.4.1 build had zeroed) |
+| EBOOT (strings + all code patches) | yes | **byte-exact** — checked against MD5 `d8de64db99dae4ad07e8cae7bbf56bd2` (v0.4.1 stage `1667c483…` on the way) |
+| Mission text (AFS 174–473), unit text AFS 172/173 | yes | byte-exact |
 | Label models (AFS 12, 140), pilot-name glyph sheets (AFS 2, 11, 124, 129, 130, 134, 135, 137, 138) | yes | byte-exact (with the font versions above) |
-| ~113 menu/HUD pictures (70 entries incl. the glyph bases) | yes | 55 entries byte-exact; 13 differ in a few anti-aliased pixels because the tested build was made in several incremental passes (≤ 1.8 % of pixels, visually identical) |
+| ~113 menu/HUD pictures, glyph bases and the v0.4.4–v0.4.6 polish rounds | yes | 1,723 of 1,737 archive entries byte-exact; 13 picture entries differ in a few anti-aliased pixels (≤ 1.8 % of one picture) because the tested build was made in incremental passes; the xdata step prints the comparison. The X_DATA MD5 is therefore not reproduced (docs/technical.md §7) |
 | VWF glyph atlases (AFS 10, 1677) | yes | the 96 glyph cells match; unused parts of the textures differ |
 | Dumping the decrypted EBOOT | **manual** (PPSSPP) | — |
 | Playtesting | **manual** | — |
-| Re-signing the EBOOT, English XMB title, EBOOT.PBP | yes, as a post-step (`tools/psp/psp_hw.py`, needs sign_np) | signed EBOOT byte-exact |
+| Re-signing the EBOOT, English XMB title, EBOOT.PBP | yes, as a post-step (`tools/psp/psp_hw.py`, needs sign_np) | v0.4.3 only; not rerun on the v0.4.4+ EBOOT yet |
 
 ### Real PSP / Vita (optional)
+
+*Not yet redone for v0.4.4+: the steps below were made and checked for v0.4.3; run on a v0.4.6 ISO they should work the
+same way but are untested.*
 
 The pipeline's ISO carries the decrypted EBOOT, which PPSSPP runs. For a CFW/HEN PSP or Vita Adrenaline, build
 [sign_np](https://github.com/swarzesherz/sign_np) (`make`, needs zlib) and run, on a copy of the ISO:
@@ -101,10 +104,12 @@ prints the changed byte ranges for `tools/chd/chdsplice.py`. A CHD is for emulat
 - Missions: `translations/missions.json` — AFS index → 10 slots (arc, name, 3 win and 3 lose conditions,
   2 briefing lines). Keep each line inside the measured box width (see docs/technical.md).
 - Unit descriptions: `translations/units.json` — keyed by SHA-1 of the original Shift-JIS string.
-- EBOOT text: `translations/eboot_strings.json` — keyed by file offset, each with a byte budget. Battle-dialogue and
+- EBOOT text: `translations/eboot_strings.json` — keyed by file offset, each with a byte budget. Changes since
+  v0.4.4 are in `translations/eboot_strings_v044.json` (applied on top of the v0.4.1 EBOOT by `tools/eboot/insert_v044.py`). Battle-dialogue and
   tutorial lines are re-laid out by the VWF code patch, so editing them also needs the generators in `tools/vwf/item3`
   (developer route, docs/technical.md).
-- Menu pictures: `tools/images/specs/*.json` (box, English text, font and style per region).
+- Menu pictures: `tools/images/specs/*.json` (box, English text, font and style per region); the v0.4.4–v0.4.6 rounds
+  are scripts in `tools/images/polish/` (words, fonts and rects inside each `fix_*` function).
 - Name tags: `tools/glyph/pilotname/names_fw.py` (8 characters max); select-screen labels: `tools/glyph/labels/names.py`.
 
 ## Repository layout
@@ -113,21 +118,25 @@ prints the changed byte ranges for `tools/chd/chdsplice.py`. A CHD is for emulat
 build/build.py          one-command pipeline
 gseed/                  shared helpers: config/paths, font lookup, hash-verified patching
 patches/eboot_v041.json EBOOT code/data patch (runs verified by SHA-1 of the bytes they replace)
+patches/release_v046_xdata.json  SHA-1 of every AFS entry of the tested v0.4.6 X_DATA (reproducibility report)
 patches/stages/         developer stage (v0.3.2 EBOOT) for regenerating the VWF patches
 translations/           English text only, keyed by AFS index/slot, file offset or SHA-1
 tools/core              AFS reader, mission parser, ISO patching (ISO9660 record relocation)
 tools/xdata             pack container + LZ codec, unpack/repack, GIM reader
 tools/text              mission/unit text inserter
 tools/eboot             string inserter, patch applier, proportional-font patch
-tools/images            menu-picture builder (specs → redrawn GIMs)
+tools/images            menu-picture builder (specs → redrawn GIMs); polish/ = v0.4.4–v0.4.6 picture and PMF2 layout rounds
 tools/glyph             PMF2 label models, pilot-name glyph sheets, name-table EBOOT generator
-tools/vwf               variable-width-font items (name tags, message box, dialogue, tutorial, pilot select)
+tools/vwf               variable-width-font items (name tags, message box, dialogue, tutorial, pilot select, itemC width estimate)
 tools/chd               pure-Python ISO → CHD v5 writer and verifier
 tools/psp               PARAM.SFO title, EBOOT signing and EBOOT.PBP packaging (uses sign_np)
 scripts/                fetch_fonts.sh, scrub_check.sh (pre-publish check)
 ```
 
-## Known issues (v0.4.3)
+## Known issues (v0.4.6)
+
+- **Emulator only:** v0.4.4–v0.4.6 were built and tested with the unsigned decrypted EBOOT. Rerunning the v0.4.3
+  signing / EBOOT.PBP step (`tools/psp/psp_hw.py`) on the v0.4.6 EBOOT has not been done or tested yet.
 
 - Real hardware not tested yet: the signed ISO and EBOOT.PBP boot in PPSSPP; reports from CFW/HEN PSPs and Vita
   Adrenaline are welcome. A PSP on stock firmware cannot run them.
@@ -136,7 +145,8 @@ scripts/                fetch_fonts.sh, scrub_check.sh (pre-publish check)
 - Ad Hoc multiplayer untested.
 - Unit/pilot name tags are limited to 8 characters, so some names are abbreviated.
 - Saves made with the Japanese version show wrong letters in player names entered in kana.
-- Copyright lines remain in Japanese.
+- The title-screen copyright picture is English since v0.4.4; the copyright string in the EBOOT (id 958) is still Japanese.
+- Ad Hoc lobby, VS prompts and link-battle screens were rebuilt in v0.4.4–v0.4.6 but only checked statically.
 - ZAFT-side unit descriptions ("New unit received...", upgrade notes; AFS 173) were blank in v0.4.1 because of an
   insertion bug, and are fixed in v0.4.2. The fix is checked byte-for-byte but these messages have not yet been seen
   in play (they appear when a ZAFT unit is unlocked or upgraded in Mission mode).

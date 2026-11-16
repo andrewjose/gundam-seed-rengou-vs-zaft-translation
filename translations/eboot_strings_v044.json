@@ -1,0 +1,252 @@
+{
+ "_format": "EBOOT text changes of v0.4.4+, applied after patches/eboot_v041.json (i.e. on the tested v0.4.1 EBOOT, MD5 1667c483ad06c3cfbe3455389aba9ce9). strings: en is written at file_off and NUL-padded to n bytes; orig_sha1 = sha1 of those n bytes before the change. blobs: several strings written into one region (parts = [offset in region, en]). pointers: u32 at file_off set to new_va. Applied by tools/eboot/insert_v044.py.",
+ "strings": [
+  {
+   "file_off": 2210792,
+   "n": 27,
+   "orig_sha1": "227fbd63d04df595b38b3ef44e03af42b4c8c34f",
+   "en": "%nKB more free space.%r",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217260,
+   "n": 8,
+   "orig_sha1": "377099d3764f1787fc02b02f66170a04ba71235d",
+   "en": "Lv.%d/",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217268,
+   "n": 10,
+   "orig_sha1": "c7f06b5bf378794a32590c0cdeaacad2fe5237e8",
+   "en": "%1.1f%%/",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217280,
+   "n": 7,
+   "orig_sha1": "e8a37acbd7002609c3cc559588d274da1565f807",
+   "en": "100%/",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217304,
+   "n": 22,
+   "orig_sha1": "e979f5d16cbe2396dd37e6b894707f42cc9ef8d4",
+   "en": "Mission Mode Status\n",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217344,
+   "n": 34,
+   "orig_sha1": "b2ee8e51e5de122dc4517224c5fad04505f7e8a9",
+   "en": "Cleared/SEED Rank/MS Collected\n",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217380,
+   "n": 12,
+   "orig_sha1": "d5c3655e5bc75a7e511def92b595872a0e850f3f",
+   "en": "[Alliance] ",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2217396,
+   "n": 14,
+   "orig_sha1": "96bea048889aef690b0ebec98c0978441170cd84",
+   "en": "\n[Z.A.F.T.] ",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2409000,
+   "n": 46,
+   "orig_sha1": "7341738fa2d9b0fda9d4dbc7c7970cd013e462dd",
+   "en": "Gundam SEED Rengou vs. Z.A.F.T. Portable",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2789508,
+   "n": 51,
+   "orig_sha1": "c902b774243dc6d53ac845da96cc7172ac17e82f",
+   "en": "1P is setting up. Please wait.",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2878392,
+   "n": 25,
+   "orig_sha1": "904c8a7d4525a460fd2efcc40a2f518cd5ade89b",
+   "en": "Press any button.",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209164,
+   "n": 16,
+   "orig_sha1": "8e09147471b43321e58b3e4acda505c6012d3a9c",
+   "en": "[TEAM A]",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209180,
+   "n": 16,
+   "orig_sha1": "f2875a5aaa38885393e120f11eff3f29798e4859",
+   "en": "[TEAM B]",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209204,
+   "n": 7,
+   "orig_sha1": "ac4b82fec3ed69d54964bf3b76a17fb9ec95df17",
+   "en": "CPU",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209212,
+   "n": 5,
+   "orig_sha1": "c243d2378b4eb8bbca7a456976c29815af8ef110",
+   "en": "1P",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209220,
+   "n": 5,
+   "orig_sha1": "9aa542b783e3132b6a412bab9d70b33972199a7f",
+   "en": "2P",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209228,
+   "n": 5,
+   "orig_sha1": "b3ef08578c1784aebec0b7b263698634a788721d",
+   "en": "3P",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209236,
+   "n": 5,
+   "orig_sha1": "f56e6d1bf2ca920a98aff400cb73b8982bf966bb",
+   "en": "4P",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2209864,
+   "n": 16,
+   "orig_sha1": "c0d6615080ac7c7720a2ed79c23584bea915f426",
+   "en": "Load this data?",
+   "stage": "v0.4.5"
+  },
+  {
+   "file_off": 2210476,
+   "n": 16,
+   "orig_sha1": "641a57b0f135510fe9b645d3a6e57b253fd7eae0",
+   "en": "Overwrite data?",
+   "stage": "v0.4.5"
+  },
+  {
+   "file_off": 2753524,
+   "n": 25,
+   "orig_sha1": "4a1cf844a18b01911a690b9910da03d24b7e66b8",
+   "en": "New enemies?! Watch out!",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2758308,
+   "n": 14,
+   "orig_sha1": "ad671d0ec918b41904850df493464255435d54d7",
+   "en": "New enemies?!",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2765948,
+   "n": 19,
+   "orig_sha1": "fd1da60c97faa0b15d1e7c34e6ff24d2e99f9f78",
+   "en": "More kills again?!",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2749420,
+   "n": 38,
+   "orig_sha1": "d9f73fa208e8b7345a2fdaa14d6dd98c8f362937",
+   "en": "Press Jump twice quickly in midair:",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2749784,
+   "n": 18,
+   "orig_sha1": "0ca6a60ae5b247574e301d941f3659839873deb4",
+   "en": "charge Awakening.",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2749568,
+   "n": 34,
+   "orig_sha1": "592a4b362b686c5fc98339be511a2b445ece9836",
+   "en": "A yellow reticle means no damage.",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2753460,
+   "n": 45,
+   "orig_sha1": "f63144bdd279aa17feb6aee5f4aae9f12f9dd807",
+   "en": "Destroying enemies drains their force gauge.",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2750188,
+   "n": 49,
+   "orig_sha1": "23dd673d8aea97dcc200e411966c87e6ca9205d5",
+   "en": "When you or allies fall, your force gauge drops.",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2749744,
+   "n": 20,
+   "orig_sha1": "dbda87a80ce74f8212d1bc05887127ea58cb8976",
+   "en": "Move with the D-pad",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 2757356,
+   "n": 26,
+   "orig_sha1": "aaf3ac86a1747bbea6048bad3774c91a4e3f8351",
+   "en": "Yellow: foe. Green: ally.",
+   "stage": "v0.4.4"
+  }
+ ],
+ "blobs": [
+  {
+   "file_off": 1946760,
+   "n": 52,
+   "orig_sha1": "f288fcf167f8618c635ef3a6594545940f30de89",
+   "parts": [
+    [
+     0,
+     "Return to the menu"
+    ],
+    [
+     20,
+     "Return to the lobby"
+    ],
+    [
+     40,
+     "?"
+    ]
+   ],
+   "stage": "v0.4.4",
+   "note": "ad hoc confirm: the game sprintf(\"%s%s\", word[i], fragment); word slots now hold whole sentences, fragment = \"?\""
+  }
+ ],
+ "pointers": [
+  {
+   "file_off": 1946872,
+   "orig_sha1": "458aebde1666b9921047a7343e3c1f73c211693c",
+   "new_va": "0x089DF448",
+   "stage": "v0.4.4"
+  },
+  {
+   "file_off": 1946876,
+   "orig_sha1": "f4765a9fbe4a100e1242ada7c98e9d713490da6e",
+   "new_va": "0x089DF45C",
+   "stage": "v0.4.4"
+  }
+ ]
+}

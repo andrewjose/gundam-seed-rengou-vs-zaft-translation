@@ -1,33 +1,37 @@
 #!/usr/bin/env python3
-"""Build the English patch v0.4.1 of Kidou Senshi Gundam SEED: Rengou vs. Z.A.F.T. Portable (ULJM05238)
+"""Build the English patch v0.4.6 of Kidou Senshi Gundam SEED: Rengou vs. Z.A.F.T. Portable (ULJM05238)
 from YOUR OWN files. Nothing from the game is stored in this repository.
 
     python3 build/build.py --iso <your ULJM05238.iso> --eboot-dump <decrypted EBOOT.BIN> --workdir work [--chd]
 
 Steps (run all, or a subset with --steps a,b,c):
   extract  copy X_DATA.BIN out of the ISO into <work>/iso/ (verifies the ISO MD5 unless --skip-md5)
-  eboot    insert translations/eboot_strings.json, apply patches/eboot_v041.json  -> <work>/stage/EBOOT.BIN
+  eboot    insert translations/eboot_strings.json, apply patches/eboot_v041.json  -> <work>/stage/eboot_v041.elf
+           then translations/eboot_strings_v044.json + item C (tools/vwf/itemC)   -> <work>/stage/EBOOT.BIN
   text     missions (AFS 174-473) + unit descriptions (AFS 172/173)                -> <work>/afs_new/
   unpack   unpack + LZ-decompress every AFS entry                                    -> <work>/xd_out/
   glyph    label models (AFS 12/140) + pilot-name glyph sheets (2,11,124,...)       -> <work>/glyph/afs/
   images   ~110 menu/HUD pictures redrawn from tools/images/specs                   -> <work>/afs_new/
   atlas    VWF glyph atlases for dialogue (AFS 1677) and tutorial (AFS 10)          -> <work>/afs_new/
-  xdata    rebuild X_DATA.BIN with every entry in <work>/afs_new/                   -> <work>/stage/X_DATA.BIN
+  polish   v0.4.4-v0.4.6 picture/layout rounds on top of the above (tools/images/polish) -> <work>/afs_polish/
+  xdata    rebuild X_DATA.BIN with <work>/afs_new/ + <work>/afs_polish/ (polish wins) -> <work>/stage/X_DATA.BIN
   iso      copy the ISO and patch X_DATA.BIN + EBOOT.BIN into the copy             -> <work>/out/*.iso
   chd      (with --chd) convert the patched ISO to CHD v5 and verify it              -> <work>/out/*.chd
 
-The EBOOT step is exact: the result is checked against the MD5 of the tested v0.4.1 EBOOT. The graphics steps
-regenerate the pictures from fonts on your machine; they match the tested build visually but not necessarily
-byte-for-byte (see docs/technical.md, "Reproducibility").
+The EBOOT step is exact: the result is checked against the MD5 of the tested v0.4.6 EBOOT (and the v0.4.1 stage on the
+way). Mission and unit text are byte-exact. The graphics steps regenerate the pictures from fonts on your machine;
+they match the tested build visually but not entirely byte-for-byte (see docs/technical.md, "Reproducibility").
 """
 import argparse, hashlib, json, os, shutil, subprocess, sys, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
-STEPS = ['extract', 'eboot', 'text', 'unpack', 'glyph', 'images', 'atlas', 'xdata', 'iso', 'chd']
+STEPS = ['extract', 'eboot', 'text', 'unpack', 'glyph', 'images', 'atlas', 'polish', 'xdata', 'iso', 'chd']
 ISO_MD5 = '0d4dd06ba223f7ff60e05d9f61483905'          # retail ULJM05238 UMD image
-EBOOT_V041_MD5 = '1667c483ad06c3cfbe3455389aba9ce9'   # decrypted EBOOT after this patch (tested in PPSSPP)
-VERSION = 'v0.4.1'
+EBOOT_V041_MD5 = '1667c483ad06c3cfbe3455389aba9ce9'   # decrypted EBOOT of v0.4.1-v0.4.3 (tested in PPSSPP)
+EBOOT_V046_MD5 = 'd8de64db99dae4ad07e8cae7bbf56bd2'   # decrypted EBOOT of v0.4.4-v0.4.6 (tested in PPSSPP)
+EBOOT_V046_NOC_MD5 = 'de002b7995f74c00c501d94108b51236'   # same without item C (--no-itemC, for bisecting)
+VERSION = 'v0.4.6'
 
 def md5(path):
     h = hashlib.md5()
@@ -49,12 +53,13 @@ def main():
     ap.add_argument('--steps', default=','.join(STEPS[:-1]), help='comma list, default: everything except chd')
     ap.add_argument('--chd', action='store_true', help='also write a CHD of the patched ISO')
     ap.add_argument('--skip-md5', action='store_true', help='do not verify the input ISO MD5 (not recommended)')
+    ap.add_argument('--no-itemC', action='store_true', help='leave out EBOOT item C (proportional width estimate), for bisecting')
     a = ap.parse_args()
     steps = a.steps.split(',') + (['chd'] if a.chd and 'chd' not in a.steps else [])
     bad = [s for s in steps if s not in STEPS]
     if bad: raise SystemExit('unknown step(s): %s' % bad)
     W = os.path.abspath(a.workdir)
-    for d in ('iso', 'stage', 'afs_new', 'glyph/afs', 'out'): os.makedirs(os.path.join(W, d), exist_ok=True)
+    for d in ('iso', 'stage', 'afs_new', 'afs_polish', 'glyph/afs', 'out'): os.makedirs(os.path.join(W, d), exist_ok=True)
     env = dict(os.environ, GSEED_WORK=W, GSEED_XDATA=os.path.join(W, 'iso', 'X_DATA.BIN'),
                GSEED_EBOOT=os.path.abspath(a.eboot_dump) if a.eboot_dump else os.path.join(W, 'iso', 'EBOOT_dec.BIN'))
     xdata = env['GSEED_XDATA']
@@ -82,11 +87,15 @@ def main():
         have = hashlib.sha1(open(env['GSEED_EBOOT'], 'rb').read()).hexdigest()
         if have != p['input_sha1']:
             raise SystemExit('decrypted EBOOT sha1 %s != expected %s - dump it again from the unmodified game' % (have, p['input_sha1']))
-        s1 = os.path.join(W, 'stage', 'eboot_strings.elf'); fin = os.path.join(W, 'stage', 'EBOOT.BIN')
+        s1 = os.path.join(W, 'stage', 'eboot_strings.elf'); s2 = os.path.join(W, 'stage', 'eboot_v041.elf')
+        fin = os.path.join(W, 'stage', 'EBOOT.BIN')
         run(env, tool('eboot', 'insert_strings.py'), env['GSEED_EBOOT'], s1)
-        run(env, tool('eboot', 'apply_patch.py'), s1, fin, os.path.join(ROOT, 'patches', 'eboot_v041.json'))
-        assert md5(fin) == EBOOT_V041_MD5, 'final EBOOT MD5 mismatch'
-        print('  EBOOT.BIN MD5 %s (matches the tested v0.4.1 EBOOT)' % EBOOT_V041_MD5)
+        run(env, tool('eboot', 'apply_patch.py'), s1, s2, os.path.join(ROOT, 'patches', 'eboot_v041.json'))
+        assert md5(s2) == EBOOT_V041_MD5, 'v0.4.1 EBOOT stage MD5 mismatch'
+        run(env, tool('eboot', 'insert_v044.py'), s2, fin, *(['--no-itemC'] if a.no_itemC else []))
+        want = EBOOT_V046_NOC_MD5 if a.no_itemC else EBOOT_V046_MD5
+        assert md5(fin) == want, 'final EBOOT MD5 mismatch'
+        print('  EBOOT.BIN MD5 %s (matches the tested %s EBOOT%s)' % (want, VERSION, ' without item C' if a.no_itemC else ''))
 
     if 'text' in steps:
         print('[text]'); run(env, tool('text', 'insert_text.py'))
@@ -104,17 +113,30 @@ def main():
         print('[images]'); run(env, tool('images', 'build.py'))
     if 'atlas' in steps:
         print('[atlas]'); run(env, tool('vwf', 'atlas_vwf.py'))
+    if 'polish' in steps:
+        print('[polish]'); run(env, tool('images', 'polish', 'run.py'))
 
     if 'xdata' in steps:
         print('[xdata]')
         from gseed import paths  # noqa: E402  (after env is known)
         os.environ.update(env); paths.setup()
         import repack
-        rep = {int(fn[4:-4]): open(os.path.join(W, 'afs_new', fn), 'rb').read()
-               for fn in os.listdir(os.path.join(W, 'afs_new')) if fn.startswith('afs_') and fn.endswith('.bin')}
+        rep = {}
+        for d in ('afs_new', 'afs_polish'):        # later folder wins
+            rep.update({int(fn[4:-4]): open(os.path.join(W, d, fn), 'rb').read()
+                        for fn in os.listdir(os.path.join(W, d)) if fn.startswith('afs_') and fn.endswith('.bin')})
         out = os.path.join(W, 'stage', 'X_DATA.BIN')
         repack.rebuild_afs(xdata, rep, out)
         print('  %d entries replaced -> %s (%d bytes)' % (len(rep), out, os.path.getsize(out)))
+        ref = json.load(open(os.path.join(ROOT, 'patches', 'release_v046_xdata.json')))
+        import afs as _afs
+        f, ents, _ = _afs.read(out); same = []; diff = []
+        for i, (o, n) in enumerate(ents):
+            f.seek(o); (same if hashlib.sha1(f.read(n)).hexdigest() == ref['entry_sha1'][i] else diff).append(i)
+        f.close()
+        if not diff: print('  X_DATA identical to the tested %s release (MD5 %s)' % (VERSION, ref['xdata_md5']))
+        else: print('  %d of %d AFS entries byte-identical to the tested %s release; regenerated pictures differ in: %s'
+                    % (len(same), len(ents), VERSION, ', '.join(map(str, diff))))
 
     if 'iso' in steps:
         print('[iso]')

@@ -53,7 +53,13 @@ If you change a string's length you either keep it inside its old slot or move i
   inside the EBOOT. Each was rewritten **in place** within its original byte budget, so no code pointers had to move.
 
 Line lengths: the boxes these strings appear in have fixed pixel widths. We measured the real widths in the emulator
-and rewrote 101 mission lines that overflowed.
+and rewrote 101 mission lines that overflowed. In v0.4.4 every line was measured again with the exact metrics of the
+PSP system font (the same per-letter widths the game's renderer uses, read from the font file PPSSPP ships), which is
+like replacing an estimate with the real `measureText()`; 11 more lines were shortened.
+
+A data-mapping lesson from the same pass: the old pipeline translated each distinct Japanese string once. The game
+uses the same phrase for "destroy the Strike" (a win condition) and "the Strike is destroyed" (a lose condition), so
+27 lose conditions read like orders. The fix was to translate by slot (meaning in context), not by string.
 
 ## 3. Fixed-width vs. variable-width text (VWF)
 
@@ -71,6 +77,16 @@ The game has several independent text systems, and each needed its own fix:
 | Message box | its ASCII path passed a constant space character, so English Yes/No labels were blank | rewritten to measure and draw ASCII; labels centred |
 | Battle dialogue, tutorial captions | text drawn from a texture atlas, two bytes per lookup | single-glyph atlas + width table + rewritten line converter and drawer |
 | Pilot-select big name | fixed 17.75 px per slot | proportional pen per slot |
+
+**Width estimates (item C, v0.4.4).** Drawing proportionally is half the job; some screens *estimate* a string's width
+before drawing it, to centre it or to shrink it to a box, and they do it as `strlen(s) * 7` pixels — correct for
+Japanese, where every character is 2 bytes and 14 px wide. An English letter is 1 byte but about 9 px, so the estimate
+is ~25 % short: centred messages drifted right, and the mission info panel let titles and objectives run past their
+boxes (its "shrink to fit" only kicked in at 30 bytes). Instead of padding strings, we replaced the `strlen` call at
+those nine sites with a small function that measures the real width and returns it in the units the caller expects
+("how many Japanese bytes would be this wide"). It is the classic fix of replacing a byte-count heuristic with a real
+text-measure call, done at the call sites so every other user of `strlen` is untouched; Japanese strings return
+exactly their old value.
 
 Patching machine code: we write small MIPS routines, assemble them at a fixed address (`llvm-mc`), and either
 overwrite a function in place or put the new code into a **code cave** — a region of the executable that is never
@@ -110,6 +126,22 @@ of cells. Version 0.4 replaced it with one letter per cell plus a width table an
 **3D label models:** the big suit names on the select screens are flat 3D quads (PMF2 models) with texture
 coordinates pointing into a label texture. We re-packed the label texture with English names and adjusted the quads'
 width and UV coordinates to match.
+
+**Layouts are data (PMF2 quads, v0.4.4–v0.4.6).** Many menus and messages are not drawn by code at all. Each screen
+has a layout model (PMF2): a list of named objects, each a short GPU display list of textured rectangles ("quads").
+A quad says "cut this rectangle (UV) out of texture slot N and draw it at this position (XY)". A message like
+"Start the battle with these members?" was several word pieces (*with these members* + *battle* + *start* +
+*is that OK?*) placed left to right in Japanese order, so drawing English into the same pieces gave sentences in
+Japanese word order. The fix needs no code: draw the whole English sentence into free space of the texture and rewrite
+that object's quads in place to point at it — same number of quads and bytes, extra quads collapsed to zero area so
+nothing is drawn. Think of editing the coordinates in a sprite-sheet layout file rather than the program. Texture
+slots matter: the quad's texture index selects which picture of the texture file it samples, and several screens
+share a picture, so a redraw is checked against every object that references it.
+
+**Rounds as overlays.** The picture fixes after v0.4.2 were made in rounds (v0.4.4 rounds 1–2, v0.4.5 rounds 3–4, v0.4.6
+rounds 5–6), each built on the previous round's version of a file, like layered patches: a round changes only its own
+sub-files inside an archive entry and keeps every other byte. The build step `polish` replays the rounds in order
+(`tools/images/polish/run.py`) and the newest version of each entry wins.
 
 **Pilot and unit names** use a converter that maps each 2-byte Shift-JIS character to a cell in a glyph sheet. We
 replaced the kana cells with Latin letters in all 9 copies of the sheet and pointed the name tables at full-width
@@ -151,6 +183,11 @@ block and compares with the ISO.
   Arcade one, at the cost of tight byte budgets (hence abbreviations, and the 8-character name tags).
 - **Emulator first.** PPSSPP is the test target. Hardware support uses a third-party signing tool (sign_np) that is
   not shipped here, and has not yet been confirmed on a real PSP or Vita.
-- **Reproducible vs. identical.** The EBOOT build reproduces the tested executable bit for bit. The pictures are
-  regenerated, so a different font version or a single-pass build can change a few anti-aliased pixels; the
-  tested release itself was produced in several incremental passes.
+- **Reproducible vs. identical.** The EBOOT build reproduces the tested executable bit for bit, and the mission and
+  unit text are byte-identical too. The pictures are regenerated, so a different font version or a single-pass build
+  can change a few anti-aliased pixels; the tested release itself was produced in several incremental passes. For
+  v0.4.6 the repo build matches 1,723 of the 1,737 archive entries exactly; the other 14 differ by at most a few
+  percent of one picture's pixels (details in technical.md §7). Making them identical would mean publishing the
+  tested pixels, which are derived from the game.
+- **Emulator only for now.** v0.4.4–v0.4.6 were tested with the unsigned executable in PPSSPP; the v0.4.3 signing step
+  for real hardware has to be rerun and tested on the new EBOOT.

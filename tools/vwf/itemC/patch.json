@@ -1,0 +1,62 @@
+[
+ {
+  "file_off": 1913488,
+  "orig_sha1": "42822ccb2fbe776d217214d9fa350573521731a0",
+  "new_hex": "050000102518000003000010010003240100001002000324b0ffbd271000bfaf4000b0af4400b1af4800a3af2580800025880000000004921c0080108000822c040040142000022414003126f9ff00100200102604008214000000000b003126f4ff0010010010261400a4a31500a0a31400a4272800a527d0e7250e1800a627070040101800a28f1c00a48f211044000100422421882202e6ff0010010010260a003126e3ff001001001026050022260a0004241a004400121000004800a38f211043001000bf8f4000b08f4400b18f0800e0035000bd27",
+  "note": "VW_BLEN stub at 0x089D723C"
+ },
+ {
+  "file_off": 552616,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "lobby: \"1P is in control. Please wait.\" centred (480-n*7)/2"
+ },
+ {
+  "file_off": 448004,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "lobby: \"Return to the menu/lobby?\" (%s%s) centred"
+ },
+ {
+  "file_off": 448584,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "915c270e",
+  "note": "lobby: \"1P is selecting from the menu...\" centred (480-(n-1)*7)/2"
+ },
+ {
+  "file_off": 1694268,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "lobby: \"1P is setting up. Please wait.\" blinking, centred"
+ },
+ {
+  "file_off": 1830832,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "935c270e",
+  "note": "network messages centred (480-(n-2)*7)/2"
+ },
+ {
+  "file_off": 1831088,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "network \"Press a button.\" centred (448-n*7)/2+32"
+ },
+ {
+  "file_off": 1748804,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "mission panel title lines: size=min(13|14, 196/(n/2)), centred in 196 px"
+ },
+ {
+  "file_off": 1750912,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "mission panel win conditions: size 13, or 182/(n/2) when n/2>=15"
+ },
+ {
+  "file_off": 1751124,
+  "orig_sha1": "807405535960d2d3aa93fa62ec454406b5711c3b",
+  "new_hex": "8f5c270e",
+  "note": "mission panel lose conditions: same fit rule"
+ }
+]

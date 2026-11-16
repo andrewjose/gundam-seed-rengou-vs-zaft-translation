@@ -12,18 +12,20 @@ in Japan. This patch turns its text into English so you can play it without read
 - **Names** — mobile suits and pilots have English names everywhere, including the small name tags in battle.
   Name tags hold at most 8 letters, so some names are shortened (for example "Forbid." for Forbidden).
 - **Messages** — memory-stick, network and confirmation messages are in English; "Yes" and "No" sit in the middle
-  of their buttons.
+  of their buttons. Multiplayer (Ad Hoc) messages are whole English sentences and sit in the middle of the screen.
+- **Mission objectives** read naturally: what you must do ("Destroy Strike") and what makes you lose ("Strike
+  destroyed") are clearly different, and long mission titles fit their box.
 - **Battle chatter and tutorial captions** — translated, with letters that take only as much room as they need.
 - **Readable text** — the game was built for Japanese characters, which are all the same width. English text looked
   stretched and spaced out, so the patch teaches the game to place each letter by its real width.
 
 ## What it does not do (yet)
 
-- It has only been tested in the PPSSPP emulator. Since 0.4.3 it should also run on a PSP with custom firmware and
-  on a PS Vita with Adrenaline, but nobody has tried that yet. A PSP without custom firmware cannot run it.
+- It has only been tested in the PPSSPP emulator. Versions 0.4.4–0.4.6 are for emulators only until the real-hardware
+  step of 0.4.3 has been redone for them. A PSP without custom firmware cannot run it.
 - Battle chatter and tutorial captions have been checked in a test setup but not yet seen while playing.
 - Local wireless (Ad Hoc) play has not been tested.
-- The copyright notice stays in Japanese.
+- The title screen's copyright line is in English since 0.4.4 (the game logo stays as it is).
 - If you continue a save from the Japanese version, names typed in Japanese letters will look wrong.
 
 ## How you get it
@@ -42,3 +44,7 @@ memory stick's game folder and shows up with an English name in the menu.
 - **0.4.1** better-spaced names on the pilot-select screen, centred Yes/No
 - **0.4.2** fixed blank unit descriptions on the Z.A.F.T. side (shown when you unlock or upgrade a suit)
 - **0.4.3** English game title in the menu; versions for modded PSPs and the Vita (memory-stick game folder)
+- **0.4.4** smoother mission and unit texts, last Japanese messages translated, centred multiplayer messages, mission
+  info that fits its box, many menu pictures tidied, English copyright line
+- **0.4.5** clearer save/load questions, Arcade phase banner, pause button list, small menu fixes
+- **0.4.6** Options and VS. SETTINGS labels tidied (Auto Save), link-battle result buttons

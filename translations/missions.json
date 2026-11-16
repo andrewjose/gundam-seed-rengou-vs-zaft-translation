@@ -10,8 +10,8 @@
    "Eternal sunk",
    "Your unit destroyed",
    "",
-   "To escape this sector, we'll break straight",
-   "through ZAFT. Cover Eternal; sink their flag."
+   "To escape, we'll break straight through ZAFT.",
+   "Cover the Eternal and sink their flagship."
   ],
   "175": [
    "Desert: Attack ZAFT Unit",
@@ -22,7 +22,7 @@
    "Your unit destroyed",
    "",
    "",
-   "Attack and destroy ZAFT ground units in sand.",
+   "Destroy the ZAFT ground forces in the desert.",
    ""
   ],
   "176": [
@@ -71,7 +71,7 @@
    "",
    "",
    "Final phase of the Alliance MS G-weapon plan.",
-   "Join the X102 Duel vs X303 Aegis mock duel."
+   "Join the X102 Duel vs. X303 Aegis mock duel."
   ],
   "180": [
    "[G Project]",
@@ -83,7 +83,7 @@
    "",
    "",
    "Final phase of the Alliance MS G-weapon plan.",
-   "Join the X105 Strike vs X103 Buster mock duel."
+   "Join the X105 Strike vs. X103 Buster mock duel."
   ],
   "181": [
    "[Top Secret Joint Operation]",
@@ -94,8 +94,8 @@
    "Your unit destroyed",
    "",
    "",
-   "A mock battle will be held as Orb's military",
-   "MS final test. Join as Morgenroete staff."
+   "A mock battle will serve as the final test of",
+   "Orb's military MS. Join as Morgenroete staff."
   ],
   "182": [
    "Raid ZAFT New MS Test",
@@ -179,7 +179,7 @@
    "Your unit destroyed",
    "",
    "Combat test of the command/fire support MS",
-   "\"X370 Raider\" and its Bio CPU. Escort it."
+   "\"X131 Calamity\" and its Bio CPU. Escort it."
   ],
   "189": [
    "X252 Combat Test",
@@ -191,7 +191,7 @@
    "Your unit destroyed",
    "",
    "Combat test of the assault/raid MS",
-   "\"X370 Raider\" and its Bio CPU. Escort it."
+   "\"X252 Forbidden\" and its Bio CPU. Escort it."
   ],
   "190": [
    "Raid ZAFT Training Unit",
@@ -202,7 +202,7 @@
    "3 Proto-GINNs escape",
    "Your unit destroyed",
    "",
-   "Found an MS squad, likely ZAFT trainees.",
+   "We've found an MS squad, likely ZAFT trainees.",
    "Attack it and destroy the trainee MS."
   ],
   "191": [
@@ -214,7 +214,7 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "ZAFT must not be let to fire GENESIS again.",
+   "ZAFT must not be allowed to fire GENESIS again.",
    "We will assault the fortress to stop GENESIS."
   ],
   "192": [
@@ -274,8 +274,8 @@
    "Time ran out",
    "Your unit destroyed",
    "",
-   "ZAFT aquatic MS squad on the move. Destroy it.",
-   "Sortie in a captured aquatic MS is advised."
+   "A ZAFT aquatic MS squad is moving. Destroy it.",
+   "A captured aquatic MS is recommended."
   ],
   "197": [
    "Red Sea: Rescue Strike Dagger",
@@ -322,8 +322,8 @@
    "Dominion sunk",
    "Your unit destroyed",
    "",
-   "Orb remnants caught at L4. Commence attack.",
-   "Escort assault ship Dominion; beat the enemy."
+   "We've caught the Orb remnants at L4. Attack!",
+   "Escort the Dominion and defeat the enemy."
   ],
   "201": [
    "[Pursuit of Orb Remnants]",
@@ -335,12 +335,12 @@
    "Your unit destroyed",
    "",
    "Our new MS team will attack two Orb aces.",
-   "Cover them till the aces flee or we pull out."
+   "Cover them until the aces flee or we pull out."
   ],
   "202": [
    "[Jachin Due Assault]",
    "Superweapon Attack Support 2",
-   "Drive off Justice (Meteor)",
+   "Repel Justice (Meteor)",
    "3 allied new MS escape",
    "",
    "Any allied new MS lost",
@@ -382,8 +382,8 @@
    "Dominion sunk",
    "Your unit destroyed",
    "",
-   "With 2nd Archangel-class Dominion in service,",
-   "drills will train the crew. Take part in them."
+   "With the Dominion, the 2nd Archangel-class,",
+   "now in service, join the drills to train its crew."
   ],
   "206": [
    "Red Sea: Underwater Battle",
@@ -406,8 +406,8 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Chasing Orb remnants, we met ZAFT MS.",
-   "Support allies; drive off the ZAFT commander."
+   "Chasing Orb remnants, we've met ZAFT MS.",
+   "Support allies and repel the ZAFT commander."
   ],
   "208": [
    "Attack Transport Squadron",
@@ -418,7 +418,7 @@
    "Time ran out",
    "Your unit destroyed",
    "",
-   "Found a ZAFT transport squadron in transit.",
+   "We found a ZAFT transport squadron in transit.",
    "Attack and destroy it within the time limit."
   ],
   "209": [
@@ -431,7 +431,7 @@
    "Your unit destroyed",
    "",
    "Attack the Orb remnants hindering our assault",
-   "and repel the MS that seems a Strike copy."
+   "and repel the MS that looks like a Strike copy."
   ],
   "210": [
    "[Jachin Due Space Battle]",
@@ -479,7 +479,7 @@
    "Your unit destroyed",
    "",
    "Test of the new Biological CPU \"Extended\".",
-   "Support the Extended's unit; destroy targets."
+   "Support the Extended unit and destroy targets."
   ],
   "214": [
    "[Extra Missions]",
@@ -491,7 +491,7 @@
    "Your unit destroyed",
    "",
    "Test of the new Biological CPU \"Extended\".",
-   "Support the Extended's unit; destroy targets."
+   "Support the Extended unit and destroy targets."
   ],
   "215": [
    "[Extra Missions]",
@@ -503,7 +503,7 @@
    "Your unit destroyed",
    "",
    "Test of the new Biological CPU \"Extended\".",
-   "Support the Extended's unit; destroy targets."
+   "Support the Extended unit and destroy targets."
   ],
   "216": [
    "[L4 Space Battle]",
@@ -515,7 +515,7 @@
    "Your unit destroyed",
    "",
    "The Kusanagi is fighting a ZAFT MS squad.",
-   "Please escort it with the M1s; beat the enemy."
+   "Escort it with the M1s and defeat the enemy."
   ],
   "217": [
    "Debris Belt: Attack Nazca-class",
@@ -526,7 +526,7 @@
    "Nazca-class escapes",
    "Your unit destroyed",
    "",
-   "ZAFT Nazca-class fast ship spotted in debris.",
+   "A ZAFT Nazca-class ship was spotted in debris.",
    "Attack and sink it."
   ],
   "218": [
@@ -586,8 +586,8 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Attack the ZAFT aquatic MS squad with allies",
-   "and destroy it."
+   "Together with allied MS, attack the ZAFT",
+   "aquatic MS squad and destroy it."
   ],
   "223": [
    "[Defense of Alaska Base]",
@@ -599,7 +599,7 @@
    "Your unit destroyed",
    "",
    "ZAFT has launched an all-out attack on JOSH-A.",
-   "Intercept their landing force; keep them out."
+   "Intercept the landing force and keep it out."
   ],
   "224": [
    "G Project Mothership Defense",
@@ -631,11 +631,11 @@
    "Destroy LaGOWE",
    "",
    "",
-   "Destroy Strike",
+   "Strike destroyed",
    "Your unit destroyed",
    "",
-   "Our assault ship's Strike will intercept",
-   "the \"Desert Tiger.\" Support it; destroy him."
+   "Our assault ship's Strike will intercept the",
+   "\"Desert Tiger.\" Support it and take him down."
   ],
   "227": [
    "[Defense of Alaska Base]",
@@ -646,8 +646,8 @@
    "Archangel sunk",
    "Your unit destroyed",
    "",
-   "Escort our assault ship sortieing for defense.",
-   "Beware odd glitches in the base command chain."
+   "Escort our assault ship as it sorties to defend.",
+   "Beware: base command is behaving strangely."
   ],
   "228": [
    "[Assault Ship Support]",
@@ -658,8 +658,8 @@
    "Archangel sunk",
    "Your unit destroyed",
    "",
-   "Stolen G-weapons again attack our ship.",
-   "Defend it; attack and destroy stolen Buster."
+   "Stolen G-weapons are attacking our ship again.",
+   "Defend it and destroy the stolen Buster."
   ],
   "229": [
    "[Assault Ship Support]",
@@ -671,7 +671,7 @@
    "Your unit destroyed",
    "",
    "Our ship was ambushed docking at Artemis.",
-   "Hold the port vs. pursuers until it escapes."
+   "Hold the port against pursuers until it escapes."
   ],
   "230": [
    "G Project Defense",
@@ -679,7 +679,7 @@
    "All enemies down",
    "",
    "",
-   "Destroy Strike",
+   "Strike destroyed",
    "Your unit destroyed",
    "",
    "ZAFT has stolen four of the G-weapons.",
@@ -695,7 +695,7 @@
    "Your unit destroyed",
    "",
    "Pursuers have nearly wiped out our 8th Fleet.",
-   "Cover the assault ship's lone atmo entry."
+   "Cover the assault ship's solo atmospheric entry."
   ],
   "232": [
    "[Assault Ship Support]",
@@ -718,7 +718,7 @@
    "Aegis ship sunk",
    "Your unit destroyed",
    "",
-   "Covert op; conceal your rank. Posing as Orb,",
+   "Covert op: conceal your rank. Posing as Orb,",
    "escort the Aegis ship and destroy the ZAFT MS."
   ],
   "234": [
@@ -739,11 +739,11 @@
    "All enemies down",
    "",
    "",
-   "Sink 5 Aegis ships",
+   "5 Aegis ships sunk",
    "Your unit destroyed",
    "",
-   "Orb took in Alaska's refugees, stayed neutral,",
-   "yet the Alliance attacks. Please, help us."
+   "Orb sheltered Alaska's refugees and stayed",
+   "neutral, yet the Alliance attacks. Please help us."
   ],
   "236": [
    "[Operation Liberate Orb]",
@@ -766,8 +766,8 @@
    "Any allied new MS lost",
    "Your unit destroyed",
    "",
-   "Allied new MS will attack an Orb ace unit.",
-   "Cover them till the ace falls or we pull out."
+   "Our new MS team will attack an Orb ace.",
+   "Cover them until the ace falls or we pull out."
   ],
   "238": [
    "After Alaska: ???",
@@ -778,7 +778,7 @@
    "Your unit destroyed",
    "",
    "",
-   "The Alliance would attack the MS that escaped",
+   "The Alliance means to attack the MS that fled",
    "Alaska's self-destruct. Will you allow this?"
   ],
   "239": [
@@ -814,8 +814,8 @@
    "Archangel sunk",
    "Your unit destroyed",
    "",
-   "ZAFT aquatics have caught our ship in the Ind.",
-   "Ocean. Escort it until it can escape."
+   "ZAFT aquatic forces caught our ship in the",
+   "Indian Ocean. Escort it until it can escape."
   ],
   "242": [
    "Escape from Orb",
@@ -826,8 +826,8 @@
    "Archangel sunk",
    "Your unit destroyed",
    "",
-   "The Archangel goes to space to prevent war",
-   "of PLANTs and Earth. Hold the enemy till then."
+   "The Archangel is heading to space to prevent",
+   "war between PLANTs and Earth. Hold them off."
   ],
   "243": [
    "[Operation Liberate Orb]",
@@ -839,7 +839,7 @@
    "",
    "",
    "Final stage of Operation Liberate Orb.",
-   "Wipe out Orb's remnants; seize Onogoro Island."
+   "Wipe out the remnants and seize Onogoro Island."
   ],
   "244": [
    "[Jachin Due Space Battle]",
@@ -874,7 +874,7 @@
    "Your unit destroyed",
    "",
    "",
-   "ZAFT forces have come too, not just Alliance.",
+   "ZAFT is here too, not just the Alliance.",
    "Please search colony Mendel and destroy them."
   ],
   "247": [
@@ -887,7 +887,7 @@
    "Your unit destroyed",
    "",
    "Our assault ships from Orb are engaging ZAFT.",
-   "Support them; destroy the stolen Blitz."
+   "Support them and destroy the stolen Blitz."
   ],
   "248": [
    "Orbit: Destroy Superweapon",
@@ -898,8 +898,8 @@
    "Your unit destroyed",
    "",
    "",
-   "ZAFT is testing a huge weapon in orbit, same",
-   "type as seen near the PLANTs. Destroy it."
+   "ZAFT is testing a huge weapon in orbit, the",
+   "same type seen near the PLANTs. Destroy it."
   ],
   "249": [
    "L4: Destroy Superweapon",
@@ -910,8 +910,8 @@
    "Your unit destroyed",
    "",
    "",
-   "ZAFT tests a huge weapon in a derelict colony.",
-   "type as seen near the PLANTs. Destroy it."
+   "ZAFT is testing a huge weapon in a dead colony,",
+   "the same type seen near the PLANTs. Destroy it."
   ],
   "250": [
    "[Jachin Due Assault]",
@@ -922,8 +922,8 @@
    "Your unit destroyed",
    "",
    "",
-   "ZAFT refired its superweapon; our lunar base",
-   "is lost. Destroy the garrison; take the fort."
+   "ZAFT fired its superweapon again, and our lunar",
+   "base is lost. Beat the garrison and take the fort."
   ],
   "251": [
    "[Jachin Due Assault]",
@@ -951,7 +951,7 @@
   ],
   "253": [
    "[Jachin Due Space Battle]",
-   "Stop Nuclear Attack on PLANTs",
+   "Stop the Nuclear Attack",
    "Time up",
    "",
    "",
@@ -959,7 +959,7 @@
    "Your unit destroyed",
    "",
    "The Alliance has launched nukes on the PLANTs.",
-   "Please destroy the nukes; stop this outrage."
+   "Please destroy the nukes and stop this outrage."
   ],
   "254": [
    "[Assault Ship Support]",
@@ -982,8 +982,8 @@
    "Your unit destroyed",
    "",
    "",
-   "We'll sabotage ZAFT's WMD \"GENESIS\" to",
-   "delay its finish. Please draw off the guards."
+   "We'll sabotage ZAFT's superweapon \"GENESIS\"",
+   "to delay its completion. Draw off the guards."
   ],
   "256": [
    "Rear Raid: PLANT Arsenal",
@@ -1018,8 +1018,8 @@
    "Your unit destroyed",
    "",
    "",
-   "ZAFT seems to test a strong MS in the Red Sea.",
-   "Raid it and destroy the test unit."
+   "ZAFT may be testing a new MS in the Red Sea.",
+   "Raid the test and destroy the test unit."
   ],
   "259": [
    "Destroy Justice-Type",
@@ -1063,10 +1063,10 @@
    "Time up",
    "",
    "",
-   "Destroy Strike",
+   "Strike destroyed",
    "Your unit destroyed",
    "",
-   "ZAFT uses stolen G-weapons to chase our ship.",
+   "ZAFT is chasing our ship with stolen G-weapons.",
    "Support our ship's G-weapon Strike in battle."
   ],
   "263": [
@@ -1078,7 +1078,7 @@
    "Strike or Zero destroyed",
    "Your unit destroyed",
    "",
-   "Intercept ZAFT pursuers with stolen G-weapons;",
+   "Intercept ZAFT pursuers with stolen Gs and",
    "cover the escape of Strike and Moebius Zero."
   ],
   "264": [
@@ -1090,8 +1090,8 @@
    "Dominion sunk",
    "Your unit destroyed",
    "",
-   "Escort our assault ship pushing ahead for a",
-   "new nuke strike. Destroy the fort's garrison."
+   "Escort our assault ship as it pushes ahead for",
+   "another nuclear strike. Destroy the garrison."
   ],
   "265": [
    "[Jachin Due Space Battle]",
@@ -1103,7 +1103,7 @@
    "Your unit destroyed",
    "",
    "The superweapon's third shot must be stopped.",
-   "Support allied MS; destroy the garrison."
+   "Support our MS and destroy the garrison."
   ],
   "266": [
    "[Assault Ship Support]",
@@ -1127,19 +1127,19 @@
    "Your unit destroyed",
    "",
    "ZAFT pursuers caught our ship. Intercept the",
-   "stolen Gs; defend it till the 8th Fleet comes."
+   "stolen Gs and defend it till the 8th Fleet comes."
   ],
   "268": [
    "[Assault Ship Support]",
    "Repel Stolen G-Weapons",
-   "Drive off Buster and Duel",
+   "Repel Buster and Duel",
    "Time up",
    "",
    "Zero or Strike destroyed",
    "Your unit destroyed",
    "",
    "About to join the 8th Fleet, our ship clashes",
-   "with ZAFT pursuers. Cover it; repel the Gs."
+   "with ZAFT pursuers. Cover it and repel the Gs."
   ],
   "269": [
    "[Assault Ship Support]",
@@ -1155,8 +1155,8 @@
   ],
   "270": [
    "[Jachin Due Space Battle]",
-   "Dominion sunk",
-   "Dominion sunk",
+   "Sink the Dominion",
+   "Sink Dominion",
    "",
    "",
    "Archangel sunk",
@@ -1174,8 +1174,8 @@
    "6 Strike Daggers down",
    "Your unit destroyed",
    "",
-   "ZAFT used its superweapon; our PLANT strike",
-   "force is hit hard. Support our retreating MS."
+   "ZAFT used its superweapon. Our PLANT strike",
+   "force was hit hard. Support our retreating MS."
   ],
   "272": [
    "[Assault Ship Support]",
@@ -1186,8 +1186,8 @@
    "Your unit destroyed",
    "",
    "",
-   "Our ship's Strike is still fighting. Help it,",
-   "attack the stolen Aegis; destroy it if able."
+   "Our ship's Strike is still fighting. Support it,",
+   "attack the stolen Aegis, and destroy it if able."
   ],
   "273": [
    "[Assault Ship Support]",
@@ -1199,7 +1199,7 @@
    "Your unit destroyed",
    "",
    "Pursue the \"Desert Tiger\" unit returning from",
-   "a village raid. Destroy BuCUEs; let none flee."
+   "a village raid. Let no BuCUE escape."
   ],
   "274": [
    "[Defense of Panama Base]",
@@ -1219,7 +1219,7 @@
    "All enemies down",
    "Time up",
    "",
-   "Destroy Buster",
+   "Buster destroyed",
    "Your unit destroyed",
    "",
    "Support Buster of the Panama Base garrison and",
@@ -1235,7 +1235,7 @@
    "Your unit destroyed",
    "",
    "ZAFT's new weapon crippled most of our guards.",
-   "We abandon the base now. Cover the retreat."
+   "We are abandoning the base. Cover the retreat."
   ],
   "277": [
    "Pursue Deserting Orb MS",
@@ -1255,7 +1255,7 @@
    "Time up",
    "",
    "",
-   "Destroy Blitz",
+   "Blitz destroyed",
    "Your unit destroyed",
    "",
    "Boaz fell to nukes. Our Blitz will scout the",
@@ -1355,7 +1355,7 @@
    "Your unit destroyed",
    "",
    "ZAFT snipers are endangering the defense line.",
-   "Support the garrison; eliminate the snipers."
+   "Support the garrison and take out the snipers."
   ],
   "287": [
    "[Defense of Panama Base]",
@@ -1414,8 +1414,8 @@
    "Your unit destroyed",
    "",
    "",
-   "With Orb's MS, intercept the Alliance MS and",
-   "please hold the defense line."
+   "Together with Orb's MS, please intercept the",
+   "Alliance MS and hold the defense line."
   ],
   "292": [
    "[Defense of Orb]",
@@ -1435,7 +1435,7 @@
    "Time up",
    "Drive off 3 new MS",
    "",
-   "Destroy Freedom",
+   "Freedom destroyed",
    "Your unit destroyed",
    "",
    "Kira's Freedom will intercept the new MS team.",
@@ -1474,8 +1474,8 @@
    "Strike or Buster down",
    "Your unit destroyed",
    "",
-   "Please support La Flaga and Dearka,",
-   "and attack and repel the Alliance's new MS."
+   "Please support La Flaga and Dearka, and",
+   "drive off the Alliance's new MS."
   ],
   "297": [
    "[Defense of Orb]",
@@ -1499,7 +1499,7 @@
    "Your unit destroyed",
    "",
    "Orb's MS forces are in combat.",
-   "Please support them; repel the new Alliance MS"
+   "Please support them and repel the new MS."
   ],
   "299": [
    "[L4 Space Battle]",
@@ -1546,8 +1546,8 @@
    "Freedom or Justice down",
    "Your unit destroyed",
    "",
-   "The pursuers' core, the three new MS from Orb:",
-   "Intercept and repel them with Kira and Athrun."
+   "With Kira and Athrun, please drive off the three",
+   "new MS from Orb at the core of the pursuers."
   ],
   "303": [
    "[L4 Space Battle]",
@@ -1579,7 +1579,7 @@
    "Repel Raider, Forbidden",
    "Time up",
    "",
-   "Destroy Freedom",
+   "Freedom destroyed",
    "Your unit destroyed",
    "",
    "Kira's Freedom seems to have temporarily",
@@ -1595,7 +1595,7 @@
    "Your unit destroyed",
    "",
    "ZAFT answered Alliance nukes with GENESIS.",
-   "Please help the demoralized Alliance escape."
+   "Please help the shaken Alliance troops escape."
   ],
   "307": [
    "[Jachin Due Space Battle]",
@@ -1607,7 +1607,7 @@
    "Your unit destroyed",
    "",
    "The Alliance is nuking the PLANTs again. We",
-   "can't allow it. Please down all nuclear MAs."
+   "can't allow it. Shoot down every nuclear MA."
   ],
   "308": [
    "[Jachin Due Space Battle]",
@@ -1619,18 +1619,18 @@
    "Your unit destroyed",
    "",
    "ZAFT forces also move to stop the nukes.",
-   "Please join forces, destroy the nuclear unit."
+   "Join forces with them and destroy the nuke unit."
   ],
   "309": [
    "[Jachin Due Space Battle]",
-   "Stop the Nukes over the Fortress",
+   "Stop the Nukes at the Fortress",
    "Down 10 nuke missiles",
    "",
    "",
    "1 nuke missile escapes",
    "Your unit destroyed",
    "",
-   "Enter the airspace of ZAFT's Jachin Due and",
+   "Enter the space above ZAFT's Jachin Due and",
    "please stop the nuclear attack at all costs."
   ],
   "310": [
@@ -1648,7 +1648,7 @@
   "311": [
    "[Jachin Due Space Battle]",
    "Joint Front: Destroy New MS",
-   "Forbidden destroyed",
+   "Destroy Forbidden",
    "",
    "",
    "Forbidden escapes",
@@ -1663,7 +1663,7 @@
    "Repel Providence",
    "",
    "",
-   "Destroy Strike",
+   "Strike destroyed",
    "Your unit destroyed",
    "",
    "We've found an unknown MS, likely ZAFT's.",
@@ -1672,14 +1672,14 @@
   "313": [
    "[Jachin Due Space Battle]",
    "METEOR: Destroy New MS",
-   "Calamity destroyed",
+   "Destroy Calamity",
    "",
    "",
    "Calamity escapes",
    "Your unit destroyed",
    "",
    "Support Kira and Athrun's METEOR units and",
-   "please destroy the new Alliance MS."
+   "destroy the new Alliance MS. Let none escape."
   ],
   "314": [
    "[Jachin Due Space Battle]",
@@ -1696,10 +1696,10 @@
   "315": [
    "[Jachin Due Space Battle]",
    "Defend Buster",
-   "Raider destroyed",
+   "Destroy Raider",
    "",
    "",
-   "Destroy Buster",
+   "Buster destroyed",
    "Your unit destroyed",
    "",
    "Dearka's unit is disabled. Please protect it",
@@ -1723,7 +1723,7 @@
    "Destroy Providence",
    "",
    "",
-   "Destroy Freedom",
+   "Freedom destroyed",
    "Your unit destroyed",
    "",
    "The unknown ZAFT MS, likely Le Creuset's,",
@@ -1786,7 +1786,7 @@
    "Your unit destroyed",
    "",
    "",
-   "The garrison and Orb remnants' stolen G-arms",
+   "The garrison and the Orb remnants' stolen Gs",
    "block our assault. Attack and repel them."
   ],
   "323": [
@@ -1799,7 +1799,7 @@
    "",
    "",
    "Strong unknown ZAFT MS sighted. Destroy it.",
-   "Resistance is sporadic. This is the last job."
+   "Resistance is sporadic. This is your last mission."
   ],
   "324": [
    "Desert: Diversion",
@@ -1859,7 +1859,7 @@
    "",
    "",
    "Combat test of GuAIZ, our next main MS.",
-   "Work with the test unit, destroy the targets."
+   "Work with the test unit to destroy the targets."
   ],
   "329": [
    "L4 Colony: Search for Odd MS",
@@ -1883,7 +1883,7 @@
    "Your unit destroyed",
    "",
    "A trainee unit in gravity drills was ambushed.",
-   "Intercept the Alliance; cover the trainees."
+   "Intercept the Alliance and cover the trainees."
   ],
   "331": [
    "Red Sea: Destroy Captured MS",
@@ -1900,14 +1900,14 @@
   "332": [
    "Panama Raid: Attack New MS",
    "",
-   "Calamity destroyed",
+   "Destroy Calamity",
    "",
    "",
    "Calamity escapes",
    "Your unit destroyed",
    "",
    "Intel says a new MS is being tested at the",
-   "Alliance's Panama base. Raid it, destroy it."
+   "Alliance's Panama base. Raid and destroy it."
   ],
   "333": [
    "At Sea: Sink New Alliance Ship",
@@ -1918,7 +1918,7 @@
    "Archangel-class escapes",
    "Your unit destroyed",
    "",
-   "Alliance ship found in Indian Ocean, likely",
+   "An Alliance ship in the Indian Ocean is likely",
    "a \"Legged Ship\" sister. Attack and sink it."
   ],
   "334": [
@@ -1955,7 +1955,7 @@
    "Your unit destroyed",
    "",
    "Combat test of ZAKU, a candidate next-gen MS.",
-   "Go along, escort it, and destroy the enemy."
+   "Escort the prototype and destroy the enemy."
   ],
   "337": [
    "[Operation Spit Break]",
@@ -2002,7 +2002,7 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Allies are fighting Alliance MAs in debris.",
+   "Our forces are fighting Alliance MAs in debris.",
    "Cover them and destroy the enemy."
   ],
   "341": [
@@ -2014,8 +2014,8 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Elite Alliance force with Gs sighted.",
-   "Guard defenders, destroy the enemy."
+   "Elite Alliance unit with Gs sighted.",
+   "Guard defenders and destroy enemies."
   ],
   "342": [
    "Attack the Fighter Squadron",
@@ -2026,7 +2026,7 @@
    "Any Skygrasper escapes",
    "Your unit destroyed",
    "",
-   "Attack the fighters; down the G-armed ones.",
+   "Attack the fighters. Down those with G-weapons.",
    "An aerial combat unit is recommended."
   ],
   "343": [
@@ -2116,14 +2116,14 @@
   "350": [
    "[PLANT Defense]",
    "Sink the Nuke Unit's Carrier",
-   "Agamemnon-class sunk",
+   "Sink Agamemnon-class",
    "",
    "",
    "Time ran out",
    "Your unit destroyed",
    "",
    "We've located the nuke unit's mothership.",
-   "Protect the PLANTs: sink it within the time."
+   "Sink it in time to protect the PLANTs."
   ],
   "351": [
    "Quell the Jachin Due Rebels",
@@ -2147,7 +2147,7 @@
    "Your unit destroyed",
    "",
    "Chasing the Clynes, we've met the Alliance.",
-   "Escort our commander, repel the new MS team."
+   "Escort our commander and repel the new MS."
   ],
   "353": [
    "Orbit: Defend Laurasia Fleet",
@@ -2191,7 +2191,7 @@
    "Drive off Forbidden",
    "",
    "",
-   "Sink 8 Laurasia-class",
+   "8 Laurasia-class sunk",
    "Your unit destroyed",
    "",
    "New Alliance MS are attacking our Laurasias.",
@@ -2234,7 +2234,7 @@
    "Attack them."
   ],
   "360": [
-   "Space: Next-Gen Prototype Test",
+   "Space: Next-Gen MS Test",
    "",
    "Destroy 10 target drones",
    "",
@@ -2243,10 +2243,10 @@
    "Your unit destroyed",
    "",
    "Test field performance of next-gen MS Chaos.",
-   "Escort the test unit, destroy the targets."
+   "Escort the test unit and destroy the targets."
   ],
   "361": [
-   "Desert: Next-Gen Prototype Test",
+   "Desert: Next-Gen MS Test",
    "",
    "Destroy LaGOWE",
    "",
@@ -2255,7 +2255,7 @@
    "Your unit destroyed",
    "",
    "Test of next-gen MS Gaia vs. current quadruped",
-   "MS. Escort the test unit, destroy the targets."
+   "MS. Escort it and destroy the targets."
   ],
   "362": [
    "Undersea: Next-Gen MS Test",
@@ -2263,7 +2263,7 @@
    "Time up",
    "",
    "",
-   "Destroy Abyss",
+   "Abyss destroyed",
    "Your unit destroyed",
    "",
    "Test field performance of next-gen MS Abyss.",
@@ -2279,7 +2279,7 @@
    "Your unit destroyed",
    "",
    "Combat test of new aquatic MS \"ZnO\".",
-   "Escort the test unit, destroy all targets."
+   "Escort the test unit and destroy all targets."
   ],
   "364": [
    "Debris Belt: Defend Laurasia",
@@ -2302,7 +2302,7 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Alliance took Victoria Port, launching ships.",
+   "The Alliance took Victoria and is launching ships.",
    "Attack and sink the fleet massing in orbit."
   ],
   "366": [
@@ -2335,7 +2335,7 @@
    "All enemies down",
    "Time up",
    "",
-   "Sink the Nazca-class",
+   "Nazca-class sunk",
    "Your unit destroyed",
    "",
    "Escort our Nazcas holding the fortress line,",
@@ -2410,8 +2410,8 @@
    "Your unit destroyed",
    "",
    "",
-   "Report: one Alliance G-weapon is active and",
-   "has fought. Aid Le Creuset; find, destroy it."
+   "Report: an Alliance G-weapon is active and has",
+   "seen combat. Help Le Creuset hunt it down."
   ],
   "375": [
    "[Le Creuset Team Support]",
@@ -2423,7 +2423,7 @@
    "",
    "",
    "Le Creuset Team re-enters Heliopolis to hit",
-   "the G-weapon. Help: destroy it, or repel it."
+   "the G-weapon. Destroy it, or at least repel it."
   ],
   "376": [
    "[Le Creuset Team Support]",
@@ -2431,7 +2431,7 @@
    "Repel Strike",
    "",
    "",
-   "Destroy Blitz",
+   "Blitz destroyed",
    "Your unit destroyed",
    "",
    "The \"Legged Ship\" has docked at Artemis.",
@@ -2482,8 +2482,8 @@
    "Menelaos escapes",
    "Your unit destroyed",
    "",
-   "Attack the 8th Fleet, met with \"Legged Ship\".",
-   "Attack and sink the flagship Menelaos."
+   "Strike the 8th Fleet, now with the \"Legged Ship\".",
+   "Sink its flagship, the Menelaos."
   ],
   "381": [
    "[Operation Spit Break]",
@@ -2503,11 +2503,11 @@
    "All enemies down",
    "",
    "",
-   "Destroy Lesseps",
+   "Lesseps destroyed",
    "Your unit destroyed",
    "",
    "Waltfeld Team's land battleship Lesseps has",
-   "been ambushed. Defend it, destroy the enemy."
+   "been ambushed. Defend it and rout the enemy."
   ],
   "383": [
    "Red Sea: Attack Orb Fleet",
@@ -2527,7 +2527,7 @@
    "All enemies down",
    "",
    "",
-   "Sink 5 Aegis ships",
+   "5 Aegis ships sunk",
    "Your unit destroyed",
    "",
    "Please escort the Aegis ships guarding Orb.",
@@ -2573,7 +2573,7 @@
    "PLANT: Stop the Deserter",
    "",
    "Time up",
-   "Eternal sunk",
+   "Sink Eternal",
    "",
    "Your unit destroyed",
    "",
@@ -2614,8 +2614,8 @@
    "Eternal sunk",
    "Your unit destroyed",
    "",
-   "To escape this sector, we'll break straight",
-   "through ZAFT. Cover Eternal; sink their flag."
+   "To escape, we'll break straight through ZAFT.",
+   "Cover the Eternal and sink their flagship."
   ],
   "392": [
    "[Le Creuset Team Support]",
@@ -2767,7 +2767,7 @@
    "Time up",
    "Drive off 3 new MS",
    "",
-   "Destroy Justice",
+   "Justice destroyed",
    "Your unit destroyed",
    "",
    "FAITH member Zala pursues the classified MS",
@@ -2795,7 +2795,7 @@
    "Your unit destroyed",
    "",
    "Orb's MS forces are in combat.",
-   "Please support them; repel the new Alliance MS"
+   "Please support them and repel the new MS."
   ],
   "407": [
    "Desert: Rear Harassment",
@@ -2818,8 +2818,8 @@
    "Your unit destroyed",
    "",
    "",
-   "We'll sabotage ZAFT's WMD \"GENESIS\" to",
-   "delay its finish. Please draw off the guards."
+   "We'll sabotage ZAFT's superweapon \"GENESIS\"",
+   "to delay its completion. Draw off the guards."
   ],
   "409": [
    "Rear Raid: PLANT Arsenal",
@@ -2878,8 +2878,8 @@
    "Time ran out",
    "Your unit destroyed",
    "",
-   "ZAFT seems to be testing prototypes in desert.",
-   "Please raid it and destroy the prototypes."
+   "ZAFT seems to test prototypes in the desert.",
+   "Please raid the test and destroy the prototypes."
   ],
   "414": [
    "Undersea: Raid ZAFT MS Test",
@@ -2891,10 +2891,10 @@
    "Your unit destroyed",
    "",
    "ZAFT seems to be testing prototypes undersea.",
-   "Please raid it and destroy the prototypes."
+   "Please raid the test and destroy the prototypes."
   ],
   "415": [
-   "Land: Raid ZAFT Prototype Test",
+   "Land: Raid ZAFT MS Test",
    "",
    "Destroy 2 Chaos",
    "",
@@ -2903,7 +2903,7 @@
    "Your unit destroyed",
    "",
    "ZAFT seems to be testing prototypes on land.",
-   "Please raid it and destroy the prototypes."
+   "Please raid the test and destroy the prototypes."
   ],
   "416": [
    "[Waltfeld Team Support]",
@@ -2915,7 +2915,7 @@
    "Your unit destroyed",
    "",
    "The Waltfeld Team has caught the \"Legged Ship\"",
-   "on Earth. Support them, repel the G-weapons."
+   "on Earth. Support them and repel the Gs."
   ],
   "417": [
    "Destroy the Stolen Providence",
@@ -2950,8 +2950,8 @@
    "Archangel sunk",
    "Your unit destroyed",
    "",
-   "The Archangel goes to space to prevent war",
-   "of PLANTs and Earth. Hold the enemy till then."
+   "The Archangel is heading to space to prevent",
+   "war between PLANTs and Earth. Hold them off."
   ],
   "420": [
    "[Zala Team Support]",
@@ -2963,7 +2963,7 @@
    "",
    "",
    "Support the Zala Team attacking the G-weapons",
-   "on the \"Legged Ship\"; down support fighters."
+   "on the \"Legged Ship.\" Down its support fighters."
   ],
   "421": [
    "[PLANT Defense]",
@@ -2974,7 +2974,7 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Intercept the Alliance and unknown forces;",
+   "Intercept the Alliance and unknown forces and",
    "hold the surface until GENESIS's third shot."
   ],
   "422": [
@@ -3071,7 +3071,7 @@
    "Your unit destroyed",
    "",
    "Alliance G-weapons are imperiling our line.",
-   "Protect our defenders, repel the G-weapons."
+   "Protect our defenders and repel the G-weapons."
   ],
   "430": [
    "[PLANT Defense]",
@@ -3083,7 +3083,7 @@
    "Your unit destroyed",
    "",
    "ZAKU prototypes will face elite Alliance units",
-   "in combat. Support them, destroy the enemy."
+   "in combat. Support them and destroy the enemy."
   ],
   "431": [
    "Panama Patrol",
@@ -3118,7 +3118,7 @@
    "All allies lost",
    "Your unit destroyed",
    "",
-   "Our MS are fighting the Alliance in desert.",
+   "Our MS are fighting the Alliance in the desert.",
    "Cover them and destroy the enemy."
   ],
   "434": [
@@ -3131,11 +3131,11 @@
    "Your unit destroyed",
    "",
    "In pursuit, we found an unknown Clyne force.",
-   "Cover our forces, destroy the unknown force."
+   "Cover our forces and destroy the unknown force."
   ],
   "435": [
    "[Defense of Boaz]",
-   "Intercept New Alliance MS Force",
+   "Intercept the New Alliance MS",
    "Drive off 3 new MS",
    "",
    "",
@@ -3155,7 +3155,7 @@
    "Your unit destroyed",
    "",
    "Nuke-armed MAs spotted among the attackers.",
-   "Intercept them; keep them out of Boaz."
+   "Intercept them and keep them out of Boaz."
   ],
   "437": [
    "[PLANT Defense]",
@@ -3163,11 +3163,11 @@
    "Drive off 3 new MS",
    "",
    "",
-   "Destroy Duel AS",
+   "Duel AS destroyed",
    "Your unit destroyed",
    "",
    "Boaz fell to the nukes. With the Joule Team,",
-   "intercept the Alliance force bound for PLANTs."
+   "intercept the Alliance bound for the PLANTs."
   ],
   "438": [
    "[PLANT Defense]",
@@ -3203,12 +3203,12 @@
    "Your unit destroyed",
    "",
    "Intercept Alliance MS on the fortress.",
-   "Escort the Joule Team, repel the new MS."
+   "Escort the Joule Team and repel the new MS."
   ],
   "441": [
    "[PLANT Defense]",
    "Joint Front: Destroy New MS",
-   "Forbidden destroyed",
+   "Destroy Forbidden",
    "",
    "",
    "Forbidden escapes",
@@ -3223,7 +3223,7 @@
    "Repel Strike",
    "",
    "",
-   "Destroy Providence",
+   "Providence destroyed",
    "Your unit destroyed",
    "",
    "Cover Le Creuset, attack the unknown force's",
@@ -3235,11 +3235,11 @@
    "Repel Meteor Freedom",
    "",
    "",
-   "Destroy Providence",
+   "Providence destroyed",
    "Your unit destroyed",
    "",
-   "Clyne Freedom w/ METEOR found at the fortress.",
-   "Cover Le Creuset, attack and repel Freedom."
+   "The Clyne Freedom, with METEOR, is at the fort.",
+   "Cover Le Creuset and drive off the Freedom."
   ],
   "444": [
    "[PLANT Defense]",
@@ -3247,11 +3247,11 @@
    "Repel Freedom",
    "",
    "",
-   "Destroy Providence",
+   "Providence destroyed",
    "Your unit destroyed",
    "",
-   "Escort Le Creuset, attack the Clyne Freedom,",
-   "G-weapon, and repel it."
+   "Escort Le Creuset, attack the Clyne Faction's",
+   "Freedom, and drive it off."
   ],
   "445": [
    "[PLANT Defense]",
@@ -3286,8 +3286,8 @@
    "Your unit destroyed",
    "",
    "",
-   "Le Creuset Team found \"Legged Ship\" in debris.",
-   "Support their attack."
+   "Le Creuset Team caught the \"Legged Ship\" in",
+   "the debris. Support their attack."
   ],
   "448": [
    "[Le Creuset Team Support]",
@@ -3299,7 +3299,7 @@
    "Your unit destroyed",
    "",
    "Cover Le Creuset Team MS attacking the",
-   "\"Legged Ship\" bound for 8th Fleet. Repel it."
+   "\"Legged Ship\" bound for the 8th Fleet. Repel it."
   ],
   "449": [
    "[Le Creuset Team Support]",
@@ -3307,7 +3307,7 @@
    "Time up",
    "",
    "",
-   "Destroy Blitz",
+   "Blitz destroyed",
    "Your unit destroyed",
    "",
    "Le Creuset Team MS strike the \"Legged Ship\".",
@@ -3323,11 +3323,11 @@
    "Your unit destroyed",
    "",
    "The Alliance began nuking the PLANTs. Form",
-   "a final line at the fortress; stop all nukes."
+   "a final line at the fortress and stop all nukes."
   ],
   "451": [
    "[Jachin Due Space Battle]",
-   "Stop Nuclear Attack on PLANTs",
+   "Stop the Nuclear Attack",
    "Time up",
    "",
    "",
@@ -3335,7 +3335,7 @@
    "Your unit destroyed",
    "",
    "The Alliance has launched nukes on the PLANTs.",
-   "Please destroy the nukes; stop this outrage."
+   "Please destroy the nukes and stop this outrage."
   ],
   "452": [
    "[Le Creuset Team Support]",
@@ -3347,7 +3347,7 @@
    "",
    "",
    "Destroy the garrison of Artemis, where the",
-   "\"Legged Ship\" docked; support Le Creuset MS."
+   "\"Legged Ship\" docked. Clear the way for our MS."
   ],
   "453": [
    "Destroy the Alliance Justice",
@@ -3383,7 +3383,7 @@
    "Your unit destroyed",
    "",
    "The Kusanagi has been disabled by debris.",
-   "Please defend the Kusanagi, repel the new MS."
+   "Please defend it and repel the new MS."
   ],
   "456": [
    "[L4 Space Battle]",
@@ -3394,8 +3394,8 @@
    "Freedom or Justice down",
    "Your unit destroyed",
    "",
-   "The pursuers' core, the three new MS from Orb:",
-   "Intercept and repel them with Kira and Athrun."
+   "With Kira and Athrun, please drive off the three",
+   "new MS from Orb at the core of the pursuers."
   ],
   "457": [
    "[L4 Space Battle]",
@@ -3427,7 +3427,7 @@
    "Repel Raider, Forbidden",
    "Time up",
    "",
-   "Destroy Freedom",
+   "Freedom destroyed",
    "Your unit destroyed",
    "",
    "Kira's Freedom seems to have temporarily",
@@ -3443,7 +3443,7 @@
    "Your unit destroyed",
    "",
    "ZAFT answered Alliance nukes with GENESIS.",
-   "Please help the demoralized Alliance escape."
+   "Please help the shaken Alliance troops escape."
   ],
   "461": [
    "[Jachin Due Space Battle]",
@@ -3455,7 +3455,7 @@
    "Your unit destroyed",
    "",
    "The Alliance is nuking the PLANTs again. We",
-   "can't allow it. Please down all nuclear MAs."
+   "can't allow it. Shoot down every nuclear MA."
   ],
   "462": [
    "[Jachin Due Space Battle]",
@@ -3467,18 +3467,18 @@
    "Your unit destroyed",
    "",
    "ZAFT forces also move to stop the nukes.",
-   "Please join forces, destroy the nuclear unit."
+   "Join forces with them and destroy the nuke unit."
   ],
   "463": [
    "[Jachin Due Space Battle]",
-   "Stop the Nukes over the Fortress",
+   "Stop the Nukes at the Fortress",
    "Down 10 nuke missiles",
    "",
    "",
    "1 nuke missile escapes",
    "Your unit destroyed",
    "",
-   "Enter the airspace of ZAFT's Jachin Due and",
+   "Enter the space above ZAFT's Jachin Due and",
    "please stop the nuclear attack at all costs."
   ],
   "464": [
@@ -3496,7 +3496,7 @@
   "465": [
    "[Jachin Due Space Battle]",
    "Joint Front: Destroy New MS",
-   "Forbidden destroyed",
+   "Destroy Forbidden",
    "",
    "",
    "Forbidden escapes",
@@ -3511,7 +3511,7 @@
    "Repel Providence",
    "",
    "",
-   "Destroy Strike",
+   "Strike destroyed",
    "Your unit destroyed",
    "",
    "We've found an unknown MS, likely ZAFT's.",
@@ -3527,7 +3527,7 @@
    "Your unit destroyed",
    "",
    "Support Kira and Athrun's METEOR units and",
-   "Please destroy the new MS. Let none escape."
+   "destroy the new MS. Let none escape."
   ],
   "468": [
    "[Jachin Due Space Battle]",
@@ -3538,16 +3538,16 @@
    "Archangel sunk",
    "Your unit destroyed",
    "",
-   "To stop ZAFT's last GENESIS, please escort the",
-   "Archangel to the fortress, repel unknown MS."
+   "To stop GENESIS, please escort the Archangel",
+   "to the fortress and repel the unknown MS."
   ],
   "469": [
    "[Jachin Due Space Battle]",
    "Defend Buster",
-   "Raider destroyed",
+   "Destroy Raider",
    "",
    "",
-   "Destroy Buster",
+   "Buster destroyed",
    "Your unit destroyed",
    "",
    "Dearka's unit is disabled. Please protect it",
@@ -3571,7 +3571,7 @@
    "Destroy Providence",
    "",
    "",
-   "Destroy Freedom",
+   "Freedom destroyed",
    "Your unit destroyed",
    "",
    "The unknown ZAFT MS, likely Le Creuset's,",
@@ -3579,8 +3579,8 @@
   ],
   "472": [
    "[Jachin Due Space Battle]",
-   "Dominion sunk",
-   "Dominion sunk",
+   "Sink the Dominion",
+   "Sink Dominion",
    "",
    "",
    "Archangel sunk",
